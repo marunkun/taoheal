@@ -1,18 +1,18 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import { getArticle, getRelatedArticles, type ContentBlock } from '@/lib/articles';
+import { generateArticleMetadata } from '@/lib/metadata';
 import ShareButtons from '@/components/articles/ShareButtons';
+import { ArticleJsonLd } from '@/components/seo/JsonLd';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params;
   const article = getArticle(slug);
   if (!article) return {};
   
-  return {
-    title: article.title[locale as 'zh' | 'en'],
-    description: article.description?.[locale as 'zh' | 'en'] || article.title[locale as 'zh' | 'en'],
-  };
+  return generateArticleMetadata(locale, article);
 }
 
 export default async function ArticlePage({
@@ -33,6 +33,7 @@ export default async function ArticlePage({
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-8">
+      <ArticleJsonLd locale={locale} article={article} />
       <nav aria-label="Breadcrumb" className="text-sm text-text-muted mb-6">
         <ol className="flex items-center space-x-2">
           <li>

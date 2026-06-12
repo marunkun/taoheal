@@ -21,7 +21,7 @@
       { "type": "paragraph", "text": "秋季是阳气渐收、阴气渐长的季节。中医认为，秋季养生重在润燥养肺，因为秋燥最易伤肺，导致干咳、咽干、皮肤干燥等问题。" },
       { "type": "heading", "text": "秋季养生要点" },
       { "type": "subheading", "text": "一、润燥养肺" },
-      { "type": "paragraph", "text": "秋季气候干燥，人体容易出现"秋燥"症状。肺为娇脏，喜润恶燥，秋季养肺尤为重要。" },
+      { "type": "paragraph", "text": "秋季气候干燥，人体容易出现\"秋燥\"症状。肺为娇脏，喜润恶燥，秋季养肺尤为重要。" },
       { "type": "list", "items": ["多吃润肺食物：梨、银耳、百合、蜂蜜、白萝卜", "适当食用滋阴食材：枸杞、黑芝麻、山药", "少食辛辣燥热之物：辣椒、烧烤、油炸食品", "保持室内适度湿度"] },
       { "type": "subheading", "text": "二、收敛阳气" },
       { "type": "paragraph", "text": "秋季阳气开始收敛，养生要顺应这一自然规律，避免过度消耗阳气。" },
@@ -34,7 +34,7 @@
       { "type": "paragraph", "text": "穴位3：尺泽穴（清肺润燥）" },
       { "type": "paragraph", "text": "位置：肘关节内侧，肘横纹中。" },
       { "type": "recipe", "title": "银耳百合雪梨汤", "ingredients": ["银耳 20克（泡发）", "百合 15克", "雪梨 1个", "冰糖适量", "清水 600毫升"], "instructions": "1. 银耳提前泡发撕成小朵\n2. 雪梨切块，百合洗净\n3. 所有材料加水炖煮1小时\n4. 加入冰糖调味\n5. 每日饮用，润肺养阴" },
-      { "type": "warning", "text": "温馨提示：秋季虽凉，但不宜过早添衣，适当"秋冻"可增强体质。但老人和儿童要注意保暖。" }
+      { "type": "warning", "text": "温馨提示：秋季虽凉，但不宜过早添衣，适当\"秋冻\"可增强体质。但老人和儿童要注意保暖。" }
     ],
     "en": [
       { "type": "paragraph", "text": "Autumn is the season when Yang energy gradually recedes and Yin energy grows. According to TCM, autumn wellness focuses on moisturizing dryness and nourishing the lung, as autumn dryness most easily damages the lung." },

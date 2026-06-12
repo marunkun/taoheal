@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Hero from '@/components/home/Hero';
 import Newsletter from '@/components/home/Newsletter';
 import { getAllArticlesMeta } from '@/lib/articles';
+import { WebsiteJsonLd, OrganizationJsonLd } from '@/components/seo/JsonLd';
 
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -46,6 +47,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   return (
     <div>
+      <WebsiteJsonLd locale={locale} />
+      <OrganizationJsonLd />
       <Hero locale={locale} />
 
       <section className="py-16 bg-white">
