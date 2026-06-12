@@ -1,0 +1,109 @@
+{
+  "slug": "tcm-diet-fundamentals",
+  "title": {
+    "zh": "中医饮食基础：食物的五味与五脏",
+    "en": "TCM Diet Basics: Five Flavors and Five Organs"
+  },
+  "description": {
+    "zh": "了解食物的五味如何对应五脏，建立健康的饮食习惯",
+    "en": "Learn how the five flavors correspond to the five organs for healthy eating"
+  },
+  "category": {
+    "zh": "饮食养生",
+    "en": "Dietary Wellness"
+  },
+  "tags": ["中医", "饮食", "五脏", "养生"],
+  "publishedAt": "2026-06-01",
+  "readingTime": 5,
+  "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "中医饮食养生讲究\"药食同源\"，食物不仅能填饱肚子，更能调理身体。了解食物的五味与五脏的对应关系，是建立健康饮食习惯的基础。"
+      },
+      {
+        "type": "heading",
+        "text": "五味入五脏"
+      },
+      {
+        "type": "paragraph",
+        "text": "《黄帝内经》记载：\"酸入肝、苦入心、甘入脾、辛入肺、咸入肾。\"这说明五种味道分别对应人体的五个脏器，适量摄入可以滋养相应的脏腑。"
+      },
+      {
+        "type": "list",
+        "items": [
+          "酸味：入肝经，收敛固涩。代表食物：山楂、柠檬、醋。适合肝气郁结的人。",
+          "苦味：入心经，清热泻火。代表食物：苦瓜、莲子心、茶叶。适合心火旺盛的人。",
+          "甘味：入脾经，补益和中。代表食物：红枣、山药、蜂蜜。适合脾胃虚弱的人。",
+          "辛味：入肺经，发散行气。代表食物：生姜、葱、蒜。适合肺气不足的人。",
+          "咸味：入肾经，软坚润下。代表食物：海带、紫菜、黑豆。适合肾阴不足的人。"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "平衡是关键"
+      },
+      {
+        "type": "paragraph",
+        "text": "虽然五味各有功效，但中医强调\"五味调和\"。过度偏好某一味道会导致脏腑失衡。比如，过食酸味会伤脾，过食咸味会伤血。"
+      },
+      {
+        "type": "heading",
+        "text": "季节调养"
+      },
+      {
+        "type": "paragraph",
+        "text": "不同季节应重点保养不同脏腑：春天养肝宜多食酸味，夏天养心宜多食苦味，长夏养脾宜多食甘味，秋天养肺宜多食辛味，冬天养肾宜多食咸味。"
+      },
+      {
+        "type": "disclaimer",
+        "text": "以上内容仅供参考，不能替代专业医疗建议。如有健康问题，请咨询中医师或医生。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "TCM dietary wellness follows the principle of \"food as medicine.\" Understanding how the five flavors correspond to the five organs is fundamental to building healthy eating habits."
+      },
+      {
+        "type": "heading",
+        "text": "Five Flavors Enter Five Organs"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Huangdi Neijing states: \"Sour enters the liver, bitter enters the heart, sweet enters the spleen, pungent enters the lungs, salty enters the kidneys.\" Each of the five flavors corresponds to a specific organ and can nourish it when consumed in appropriate amounts."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sour: Enters liver meridian, has astringent properties. Examples: hawthorn, lemon, vinegar. Good for liver qi stagnation.",
+          "Bitter: Enters heart meridian, clears heat and drains fire. Examples: bitter melon, lotus seed heart, tea. Good for heart fire.",
+          "Sweet: Enters spleen meridian, tonifies and harmonizes. Examples: red dates, Chinese yam, honey. Good for spleen deficiency.",
+          "Pungent: Enters lung meridian, disperses and moves qi. Examples: ginger, scallion, garlic. Good for lung qi deficiency.",
+          "Salty: Enters kidney meridian, softens hardness and moistens. Examples: kelp, seaweed, black beans. Good for kidney yin deficiency."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Balance is Key"
+      },
+      {
+        "type": "paragraph",
+        "text": "While each flavor has its benefits, TCM emphasizes \"balancing the five flavors.\" Excessive preference for one taste can cause organ imbalance. For example, too much sour can damage the spleen, too much salt can injure blood."
+      },
+      {
+        "type": "heading",
+        "text": "Seasonal Care"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different seasons focus on nourishing different organs: spring nourishes the liver (more sour), summer nourishes the heart (more bitter), late summer nourishes the spleen (more sweet), autumn nourishes the lungs (more pungent), winter nourishes the kidneys (more salty)."
+      },
+      {
+        "type": "disclaimer",
+        "text": "The above content is for reference only and cannot replace professional medical advice. For health issues, please consult a TCM practitioner or doctor."
+      }
+    ]
+  }
+}

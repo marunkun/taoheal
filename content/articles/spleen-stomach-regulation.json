@@ -1,0 +1,197 @@
+{
+  "slug": "spleen-stomach-regulation",
+  "title": {
+    "zh": "脾胃虚弱怎么调？中医养胃指南",
+    "en": "How to Regulate Weak Spleen and Stomach? TCM Guide"
+  },
+  "category": {
+    "zh": "脾胃养护",
+    "en": "Spleen & Stomach Care"
+  },
+  "tags": ["脾胃", "养胃", "消化", "食欲"],
+  "excerpt": {
+    "zh": "脾胃是后天之本，脾胃虚弱会导致消化不良、食欲不振等问题",
+    "en": "The spleen and stomach are the foundation of postnatal nutrition"
+  },
+  "author": "TaoHeal",
+  "publishedAt": "2026-06-08",
+  "readingTime": 7,
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "中医认为\"脾胃为后天之本\"，负责运化水谷精微，为身体提供营养。脾胃虚弱会导致消化不良、食欲不振、腹胀便溏等一系列症状。"
+      },
+      {
+        "type": "heading",
+        "text": "脾胃虚弱的常见表现"
+      },
+      {
+        "type": "list",
+        "items": [
+          "食欲不振，不想吃东西",
+          "吃点东西就腹胀",
+          "大便稀溏，不成形",
+          "身体乏力，容易疲劳",
+          "面色萎黄，没有光泽",
+          "舌苔淡白，有齿痕"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "饮食调理"
+      },
+      {
+        "type": "subheading",
+        "text": "宜食食物"
+      },
+      {
+        "type": "list",
+        "items": [
+          "山药：健脾益胃，可以蒸食或煮粥",
+          "红枣：补中益气，养血安神",
+          "薏米：健脾渗湿，适合煮粥",
+          "芡实：补脾止泻，可以煮汤",
+          "南瓜：补中益气，易消化"
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "忌食食物"
+      },
+      {
+        "type": "list",
+        "items": [
+          "生冷食物：冰品、冷饮、生蔬菜",
+          "油腻食物：炸鸡、薯条、肥肉",
+          "辛辣刺激：辣椒、胡椒、酒精",
+          "甜腻食物：蛋糕、巧克力、奶茶"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "养胃食疗方"
+      },
+      {
+        "type": "recipe",
+        "title": "山药红枣粥",
+        "ingredients": ["山药100g", "红枣10枚", "粳米100g", "水适量"],
+        "instructions": "1. 山药去皮切块，红枣去核\n2. 粳米洗净加水煮沸\n3. 加入山药和红枣，小火煮30分钟\n4. 每日早晚温热服用"
+      },
+      {
+        "type": "heading",
+        "text": "穴位保健"
+      },
+      {
+        "type": "paragraph",
+        "text": "足三里是健脾和胃的要穴，位于膝盖外侧下方四横指处。每天按摩5-10分钟，可以增强脾胃功能。中脘穴（脐上4寸）配合艾灸效果更好。"
+      },
+      {
+        "type": "heading",
+        "text": "生活习惯"
+      },
+      {
+        "type": "list",
+        "items": [
+          "定时定量进餐，不要暴饮暴食",
+          "细嚼慢咽，每口饭咀嚼20-30次",
+          "饭后散步15-30分钟",
+          "保持心情愉快，避免忧思伤脾",
+          "规律作息，早睡早起"
+        ]
+      },
+      {
+        "type": "disclaimer",
+        "text": "严重脾胃问题请就医。以上内容仅供参考，不能替代专业诊疗。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "TCM believes the \"spleen and stomach are the foundation of postnatal life,\" responsible for digesting food and providing nutrition to the body. Weak spleen and stomach can lead to indigestion, poor appetite, bloating, and loose stools."
+      },
+      {
+        "type": "heading",
+        "text": "Common Signs of Weak Spleen and Stomach"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Poor appetite, no desire to eat",
+          "Bloating after eating even small amounts",
+          "Loose, unformed stools",
+          "Fatigue, easily tired",
+          "Pale yellow complexion, lackluster",
+          "Pale tongue coating with teeth marks"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Dietary Regulation"
+      },
+      {
+        "type": "subheading",
+        "text": "Recommended Foods"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Chinese yam: strengthens spleen and benefits stomach, can be steamed or made into porridge",
+          "Red dates: tonifies middle and boosts qi, nourishes blood and calms mind",
+          "Coix seed: strengthens spleen and leaches dampness, good for porridge",
+          "Gordon euryale seed: tonifies spleen and stops diarrhea, good for soup",
+          "Pumpkin: tonifies middle and boosts qi, easy to digest"
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Foods to Avoid"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Raw and cold foods: ice cream, cold drinks, raw vegetables",
+          "Greasy foods: fried chicken, fries, fatty meat",
+          "Spicy and stimulating: chili, pepper, alcohol",
+          "Sweet and rich foods: cake, chocolate, milk tea"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Healthy Recipes"
+      },
+      {
+        "type": "recipe",
+        "title": "Chinese Yam and Red Date Porridge",
+        "ingredients": ["Chinese yam 100g", "Red dates 10", "Rice 100g", "Water as needed"],
+        "instructions": "1. Peel and cut yam, remove date pits\n2. Wash rice, add water and bring to boil\n3. Add yam and dates, simmer 30 minutes\n4. Take warm in morning and evening"
+      },
+      {
+        "type": "heading",
+        "text": "Acupoint Health"
+      },
+      {
+        "type": "paragraph",
+        "text": "Zusanli is the key point for strengthening spleen and harmonizing stomach, located four finger-breadths below the knee on the outer side of the leg. Massaging 5-10 minutes daily can enhance spleen and stomach function. Moxibustion at Zhongwan point (4 cun above the navel) is even more effective."
+      },
+      {
+        "type": "heading",
+        "text": "Living Habits"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Eat meals at regular times and amounts, avoid overeating",
+          "Chew thoroughly, 20-30 chews per bite",
+          "Walk 15-30 minutes after meals",
+          "Keep a happy mood, avoid worry damaging the spleen",
+          "Maintain regular routines, sleep and wake early"
+        ]
+      },
+      {
+        "type": "disclaimer",
+        "text": "For severe spleen and stomach issues, please consult a doctor. The above is for reference only and cannot replace professional diagnosis and treatment."
+      }
+    ]
+  }
+}

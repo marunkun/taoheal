@@ -1,0 +1,59 @@
+{
+  "slug": "summer-wellness",
+  "title": {
+    "zh": "夏季养生：清热祛湿，养心安神",
+    "en": "Summer Wellness: Clear Heat, Resolve Dampness, Calm the Heart"
+  },
+  "description": {
+    "zh": "夏季炎热潮湿，如何通过饮食、穴位和生活习惯清热祛湿，保持身心健康",
+    "en": "Learn how to clear heat and resolve dampness through diet, acupoints, and lifestyle during hot and humid summer"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": ["夏季", "清热", "祛湿", "养心"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "夏季是一年中最热的季节，阳气最盛。中医认为，夏季养生要顺应自然，注意清热祛湿、养心安神，避免暑热伤身。" },
+      { "type": "heading", "text": "夏季养生要点" },
+      { "type": "subheading", "text": "一、清热祛湿" },
+      { "type": "paragraph", "text": "夏季气候炎热潮湿，人体容易产生湿热。湿热内蕴会导致疲倦乏力、食欲不振、大便粘腻等症状。" },
+      { "type": "list", "items": ["多吃清热食物：绿豆、冬瓜、苦瓜、黄瓜", "适当食用祛湿食材：薏米、红豆、茯苓", "避免过多冷饮，以免损伤脾胃阳气", "保持室内通风干燥"] },
+      { "type": "subheading", "text": "二、养心安神" },
+      { "type": "paragraph", "text": "中医认为"心主夏"，夏季心火易旺，容易出现心烦、失眠、情绪波动等问题。养心安神是夏季养生的重要环节。" },
+      { "type": "list", "items": ["午时小憩：中午11点-1点是心经当令，适当午休有益养心", "保持心情平和：避免情绪激动，多做放松活动", "食用养心食物：莲子、百合、小麦、桂圆"] },
+      { "type": "heading", "text": "夏季推荐穴位" },
+      { "type": "paragraph", "text": "穴位1：内关穴（宁心安神）" },
+      { "type": "paragraph", "text": "位置：手腕内侧，腕横纹上2寸。" },
+      { "type": "paragraph", "text": "穴位2：足三里（健脾祛湿）" },
+      { "type": "paragraph", "text": "位置：膝盖外侧凹陷下3寸。" },
+      { "type": "paragraph", "text": "穴位3：曲池穴（清热解暑）" },
+      { "type": "paragraph", "text": "位置：肘关节外侧，屈肘时肘横纹外侧端。" },
+      { "type": "recipe", "title": "绿豆薏米汤", "ingredients": ["绿豆 50克", "薏米 30克", "冰糖适量", "清水 500毫升"], "instructions": "1. 绿豆、薏米提前浸泡2小时\n2. 加水煮沸后转小火煮30分钟\n3. 加入冰糖调味\n4. 每日饮用1-2次，清热祛湿" },
+      { "type": "warning", "text": "温馨提示：夏季虽热，但不宜过度贪凉。空调温度不宜过低，冷饮要适量，以免损伤阳气。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Summer is the hottest season of the year, with the most abundant Yang energy. According to TCM, summer wellness should follow nature's rhythm, focusing on clearing heat, resolving dampness, and calming the heart." },
+      { "type": "heading", "text": "Key Summer Wellness Principles" },
+      { "type": "subheading", "text": "1. Clear Heat and Resolve Dampness" },
+      { "type": "paragraph", "text": "Summer climate is hot and humid, making the body prone to damp-heat accumulation. This can cause fatigue, poor appetite, and sticky stool." },
+      { "type": "list", "items": ["Eat heat-clearing foods: Mung beans, winter melon, bitter melon, cucumber", "Include dampness-resolving ingredients: Coix seed, red beans, poria", "Avoid excessive cold drinks to protect spleen-stomach Yang", "Keep indoor spaces ventilated and dry"] },
+      { "type": "subheading", "text": "2. Calm the Heart and Spirit" },
+      { "type": "paragraph", "text": "TCM believes 'the Heart governs Summer'. Summer heart fire tends to be excessive, causing irritability, insomnia, and emotional fluctuations." },
+      { "type": "list", "items": ["Midday rest: 11am-1pm is Heart meridian time, a short nap benefits the heart", "Maintain emotional balance: Avoid agitation, practice relaxation", "Eat heart-nourishing foods: Lotus seeds, lily bulb, wheat, longan"] },
+      { "type": "heading", "text": "Recommended Summer Acupoints" },
+      { "type": "paragraph", "text": "Point 1: Neiguan (PC6) - Calms heart and spirit" },
+      { "type": "paragraph", "text": "Location: Inner wrist, 2 cun above wrist crease." },
+      { "type": "paragraph", "text": "Point 2: Zusanli (ST36) - Strengthens spleen, resolves dampness" },
+      { "type": "paragraph", "text": "Location: Below knee, 3 cun below the depression on outer side." },
+      { "type": "paragraph", "text": "Point 3: Quchi (LI11) - Clears heat, relieves summer heat" },
+      { "type": "paragraph", "text": "Location: Outer elbow, at the outer end of elbow crease when bent." },
+      { "type": "recipe", "title": "Mung Bean & Coix Seed Soup", "ingredients": ["Mung beans 50g", "Coix seed 30g", "Rock sugar to taste", "Water 500ml"], "instructions": "1. Soak mung beans and coix seed for 2 hours\n2. Boil water, then simmer for 30 minutes\n3. Add rock sugar to taste\n4. Drink 1-2 times daily for heat-clearing and dampness-resolving" },
+      { "type": "warning", "text": "Note: Although summer is hot, avoid excessive cold. Keep AC temperature moderate and limit cold drinks to protect Yang energy." }
+    ]
+  }
+}

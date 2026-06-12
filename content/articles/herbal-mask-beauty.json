@@ -1,0 +1,79 @@
+{
+  "slug": "herbal-mask-beauty",
+  "title": {
+    "zh": "中药面膜美容：古方养颜的智慧",
+    "en": "Herbal Mask Beauty: Ancient Wisdom for Skin Care"
+  },
+  "description": {
+    "zh": "掌握中药面膜的制作和使用方法，用古方养颜智慧呵护肌肤",
+    "en": "Master herbal mask making and usage, use ancient wisdom for skincare"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["中药面膜", "美容护肤", "古方养颜", "中医美容"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b7c?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "中药面膜是中医美容的传统方法，使用天然中药材制作面膜，温和养肤、安全有效。古代宫廷美容方流传至今，蕴含着深厚的养颜智慧。" },
+      { "type": "heading", "text": "中药面膜的优势" },
+      { "type": "list", "items": ["天然安全：不含化学添加剂", "温和养肤：不刺激皮肤", "标本兼治：从根源改善皮肤", "个性化：可根据体质调配", "历史悠久：传承千年智慧", "经济实惠：材料易得"] },
+      { "type": "heading", "text": "经典中药面膜方" },
+      { "type": "subheading", "text": "玉容散" },
+      { "type": "paragraph", "text": "玉容散是古代宫廷美容洗面方，可细腻肌肤、美白淡斑。" },
+      { "type": "list", "items": ["组成：白芷、白术、白茯苓、白芍等", "功效：美白淡斑，细腻肌肤", "用法：研末调水洗面或做面膜", "适合：面色暗沉、色斑者"] },
+      { "type": "subheading", "text": "三白粉面膜" },
+      { "type": "paragraph", "text": "三白粉是美白养颜的经典方。" },
+      { "type": "list", "items": ["组成：白芷、白术、白茯苓", "功效：美白提亮，淡化色斑", "用法：研末调蜂蜜或牛奶做面膜", "适合：面色暗沉、黄褐斑者"] },
+      { "type": "subheading", "text": "珍珠粉面膜" },
+      { "type": "paragraph", "text": "珍珠粉是古代养颜珍品。" },
+      { "type": "list", "items": ["组成：珍珠粉", "功效：细腻肌肤，美白养颜", "用法：调蜂蜜或牛奶做面膜", "适合：皮肤粗糙、面色暗沉者"] },
+      { "type": "heading", "text": "功能性中药面膜" },
+      { "type": "subheading", "text": "美白面膜" },
+      { "type": "recipe", "title": "美白淡斑面膜", "ingredients": ["白芷粉 10克", "白术粉 10克", "白茯苓粉 10克", "珍珠粉 5克", "蜂蜜适量"], "instructions": "1. 将所有粉末混合\n2. 加入蜂蜜调成糊状\n3. 涂于面部，避开眼周\n4. 15-20分钟后洗净\n5. 每周2-3次\n6. 美白淡斑，提亮肤色" },
+      { "type": "subheading", "text": "祛痘面膜" },
+      { "type": "recipe", "title": "清热祛痘面膜", "ingredients": ["黄连粉 5克", "金银花粉 10克", "蒲公英粉 10克", "绿豆粉 15克", "清水适量"], "instructions": "1. 将所有粉末混合\n2. 加水调成糊状\n3. 涂于痘痘部位\n4. 10-15分钟后洗净\n5. 每周2-3次\n6. 清热解毒，祛痘消炎" },
+      { "type": "subheading", "text": "滋润面膜" },
+      { "type": "recipe", "title": "滋润养肤面膜", "ingredients": ["当归粉 10克", "银耳粉 10克", "百合粉 10克", "蜂蜜适量", "牛奶适量"], "instructions": "1. 将所有粉末混合\n2. 加入蜂蜜和牛奶调成糊状\n3. 涂于面部\n4. 15-20分钟后洗净\n5. 每周2-3次\n6. 滋润养肤，改善干燥" },
+      { "type": "subheading", "text": "抗衰老面膜" },
+      { "type": "recipe", "title": "抗衰老养颜面膜", "ingredients": ["人参粉 5克", "当归粉 10克", "枸杞粉 10克", "珍珠粉 5克", "蜂蜜适量"], "instructions": "1. 将所有粉末混合\n2. 加入蜂蜜调成糊状\n3. 涂于面部\n4. 15-20分钟后洗净\n5. 每周1-2次\n6. 抗衰老，养颜美容" },
+      { "type": "heading", "text": "中药面膜使用注意事项" },
+      { "type": "list", "items": ["清洁面部：面膜前先清洁", "避开眼周：眼部皮肤敏感", "时间适当：15-20分钟为宜", "频率适度：每周2-3次", "过敏测试：首次使用先测试", "配合内调：内外兼修效果佳"] },
+      { "type": "heading", "text": "中药面膜材料选择" },
+      { "type": "list", "items": ["选择优质中药材：质量保证", "研磨细腻：粉末越细越好", "保存干燥：防止受潮变质", "新鲜调配：不宜存放太久", "个人体质：根据体质选择材料"] },
+      { "type": "warning", "text": "温馨提示：中药面膜需要根据个人体质和皮肤状况选择。首次使用建议做过敏测试。皮肤敏感或有炎症者不宜使用。建议在中医师指导下选择合适的面膜方。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Herbal masks are a traditional TCM beauty method, using natural herbs to make masks for gentle, safe, effective skincare. Ancient palace beauty formulas passed down through generations contain profound beauty wisdom." },
+      { "type": "heading", "text": "Advantages of Herbal Masks" },
+      { "type": "list", "items": ["Natural & safe: No chemical additives", "Gentle skincare: Non-irritating", "Root-symptom treatment: Improves skin from source", "Personalized: Can be adjusted by constitution", "Historical heritage: Thousand-year wisdom", "Economical: Materials easily available"] },
+      { "type": "heading", "text": "Classic Herbal Mask Formulas" },
+      { "type": "subheading", "text": "Yu Rong San (Jade Face Powder)" },
+      { "type": "paragraph", "text": "Yu Rong San is an ancient palace beauty wash formula, refining skin texture and whitening." },
+      { "type": "list", "items": ["Composition: Angelica dahurica, Atractylodes, Poria, Peony, etc.", "Effect: Whitens, fades spots, refines skin", "Usage: Powder mixed with water for washing or mask", "Suitable for: Dull complexion, spots"] },
+      { "type": "subheading", "text": "San Bai Powder Mask" },
+      { "type": "paragraph", "text": "San Bai Powder is a classic whitening formula." },
+      { "type": "list", "items": ["Composition: Angelica dahurica, Atractylodes, Poria", "Effect: Whitens, brightens, fades spots", "Usage: Powder mixed with honey or milk for mask", "Suitable for: Dull complexion, melasma"] },
+      { "type": "subheading", "text": "Pearl Powder Mask" },
+      { "type": "paragraph", "text": "Pearl powder is an ancient beauty treasure." },
+      { "type": "list", "items": ["Composition: Pearl powder", "Effect: Refines skin, whitens", "Usage: Mixed with honey or milk for mask", "Suitable for: Rough skin, dull complexion"] },
+      { "type": "heading", "text": "Functional Herbal Masks" },
+      { "type": "subheading", "text": "Whitening Mask" },
+      { "type": "recipe", "title": "Whitening Spot-Fading Mask", "ingredients": ["Angelica dahurica powder 10g", "Atractylodes powder 10g", "Poria powder 10g", "Pearl powder 5g", "Honey as needed"], "instructions": "1. Mix all powders\n2. Add honey to form paste\n3. Apply to face, avoid eye area\n4. Rinse after 15-20 minutes\n5. 2-3 times weekly\n6. Whitens, fades spots, brightens skin" },
+      { "type": "subheading", "text": "Acne Mask" },
+      { "type": "recipe", "title": "Heat-Clearing Acne Mask", "ingredients": ["Coptis powder 5g", "Honeysuckle powder 10g", "Dandelion powder 10g", "Mung bean powder 15g", "Water as needed"], "instructions": "1. Mix all powders\n2. Add water to form paste\n3. Apply to acne areas\n4. Rinse after 10-15 minutes\n5. 2-3 times weekly\n6. Clears heat, detoxifies, treats acne" },
+      { "type": "subheading", "text": "Moisturizing Mask" },
+      { "type": "recipe", "title": "Moisturizing Skin Mask", "ingredients": ["Angelica powder 10g", "Tremella powder 10g", "Lily bulb powder 10g", "Honey as needed", "Milk as needed"], "instructions": "1. Mix all powders\n2. Add honey and milk to form paste\n3. Apply to face\n4. Rinse after 15-20 minutes\n5. 2-3 times weekly\n6. Moisturizes, improves dryness" },
+      { "type": "subheading", "text": "Anti-Aging Mask" },
+      { "type": "recipe", "title": "Anti-Aging Beauty Mask", "ingredients": ["Ginseng powder 5g", "Angelica powder 10g", "Goji powder 10g", "Pearl powder 5g", "Honey as needed"], "instructions": "1. Mix all powders\n2. Add honey to form paste\n3. Apply to face\n4. Rinse after 15-20 minutes\n5. 1-2 times weekly\n6. Anti-aging, beauty care" },
+      { "type": "heading", "text": "Herbal Mask Usage Precautions" },
+      { "type": "list", "items": ["Clean face: Clean before applying mask", "Avoid eye area: Eye skin is sensitive", "Appropriate time: 15-20 minutes ideal", "Moderate frequency: 2-3 times weekly", "Allergy test: Test before first use", "Combine with internal care: Best with both approaches"] },
+      { "type": "heading", "text": "Herbal Mask Material Selection" },
+      { "type": "list", "items": ["Choose quality herbs: Quality assurance", "Fine grinding: Finer powder is better", "Dry storage: Prevent moisture spoilage", "Fresh preparation: Don't store too long", "Personal constitution: Choose materials by constitution"] },
+      { "type": "warning", "text": "Note: Herbal masks should be chosen based on personal constitution and skin condition. Recommend allergy test for first use. Avoid if skin is sensitive or inflamed. Consult TCM practitioner for suitable mask formula." }
+    ]
+  }
+}

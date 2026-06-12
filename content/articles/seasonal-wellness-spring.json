@@ -1,0 +1,49 @@
+{
+  "slug": "seasonal-wellness-spring",
+  "title": {
+    "zh": "春天养生：养肝护肝的5个秘诀",
+    "en": "Spring Wellness: 5 Tips for Liver Health"
+  },
+  "description": {
+    "zh": "春季是养肝的最佳时节，五大方法帮你科学养生",
+    "en": "Spring is the best season for liver health, with five methods for wellness"
+  },
+  "category": {
+    "zh": "节气养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": ["春季", "养肝", "节气"],
+  "publishedAt": "2026-06-09",
+  "readingTime": 5,
+  "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c444?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "中医认为，春季与肝相对应，是养肝护肝的重要时节。春天阳气升发，正是调理身体的好时机。" },
+      { "type": "heading", "text": "1. 早睡早起，顺应天时" },
+      { "type": "paragraph", "text": "春季应该早起早睡，顺应自然界阳气升发的规律。建议晚上10点前入睡，早上6-7点起床。" },
+      { "type": "heading", "text": "2. 适度运动，舒展筋骨" },
+      { "type": "paragraph", "text": "春季适合进行适度的户外运动，如散步、太极拳、瑜伽等。运动有助于肝气疏泄，促进血液循环。" },
+      { "type": "heading", "text": "3. 饮食清淡，少食酸多吃甘" },
+      { "type": "paragraph", "text": "春季饮食应清淡，多吃新鲜蔬菜和水果。建议多吃甘味食物（如红枣、山药），少食酸味食物。" },
+      { "type": "heading", "text": "4. 保持心情舒畅" },
+      { "type": "paragraph", "text": "肝主疏泄，情绪不畅容易导致肝气郁结。保持积极乐观的心态，对养肝非常重要。" },
+      { "type": "heading", "text": "5. 按摩肝经穴位" },
+      { "type": "list", "items": ["太冲穴：足背第一、二跖骨之间", "期门穴：乳头直下，第6肋间隙", "行间穴：足背第一、二趾间"] },
+      { "type": "warning", "text": "温馨提示：以上建议仅供参考，具体体质调理请咨询专业中医师。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "In TCM, spring corresponds to the liver and is an important time for liver health. As yang qi rises in spring, it is the perfect season for body conditioning." },
+      { "type": "heading", "text": "1. Sleep Early, Wake Early" },
+      { "type": "paragraph", "text": "In spring, go to bed early and wake early to align with nature's rising yang qi. Aim to sleep before 10 PM and wake at 6-7 AM." },
+      { "type": "heading", "text": "2. Moderate Exercise" },
+      { "type": "paragraph", "text": "Spring is suitable for moderate outdoor exercise such as walking, Tai Chi, or yoga. Exercise helps liver qi circulation and promotes blood flow." },
+      { "type": "heading", "text": "3. Light Diet: Less Sour, More Sweet" },
+      { "type": "paragraph", "text": "Spring diet should be light, with plenty of fresh vegetables and fruits. Eat more sweet-flavored foods (dates, yams) and less sour foods." },
+      { "type": "heading", "text": "4. Keep a Positive Mood" },
+      { "type": "paragraph", "text": "The liver governs the free flow of qi. Emotional stagnation can easily lead to liver qi stagnation. Maintaining a positive attitude is important for liver health." },
+      { "type": "heading", "text": "5. Massage Liver Meridian Points" },
+      { "type": "list", "items": ["Taichong (LR3): On dorsum of foot, between 1st and 2nd metatarsal bones", "Qimen (LR14): On nipple line, in 6th intercostal space", "Xingjian (LR2): On dorsum of foot, between 1st and 2nd toes"] },
+      { "type": "warning", "text": "Disclaimer: These suggestions are for reference only. Please consult a TCM practitioner for personalized advice." }
+    ]
+  }
+}

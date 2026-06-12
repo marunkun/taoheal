@@ -1,0 +1,79 @@
+{
+  "slug": "hair-health-tcm",
+  "title": {
+    "zh": "中医养发：让头发浓密光泽的秘密",
+    "en": "TCM Hair Care: Secrets for Thick, Glossy Hair"
+  },
+  "description": {
+    "zh": "掌握中医养发的方法，从调理肝肾入手，让头发浓密光泽，告别脱发烦恼",
+    "en": "Master TCM hair care methods, regulate liver-kidney for thick, glossy hair"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["养发", "脱发", "头发护理", "中医美容"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1522337360788-8b13a7cc831c?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "中医认为\"肾藏精，其华在发\"，\"肝藏血，发为血之余\"。头发是肝肾功能的外在表现，想要头发浓密光泽，必须从调理肝肾入手。" },
+      { "type": "heading", "text": "中医对头发的认识" },
+      { "type": "paragraph", "text": "头发的健康与肝肾密切相关：" },
+      { "type": "subheading", "text": "肾与头发" },
+      { "type": "list", "items": ["肾精充足则头发浓密光泽", "肾精不足则头发干枯脱落", "肾气虚弱则头发稀疏", "肾虚早衰则白发增多"] },
+      { "type": "subheading", "text": "肝与头发" },
+      { "type": "list", "items": ["肝血充足则头发润泽", "肝血不足则头发干枯", "肝气郁结则头发脱落", "肝火旺盛则头发油腻"] },
+      { "type": "heading", "text": "头发问题的原因" },
+      { "type": "subheading", "text": "脱发原因" },
+      { "type": "list", "items": ["肾精亏虚：先天不足或后天损耗", "气血不足：营养不良", "肝郁气滞：情绪压力大", "湿热上蒸：头皮油腻"] },
+      { "type": "subheading", "text": "白发原因" },
+      { "type": "list", "items": ["肾精不足：早衰表现", "气血亏虚：营养不足", "情志失调：压力焦虑", "遗传因素：先天禀赋"] },
+      { "type": "heading", "text": "养发方法" },
+      { "type": "subheading", "text": "补肾养发" },
+      { "type": "list", "items": ["黑芝麻：补肝肾，益精血，乌发", "核桃：补肾健脑，养发", "何首乌：补肝肾，乌发养颜", "枸杞：滋补肝肾，明目养发", "黑豆：补肾益精，养发"] },
+      { "type": "subheading", "text": "养血养发" },
+      { "type": "list", "items": ["当归：补血活血，养发", "熟地：补血滋阴，养发", "阿胶：补血滋阴，养发", "红枣：补气养血，养发"] },
+      { "type": "subheading", "text": "养发穴位" },
+      { "type": "list", "items": ["百会穴：头顶正中，促进头发生长", "肾俞穴：补肾养发", "太溪穴：补肾益精", "三阴交：调补气血", "风池穴：促进头部气血循环"] },
+      { "type": "heading", "text": "头皮按摩方法" },
+      { "type": "list", "items": ["用指腹从前额向后按摩头皮", "用梳子梳理头发，促进血液循环", "按压百会穴、风池穴", "用手指轻拍头皮", "每日按摩5-10分钟"] },
+      { "type": "recipe", "title": "黑芝麻养发糊", "ingredients": ["黑芝麻 50克", "核桃仁 30克", "枸杞 20克", "蜂蜜适量", "温水 200毫升"], "instructions": "1. 黑芝麻、核桃炒香\n2. 研磨成粉\n3. 加入枸杞\n4. 用温水调成糊状\n5. 加入蜂蜜调味\n6. 每日食用，补肾养发" },
+      { "type": "heading", "text": "养发生活习惯" },
+      { "type": "list", "items": ["规律作息：避免熬夜伤肾", "情绪调节：保持心情舒畅", "适度运动：促进气血运行", "饮食调理：多吃黑色食物", "避免过度：节制房事，避免过度劳累"] },
+      { "type": "heading", "text": "护发注意事项" },
+      { "type": "list", "items": ["避免频繁染烫：损伤发质", "温和洗发：避免刺激头皮", "避免过度拉扯：防止脱发", "保持头皮清洁：防止油脂堆积", "避免高温吹发：损伤发质"] },
+      { "type": "warning", "text": "温馨提示：养发需要长期坚持，不可急于求成。严重脱发建议在中医师指导下进行综合调理，配合药物治疗效果更佳。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "TCM believes \"Kidney stores essence, manifestation in hair\" and \"Liver stores blood, hair is surplus of blood.\" Hair is the external manifestation of liver-kidney function. For thick, glossy hair, start with regulating liver and kidney." },
+      { "type": "heading", "text": "TCM Understanding of Hair" },
+      { "type": "paragraph", "text": "Hair health is closely related to liver and kidney:" },
+      { "type": "subheading", "text": "Kidney & Hair" },
+      { "type": "list", "items": ["Sufficient kidney essence gives thick, glossy hair", "Kidney essence deficiency causes dry, falling hair", "Weak kidney Qi causes sparse hair", "Kidney deficiency premature aging increases white hair"] },
+      { "type": "subheading", "text": "Liver & Hair" },
+      { "type": "list", "items": ["Sufficient liver blood gives moist hair", "Liver blood deficiency causes dry hair", "Liver stagnation causes hair loss", "Excess liver fire causes oily hair"] },
+      { "type": "heading", "text": "Causes of Hair Problems" },
+      { "type": "subheading", "text": "Hair Loss Causes" },
+      { "type": "list", "items": ["Kidney essence deficiency: Congenital or acquired depletion", "Qi-Blood deficiency: Malnutrition", "Liver stagnation: Emotional stress", "Damp-heat rising: Oily scalp"] },
+      { "type": "subheading", "text": "White Hair Causes" },
+      { "type": "list", "items": ["Kidney essence deficiency: Premature aging sign", "Qi-Blood deficiency: Insufficient nutrition", "Emotional imbalance: Stress and anxiety", "Genetic factors: Congenital constitution"] },
+      { "type": "heading", "text": "Hair Care Methods" },
+      { "type": "subheading", "text": "Tonify Kidney, Nourish Hair" },
+      { "type": "list", "items": ["Black sesame: Tonifies liver-kidney, darkens hair", "Walnut: Tonifies kidney, nourishes brain and hair", "He Shou Wu: Tonifies liver-kidney, darkens hair", "Goji: Nourishes liver-kidney, brightens eyes and hair", "Black beans: Tonify kidney, benefit essence, nourish hair"] },
+      { "type": "subheading", "text": "Nourish Blood, Care for Hair" },
+      { "type": "list", "items": ["Angelica: Tonifies blood, activates circulation, nourishes hair", "Prepared Rehmannia: Tonifies blood, nourishes Yin", "Donkey-hide gelatin: Tonifies blood, nourishes Yin", "Red dates: Tonify Qi-Blood, nourish hair"] },
+      { "type": "subheading", "text": "Hair Care Acupoints" },
+      { "type": "list", "items": ["Baihui: Top of head, promotes hair growth", "Shenshu: Tonifies kidney, nourishes hair", "Taixi: Tonifies kidney, benefits essence", "Sanyinjiao: Regulates Qi-Blood", "Fengchi: Promotes head Qi-Blood circulation"] },
+      { "type": "heading", "text": "Scalp Massage Methods" },
+      { "type": "list", "items": ["Massage scalp from forehead to back with fingertips", "Comb hair to promote blood circulation", "Press Baihui and Fengchi points", "Lightly tap scalp with fingers", "Massage 5-10 minutes daily"] },
+      { "type": "recipe", "title": "Black Sesame Hair Nourishing Paste", "ingredients": ["Black sesame 50g", "Walnut kernels 30g", "Goji berries 20g", "Honey to taste", "Warm water 200ml"], "instructions": "1. Toast black sesame and walnut\n2. Grind into powder\n3. Add goji berries\n4. Mix with warm water into paste\n5. Add honey to taste\n6. Eat daily, tonifies kidney, nourishes hair" },
+      { "type": "heading", "text": "Hair Care Lifestyle Habits" },
+      { "type": "list", "items": ["Regular routine: Avoid late nights that harm kidney", "Emotional balance: Stay happy and relaxed", "Moderate exercise: Promotes Qi-Blood circulation", "Dietary care: Eat more black-colored foods", "Avoid excess: Moderate sexual activity, avoid overexertion"] },
+      { "type": "heading", "text": "Hair Protection Notes" },
+      { "type": "list", "items": ["Avoid frequent dyeing/perming: Damages hair quality", "Gentle shampooing: Avoid irritating scalp", "Avoid excessive pulling: Prevent hair loss", "Keep scalp clean: Prevent oil buildup", "Avoid high-heat blow drying: Damages hair quality"] },
+      { "type": "warning", "text": "Note: Hair care requires long-term commitment. Severe hair loss should be treated comprehensively under TCM practitioner guidance, combined with medication for best results." }
+    ]
+  }
+}

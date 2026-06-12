@@ -1,0 +1,54 @@
+{
+  "slug": "medicinal-diet-introduction",
+  "title": {
+    "zh": "药膳入门：食疗养生的基本原则",
+    "en": "Introduction to Medicinal Diet: Basic Principles of Dietary Therapy"
+  },
+  "description": {
+    "zh": "了解药膳的基本概念、分类原则和注意事项，掌握食疗养生的入门知识",
+    "en": "Learn the basic concepts, classification principles, and precautions of medicinal diet for dietary therapy wellness"
+  },
+  "category": {
+    "zh": "食疗药膳",
+    "en": "Dietary Therapy"
+  },
+  "tags": ["药膳", "食疗", "养生", "入门"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 7,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "药膳是中医养生的重要组成部分，它将药物与食物相结合，既具有营养价值，又有防病治病的作用。药膳强调"药食同源"，通过日常饮食达到养生保健的目的。" },
+      { "type": "heading", "text": "药膳的基本概念" },
+      { "type": "paragraph", "text": "药膳是在中医药理论指导下，将药物与食物合理配伍，经过烹饪加工制成的具有保健、防病、治病作用的特殊膳食。药膳不同于普通食物，也不同于纯药物，它兼具两者的优点。" },
+      { "type": "list", "items": ["药食同源：许多食物本身就是药物，如山药、枸杞、红枣", "辨证施膳：根据体质和症状选择合适的药膳", "适量适度：药膳用量要适当，不宜过量", "长期调理：药膳效果需要长期坚持才能显现"] },
+      { "type": "heading", "text": "药膳的分类" },
+      { "type": "subheading", "text": "按功效分类" },
+      { "type": "list", "items": ["补气类：黄芪炖鸡、人参粥等，适合气虚体质", "补血类：当归羊肉汤、红枣桂圆粥等，适合血虚体质", "滋阴类：银耳百合汤、枸杞蒸蛋等，适合阴虚体质", "温阳类：附子羊肉汤、鹿茸酒等，适合阳虚体质", "清热类：绿豆汤、苦瓜炒蛋等，适合热性体质", "祛湿类：薏米红豆粥、茯苓饼等，适合湿性体质"] },
+      { "type": "subheading", "text": "按季节分类" },
+      { "type": "list", "items": ["春季：疏肝养肝，如枸杞菊花茶", "夏季：清热祛湿，如绿豆薏米汤", "秋季：润燥养肺，如银耳雪梨汤", "冬季：温阳补肾，如羊肉当归汤"] },
+      { "type": "heading", "text": "药膳制作原则" },
+      { "type": "list", "items": ["选材讲究：选用优质药材和新鲜食材", "配伍合理：遵循中医药配伍原则，避免相克", "烹饪得当：根据药材特性选择合适的烹饪方法", "口味适宜：药膳应兼顾药效和口感", "用量适度：药材用量要适中，不宜过多"] },
+      { "type": "heading", "text": "药膳注意事项" },
+      { "type": "list", "items": ["体质辨识：根据个人体质选择合适的药膳", "辨证施膳：不同症状需要不同的药膳调理", "禁忌注意：某些药材有禁忌人群，需特别注意", "循序渐进：药膳调理需要循序渐进，不可急于求成", "专业指导：复杂药膳应在专业医师指导下使用"] },
+      { "type": "recipe", "title": "黄芪炖鸡（补气药膳）", "ingredients": ["黄芪 30克", "鸡肉 200克", "生姜 3片", "红枣 5颗", "清水 500毫升"], "instructions": "1. 鸡肉切块焯水\n2. 黄芪洗净，红枣去核\n3. 所有材料放入炖盅\n4. 炖煮1.5小时\n5. 温服，每周2-3次\n6. 补气健脾，适合气虚体质" },
+      { "type": "warning", "text": "温馨提示：药膳虽好，但并非人人适用。孕妇、儿童、慢性病患者等特殊人群应在医师指导下使用药膳。如有不适，应立即停止并咨询医师。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Medicinal diet is an important part of TCM wellness, combining medicine with food. It has both nutritional value and disease-prevention effects. Medicinal diet emphasizes 'medicine and food share the same source', achieving wellness through daily diet." },
+      { "type": "heading", "text": "Basic Concepts of Medicinal Diet" },
+      { "type": "paragraph", "text": "Medicinal diet is a special diet prepared under TCM theory guidance, combining medicine with food through cooking. It has health, prevention, and treatment effects. It differs from both regular food and pure medicine, combining advantages of both." },
+      { "type": "list", "items": ["Medicine and food share source: Many foods are themselves medicines, like yam, goji berries, red dates", "Pattern-based dietary therapy: Choose appropriate medicinal diet based on constitution and symptoms", "Moderate amount: Medicinal diet dosage should be appropriate, not excessive", "Long-term conditioning: Effects require consistent long-term practice"] },
+      { "type": "heading", "text": "Classification of Medicinal Diet" },
+      { "type": "subheading", "text": "By Function" },
+      { "type": "list", "items": ["Qi-tonifying: Astragalus chicken stew, ginseng porridge - for Qi deficiency", "Blood-tonifying: Angelica lamb soup, red date longan porridge - for Blood deficiency", "Yin-nourishing: Tremella lily soup, goji steamed egg - for Yin deficiency", "Yang-warming: Aconite lamb soup, deer antler wine - for Yang deficiency", "Heat-clearing: Mung bean soup, bitter melon egg - for heat constitution", "Dampness-resolving: Coix red bean porridge, poria cake - for damp constitution"] },
+      { "type": "subheading", "text": "By Season" },
+      { "type": "list", "items": ["Spring: Soothe liver, nourish liver - Goji chrysanthemum tea", "Summer: Clear heat, resolve dampness - Mung bean coix soup", "Autumn: Moisten dryness, nourish lung - Tremella pear soup", "Winter: Warm Yang, tonify kidney - Lamb angelica soup"] },
+      { "type": "heading", "text": "Principles of Medicinal Diet Preparation" },
+      { "type": "list", "items": ["Quality ingredients: Use quality herbs and fresh ingredients", "Proper combination: Follow TCM compatibility principles, avoid conflicts", "Appropriate cooking: Choose cooking method based on herb characteristics", "Good taste: Balance medicinal effect and taste", "Moderate dosage: Herb amount should be moderate, not excessive"] },
+      { "type": "heading", "text": "Precautions for Medicinal Diet" },
+      { "type": "list", "items": ["Constitution identification: Choose appropriate medicinal diet for your constitution", "Pattern-based therapy: Different symptoms need different medicinal diets", "Contraindications: Some herbs have contraindicated groups, pay special attention", "Gradual progress: Medicinal diet conditioning needs gradual progress", "Professional guidance: Complex medicinal diets should be used under physician guidance"] },
+      { "type": "recipe", "title": "Astragalus Chicken Stew (Qi-tonifying)", "ingredients": ["Astragalus 30g", "Chicken 200g", "Fresh ginger 3 slices", "Red dates 5 pieces", "Water 500ml"], "instructions": "1. Cut chicken, blanch\n2. Wash astragalus, remove date seeds\n3. Place all in stewing pot\n4. Stew for 1.5 hours\n5. Serve warm, 2-3 times weekly\n6. Tonifies Qi, strengthens spleen - for Qi deficiency" },
+      { "type": "warning", "text": "Note: Medicinal diet is not for everyone. Pregnant women, children, and those with chronic conditions should use under physician guidance. Stop immediately if discomfort occurs and consult a physician." }
+    ]
+  }
+}

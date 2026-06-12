@@ -1,0 +1,66 @@
+{
+  "slug": "stress-management-tcm",
+  "title": {
+    "zh": "压力大？中医教你这几招疏肝解郁",
+    "en": "Feeling Stressed? TCM Methods to Relieve Liver Qi Stagnation"
+  },
+  "description": {
+    "zh": "现代人压力大容易导致肝气郁结，这些中医方法帮你疏解压力",
+    "en": "Modern stress can lead to liver qi stagnation. These TCM methods help you relieve stress"
+  },
+  "category": {
+    "zh": "情志养生",
+    "en": "Emotional Wellness"
+  },
+  "tags": ["压力", "疏肝", "情志", "焦虑"],
+  "publishedAt": "2026-06-05",
+  "readingTime": 6,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "现代生活节奏快，压力大成为很多人的常态。中医认为\"肝主疏泄\"，负面情绪会直接影响肝的疏泄功能，导致肝气郁结，出现胸闷、叹气、烦躁等症状。" },
+      { "type": "heading", "text": "肝气郁结的表现" },
+      { "type": "list", "items": [
+        "情绪低落，喜欢叹气",
+        "胸胁胀痛，位置不固定",
+        "胃口不好，消化不良",
+        "睡眠不好，多梦易醒",
+        "女性月经不调，痛经"
+      ] },
+      { "type": "heading", "text": "疏肝解郁的方法" },
+      { "type": "subheading", "text": "1. 按摩穴位" },
+      { "type": "paragraph", "text": "太冲穴（位于足背大趾和第二趾之间）是肝经的原穴，每天按摩2-3分钟，可以疏肝理气，缓解情绪。合谷穴（虎口处）配合按摩效果更好。" },
+      { "type": "subheading", "text": "2. 花茶调理" },
+      { "type": "paragraph", "text": "玫瑰花茶是经典的疏肝解郁饮品。取干玫瑰花5-6朵，用温水冲泡饮用。茉莉花茶、菊花茶也有不错的疏肝效果。" },
+      { "type": "subheading", "text": "3. 八段锦" },
+      { "type": "paragraph", "text": "八段锦的\"左右开弓似射雕\"动作，专门调理肝肺功能。每天练习10-15分钟，可以有效疏通气机，缓解压力。" },
+      { "type": "subheading", "text": "4. 情绪管理" },
+      { "type": "paragraph", "text": "中医强调\"情志相胜\"，可以用\"喜\"来克制\"忧\"。听舒缓的音乐、看喜剧、与朋友聊天都是不错的方法。" },
+      { "type": "heading", "text": "日常养护" },
+      { "type": "paragraph", "text": "养肝重在平时：保持规律作息，不要熬夜；适当运动，促进气血流通；饮食清淡，少吃辛辣油腻；多接触大自然，呼吸新鲜空气。" },
+      { "type": "disclaimer", "text": "如果症状持续或加重，请及时就医。以上内容仅供参考。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Modern life is fast-paced, and stress has become the norm for many. In TCM, the liver is responsible for the free flow of qi. Negative emotions directly affect the liver's function, leading to liver qi stagnation with symptoms like chest tightness, sighing, and irritability." },
+      { "type": "heading", "text": "Signs of Liver Qi Stagnation" },
+      { "type": "list", "items": [
+        "Low mood, frequent sighing",
+        "Chest and rib-side distension with shifting pain",
+        "Poor appetite, indigestion",
+        "Poor sleep, vivid dreams, easy waking",
+        "Women: irregular menstruation, painful periods"
+      ] },
+      { "type": "heading", "text": "Methods to Relieve Liver Qi Stagnation" },
+      { "type": "subheading", "text": "1. Acupressure" },
+      { "type": "paragraph", "text": "Taichong point (located between the big and second toes on the foot dorsum) is the yuan-source point of the liver meridian. Massaging it 2-3 minutes daily can soothe liver qi and relieve emotions. Hegu point (in the web between thumb and index finger) enhances the effect." },
+      { "type": "subheading", "text": "2. Herbal Tea" },
+      { "type": "paragraph", "text": "Rose tea is a classic remedy for soothing liver qi. Use 5-6 dried rose buds, steep in warm water. Jasmine tea and chrysanthemum tea also have good effects." },
+      { "type": "subheading", "text": "3. Ba Duan Jin" },
+      { "type": "paragraph", "text": "The \"Arrows and Bows\" movement in Ba Duan Jin specifically regulates liver and lung function. Practicing 10-15 minutes daily can effectively promote qi circulation and relieve stress." },
+      { "type": "subheading", "text": "4. Emotional Management" },
+      { "type": "paragraph", "text": "TCM emphasizes \"emotions conquering emotions.\" Use \"joy\" to overcome \"worry.\" Listening to soothing music, watching comedies, and chatting with friends are all good methods." },
+      { "type": "heading", "text": "Daily Care" },
+      { "type": "paragraph", "text": "Liver care is about daily habits: maintain regular sleep, avoid staying up late; exercise appropriately to promote blood and qi flow; eat light foods, less spicy and greasy; spend time in nature, breathe fresh air." },
+      { "type": "disclaimer", "text": "If symptoms persist or worsen, please seek medical attention. The above is for reference only." }
+    ]
+  }
+}

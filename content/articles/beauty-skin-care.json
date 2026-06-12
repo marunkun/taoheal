@@ -1,0 +1,74 @@
+{
+  "slug": "beauty-skin-care",
+  "title": {
+    "zh": "中医美容养颜：内调外养，焕发自然美",
+    "en": "TCM Beauty & Skin Care: Inner Balance, Natural Radiance"
+  },
+  "description": {
+    "zh": "从中医角度探讨美容养颜的方法，通过内调气血、外养肌肤，实现自然健康的美",
+    "en": "Explore TCM beauty and skin care methods - balance Qi-Blood internally, nourish skin externally for natural healthy beauty"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["美容", "养颜", "护肤", "中医"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 7,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "中医美容强调"内调外养"，认为皮肤的状态反映了身体内部的健康状况。通过调理气血、平衡阴阳，可以从根本上改善皮肤问题，焕发自然健康的美丽。" },
+      { "type": "heading", "text": "中医美容的基本理念" },
+      { "type": "paragraph", "text": "中医认为，皮肤问题往往与内在脏腑功能失调有关：" },
+      { "type": "list", "items": ["面色萎黄：多与气血不足有关", "皮肤干燥：多与阴虚津亏有关", "痤疮痘痘：多与湿热内蕴有关", "皮肤油腻：多与痰湿体质有关", "色斑暗沉：多与肝郁气滞有关", "皱纹早生：多与肾精不足有关"] },
+      { "type": "heading", "text": "美容养颜的饮食调理" },
+      { "type": "subheading", "text": "养血润肤食物" },
+      { "type": "list", "items": ["红枣：补气养血，改善面色", "桂圆：补心脾，益气血", "黑芝麻：补肝肾，乌发养颜", "银耳：滋阴润燥，润泽肌肤", "百合：养阴润肺，清心安神"] },
+      { "type": "subheading", "text": "清热祛痘食物" },
+      { "type": "list", "items": ["绿豆：清热解毒，消痘痘", "苦瓜：清热泻火，改善痤疮", "薏米：健脾祛湿，减少油腻", "冬瓜：利水消肿，清热祛湿", "黄瓜：清热生津，美容养颜"] },
+      { "type": "heading", "text": "美容养颜穴位" },
+      { "type": "paragraph", "text": "穴位按摩可以促进气血运行，改善面部血液循环，达到美容效果。" },
+      { "type": "paragraph", "text": "穴位1：四白穴（美白淡斑）" },
+      { "type": "paragraph", "text": "位置：面部，瞳孔直下，眶下孔凹陷处。" },
+      { "type": "paragraph", "text": "穴位2：迎香穴（改善面色）" },
+      { "type": "paragraph", "text": "位置：鼻翼外缘中点旁，鼻唇沟中。" },
+      { "type": "paragraph", "text": "穴位3：合谷穴（面部美容）" },
+      { "type": "paragraph", "text": "位置：手背，第一、二掌骨之间。" },
+      { "type": "paragraph", "text": "穴位4：足三里（调理气血）" },
+      { "type": "paragraph", "text": "位置：小腿外侧，膝盖下3寸。" },
+      { "type": "heading", "text": "面部按摩方法" },
+      { "type": "list", "items": ["每天早晚按摩面部穴位5分钟", "用指腹轻轻按压，力度适中", "按摩方向从内向外，从下向上", "配合护肤产品效果更佳", "持之以恒，效果逐渐显现"] },
+      { "type": "recipe", "title": "银耳红枣养颜汤", "ingredients": ["银耳 20克", "红枣 10颗", "枸杞 15克", "冰糖适量", "清水 600毫升"], "instructions": "1. 银耳泡发撕成小朵\n2. 红枣去核\n3. 加水炖煮1小时\n4. 加入枸杞、冰糖\n5. 每日饮用，养血润肤\n6. 长期坚持，改善面色" },
+      { "type": "heading", "text": "生活习惯建议" },
+      { "type": "list", "items": ["保证充足睡眠，让肌肤得到休息", "保持心情愉悦，避免情绪波动影响气血", "适度运动，促进血液循环", "避免过度化妆，让肌肤透气", "防晒保湿，保护肌肤屏障"] },
+      { "type": "warning", "text": "温馨提示：中医美容需要长期坚持，效果需要时间积累。如有严重皮肤问题，建议咨询专业医师或皮肤科医生。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "TCM beauty emphasizes 'internal balance, external care', believing skin condition reflects internal health. By regulating Qi-Blood and balancing Yin-Yang, skin issues can be fundamentally improved for natural healthy beauty." },
+      { "type": "heading", "text": "Basic TCM Beauty Concepts" },
+      { "type": "paragraph", "text": "TCM believes skin issues relate to internal organ dysfunction:" },
+      { "type": "list", "items": ["Sallow complexion: Related to Qi-Blood deficiency", "Dry skin: Related to Yin deficiency, fluid depletion", "Acne: Related to damp-heat accumulation", "Oily skin: Related to phlegm-damp constitution", "Dark spots: Related to liver stagnation, Qi stagnation", "Early wrinkles: Related to kidney essence deficiency"] },
+      { "type": "heading", "text": "Dietary Therapy for Beauty" },
+      { "type": "subheading", "text": "Blood-Nourishing, Skin-Moisturizing Foods" },
+      { "type": "list", "items": ["Red dates: Tonify Qi-Blood, improve complexion", "Longan: Tonify heart-spleen, benefit Qi-Blood", "Black sesame: Tonify liver-kidney, darken hair, nourish face", "Tremella: Nourish Yin, moisten dryness, hydrate skin", "Lily bulb: Nourish Yin, moisten lung, calm spirit"] },
+      { "type": "subheading", "text": "Heat-Clearing, Acne-Reducing Foods" },
+      { "type": "list", "items": ["Mung beans: Clear heat, resolve toxins, reduce acne", "Bitter melon: Clear heat, drain fire, improve acne", "Coix seed: Strengthen spleen, resolve dampness, reduce oiliness", "Winter melon: Drain water, resolve swelling, clear heat-damp", "Cucumber: Clear heat, generate fluids, beautify skin"] },
+      { "type": "heading", "text": "Beauty Acupoints" },
+      { "type": "paragraph", "text": "Acupoint massage promotes Qi-Blood circulation, improves facial blood flow for beauty effects." },
+      { "type": "paragraph", "text": "Point 1: Sibai (ST2) - Whitening, reducing spots" },
+      { "type": "paragraph", "text": "Location: Face, directly below pupil, infraorbital foramen." },
+      { "type": "paragraph", "text": "Point 2: Yingxiang (LI20) - Improving complexion" },
+      { "type": "paragraph", "text": "Location: Midpoint of outer nose wing, in nasolabial groove." },
+      { "type": "paragraph", "text": "Point 3: Hegu (LI4) - Facial beauty" },
+      { "type": "paragraph", "text": "Location: Hand, between first and second metacarpal bones." },
+      { "type": "paragraph", "text": "Point 4: Zusanli (ST36) - Regulating Qi-Blood" },
+      { "type": "paragraph", "text": "Location: Outer lower leg, 3 cun below knee." },
+      { "type": "heading", "text": "Facial Massage Method" },
+      { "type": "list", "items": ["Massage facial acupoints 5 minutes morning and evening", "Use finger pads, moderate pressure", "Massage direction: inward to outward, downward to upward", "Combine with skincare products for better effect", "Consistency brings gradual results"] },
+      { "type": "recipe", "title": "Tremella Red Date Beauty Soup", "ingredients": ["Tremella 20g", "Red dates 10 pieces", "Goji berries 15g", "Rock sugar to taste", "Water 600ml"], "instructions": "1. Soak tremella, tear into pieces\n2. Remove date seeds\n3. Simmer for 1 hour\n4. Add goji and sugar\n5. Drink daily to nourish blood, moisturize skin\n6. Long-term practice improves complexion" },
+      { "type": "heading", "text": "Lifestyle Recommendations" },
+      { "type": "list", "items": ["Ensure sufficient sleep for skin rest", "Maintain happy mood, avoid emotional fluctuations affecting Qi-Blood", "Moderate exercise promotes blood circulation", "Avoid excessive makeup, let skin breathe", "Sun protection and moisturizing protect skin barrier"] },
+      { "type": "warning", "text": "Note: TCM beauty requires long-term consistency. For severe skin issues, consult a physician or dermatologist." }
+    ]
+  }
+}

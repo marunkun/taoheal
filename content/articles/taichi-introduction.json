@@ -1,0 +1,60 @@
+{
+  "slug": "taichi-introduction",
+  "title": {
+    "zh": "太极养生入门：从零开始学太极",
+    "en": "Tai Chi Wellness Introduction: Starting from Scratch"
+  },
+  "description": {
+    "zh": "太极是中国传统养生运动，适合各年龄段人群。本文介绍太极的基本概念、入门方法和养生功效",
+    "en": "Tai Chi is a traditional Chinese wellness exercise suitable for all ages. Learn basic concepts, entry methods, and wellness benefits"
+  },
+  "category": {
+    "zh": "运动养生",
+    "en": "Exercise Wellness"
+  },
+  "tags": ["太极", "养生", "运动", "入门"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 7,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "太极拳是中国传统武术与养生文化的结晶，融合了武术、导引术和中医理论。太极动作柔和缓慢，适合各年龄段人群练习，是极佳的养生运动。" },
+      { "type": "heading", "text": "太极的基本概念" },
+      { "type": "paragraph", "text": "太极拳以"太极"哲学为基础，强调阴阳平衡、刚柔相济。太极拳的特点是动作连贯、圆活、缓慢、柔和，讲究意气运动，以意导气，以气运身。" },
+      { "type": "list", "items": ["阴阳平衡：动作中体现阴阳转换", "刚柔相济：外柔内刚，柔中带刚", "意气运动：以意念引导气血运行", "圆活连贯：动作圆润，如行云流水", "松静自然：身心放松，自然舒展"] },
+      { "type": "heading", "text": "太极的养生功效" },
+      { "type": "list", "items": ["强身健体：增强体质，提高免疫力", "调理气血：促进气血运行，改善循环", "平衡阴阳：调节身体阴阳平衡", "养心安神：缓解压力，改善睡眠", "延缓衰老：增强体质，延年益寿", "改善平衡：增强身体协调性和平衡能力"] },
+      { "type": "heading", "text": "太极入门要点" },
+      { "type": "subheading", "text": "基本姿势" },
+      { "type": "list", "items": ["站立姿势：双脚平行，重心居中", "身体放松：从头到脚依次放松", "呼吸自然：呼吸配合动作", "意念集中：注意力集中在动作上", "眼神跟随：眼神随动作移动"] },
+      { "type": "subheading", "text": "基本步法" },
+      { "type": "list", "items": ["马步：双脚分开，膝盖微弯", "弓步：一脚前一脚后，重心前移", "虚步：一脚实一脚虚", "仆步：一脚蹲下，一脚伸直", "独立步：单脚站立"] },
+      { "type": "heading", "text": "入门练习建议" },
+      { "type": "list", "items": ["选择合适的太极流派：初学者推荐简化太极拳24式", "循序渐进：从简单动作开始，逐步增加难度", "持之以恒：每天练习15-30分钟", "找专业指导：最好有老师指导或参加培训班", "配合呼吸：动作与呼吸协调配合"] },
+      { "type": "heading", "text": "太极练习注意事项" },
+      { "type": "list", "items": ["练习前做好准备活动", "穿着宽松舒适的衣服", "选择平坦安静的场地", "避免饭后立即练习", "根据身体状况调整练习强度", "练习后适当休息放松"] },
+      { "type": "heading", "text": "适合人群" },
+      { "type": "list", "items": ["中老年人：增强体质，延缓衰老", "上班族：缓解压力，改善亚健康", "慢性病患者：辅助康复，改善症状", "体质虚弱者：增强体质，提高免疫力", "追求养生者：修身养性，强身健体"] },
+      { "type": "warning", "text": "温馨提示：太极虽是温和运动，但练习时也要注意安全。如有严重疾病或身体不适，应在医师指导下练习。初学者最好有专业老师指导，避免动作不当造成损伤。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Tai Chi is the crystallization of traditional Chinese martial arts and wellness culture, combining martial arts, daoyin exercises, and TCM theory. Tai Chi movements are gentle and slow, suitable for all ages, making it an excellent wellness exercise." },
+      { "type": "heading", "text": "Basic Concepts of Tai Chi" },
+      { "type": "paragraph", "text": "Tai Chi is based on 'Tai Chi' philosophy, emphasizing Yin-Yang balance and hardness-softness combination. Characteristics include continuous, circular, slow, gentle movements, focusing on mind-Qi movement - mind guides Qi, Qi moves body." },
+      { "type": "list", "items": ["Yin-Yang balance: Movements show Yin-Yang transitions", "Hardness-softness: Soft externally, hard internally", "Mind-Qi movement: Mind guides Qi-Blood circulation", "Circular continuity: Round movements like flowing water", "Relaxed natural: Body-mind relaxed, naturally extended"] },
+      { "type": "heading", "text": "Wellness Benefits of Tai Chi" },
+      { "type": "list", "items": ["Strengthen body: Enhance constitution, boost immunity", "Regulate Qi-Blood: Promote circulation, improve flow", "Balance Yin-Yang: Regulate body's Yin-Yang balance", "Calm heart-spirit: Relieve stress, improve sleep", "Delay aging: Strengthen constitution, promote longevity", "Improve balance: Enhance coordination and balance ability"] },
+      { "type": "heading", "text": "Tai Chi Entry Points" },
+      { "type": "subheading", "text": "Basic Posture" },
+      { "type": "list", "items": ["Standing posture: Feet parallel, weight centered", "Body relaxed: Relax from head to toe sequentially", "Natural breathing: Breathing coordinated with movement", "Mind focused: Attention concentrated on movement", "Eyes follow: Eyes move with the movement"] },
+      { "type": "subheading", "text": "Basic Steps" },
+      { "type": "list", "items": ["Horse stance: Feet apart, knees slightly bent", "Bow stance: One foot front, one back, weight forward", "Empty stance: One foot solid, one empty", "Crouching stance: One foot crouched, one extended", "Single-leg stance: Standing on one foot"] },
+      { "type": "heading", "text": "Entry Practice Recommendations" },
+      { "type": "list", "items": ["Choose appropriate Tai Chi style: Beginners recommended 24-form simplified Tai Chi", "Progressive approach: Start simple, gradually increase difficulty", "Consistency: Practice 15-30 minutes daily", "Professional guidance: Best with teacher or training class", "Coordinate breathing: Movement and breathing coordinated"] },
+      { "type": "heading", "text": "Tai Chi Practice Notes" },
+      { "type": "list", "items": ["Warm up before practice", "Wear loose, comfortable clothing", "Choose flat, quiet location", "Avoid practicing immediately after eating", "Adjust intensity based on physical condition", "Rest and relax after practice"] },
+      { "type": "heading", "text": "Suitable Groups" },
+      { "type": "list", "items": ["Middle-aged and elderly: Strengthen constitution, delay aging", "Office workers: Relieve stress, improve sub-health", "Chronic disease patients: Assist recovery, improve symptoms", "Weak constitution: Strengthen body, boost immunity", "Wellness seekers: Cultivate mind-nature, strengthen body"] },
+      { "type": "warning", "text": "Note: Although Tai Chi is gentle, practice safely. Those with serious conditions or discomfort should practice under physician guidance. Beginners should have professional teacher guidance to avoid improper movement causing injury." }
+    ]
+  }
+}

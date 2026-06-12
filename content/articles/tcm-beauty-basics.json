@@ -1,0 +1,83 @@
+{
+  "slug": "tcm-beauty-basics",
+  "title": {
+    "zh": "中医美容基础：内调外养的整体观念",
+    "en": "TCM Beauty Basics: Holistic Approach to Inner & Outer Wellness"
+  },
+  "description": {
+    "zh": "了解中医美容的核心理念，掌握内调外养的整体美容方法，从根本上改善容貌",
+    "en": "Understand TCM beauty principles, master holistic inner-outer wellness methods"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["中医美容", "内调外养", "整体观念", "美容基础"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b7c?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "中医美容不同于现代美容只关注外表，而是强调\"内调外养\"的整体观念。中医认为，容貌是五脏六腑功能的外在表现，只有内在气血调和、阴阳平衡，才能拥有真正的美丽。" },
+      { "type": "heading", "text": "中医美容的核心理念" },
+      { "type": "paragraph", "text": "中医美容以整体观念和辨证论治为指导，认为人体是一个有机整体，面部是脏腑气血盛衰的反映。美容不是简单的表面修饰，而是从内而外的全面调理。" },
+      { "type": "subheading", "text": "整体观念" },
+      { "type": "list", "items": ["面部反映脏腑功能状态", "皮肤问题源于内在失调", "美容需要内外兼修", "调理体质是美容根本"] },
+      { "type": "subheading", "text": "辨证论治" },
+      { "type": "list", "items": ["不同体质需要不同美容方法", "皮肤问题要找内在原因", "因人而异制定美容方案", "辨证施治才能标本兼治"] },
+      { "type": "heading", "text": "内调：调理五脏六腑" },
+      { "type": "paragraph", "text": "中医认为五脏与美容密切相关：" },
+      { "type": "subheading", "text": "心 - 主血脉，其华在面" },
+      { "type": "list", "items": ["心血充足则面色红润", "心气不足则面色苍白", "心火旺盛则面红发热", "调理方法：养心安神，多吃红枣、桂圆"] },
+      { "type": "subheading", "text": "肝 - 主疏泄，其华在爪" },
+      { "type": "list", "items": ["肝气舒畅则面色明亮", "肝郁气滞则面色晦暗", "肝血不足则面色萎黄", "调理方法：疏肝解郁，多吃玫瑰花、菊花"] },
+      { "type": "subheading", "text": "脾 - 主运化，其华在唇" },
+      { "type": "list", "items": ["脾胃健运则肌肤润泽", "脾虚湿盛则面部浮肿", "脾气不足则面色萎黄", "调理方法：健脾益气，多吃山药、茯苓"] },
+      { "type": "subheading", "text": "肺 - 主皮毛，其华在毛" },
+      { "type": "list", "items": ["肺气充足则皮肤光滑", "肺虚则皮肤干燥粗糙", "肺热则皮肤油腻", "调理方法：润肺养肤，多吃银耳、百合"] },
+      { "type": "subheading", "text": "肾 - 主藏精，其华在发" },
+      { "type": "list", "items": ["肾精充足则头发浓密光泽", "肾虚则头发干枯脱落", "肾气不足则面色晦暗", "调理方法：补肾填精，多吃黑芝麻、枸杞"] },
+      { "type": "heading", "text": "外养：日常护肤方法" },
+      { "type": "subheading", "text": "面部按摩" },
+      { "type": "paragraph", "text": "每日进行面部按摩，促进气血流通，改善面部循环。" },
+      { "type": "list", "items": ["用指腹从下巴向上提拉至太阳穴", "用食指和中指从鼻旁推至太阳穴", "用拇指按揉太阳穴、迎香穴", "用手掌轻拍面部促进血液循环"] },
+      { "type": "subheading", "text": "中药外敷" },
+      { "type": "paragraph", "text": "使用中药面膜或洗面方，温和养肤：" },
+      { "type": "list", "items": ["玉容散：古代宫廷美容洗面方", "三白粉：美白淡斑面膜", "当归面膜：活血养颜", "珍珠粉面膜：细腻肌肤"] },
+      { "type": "heading", "text": "中医美容的优势" },
+      { "type": "list", "items": ["标本兼治：从根源解决皮肤问题", "安全温和：不依赖化学成分", "持久有效：改善体质而非表面", "个性化：根据体质定制方案", "整体调理：美容同时改善健康"] },
+      { "type": "warning", "text": "温馨提示：中医美容需要循序渐进，不可急于求成。建议在专业中医师指导下进行体质辨识和美容调理，以达到最佳效果。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "TCM beauty differs from modern approaches that focus only on appearance. It emphasizes \"inner regulation and outer care\" as a holistic concept. TCM believes that appearance reflects the function of internal organs - true beauty comes from harmonious Qi-Blood and balanced Yin-Yang within." },
+      { "type": "heading", "text": "Core Principles of TCM Beauty" },
+      { "type": "paragraph", "text": "TCM beauty is guided by holistic concepts and pattern differentiation. The human body is an organic whole, and the face reflects the state of internal organs. Beauty is not simple surface decoration but comprehensive regulation from within." },
+      { "type": "subheading", "text": "Holistic Concept" },
+      { "type": "list", "items": ["Face reflects organ function status", "Skin problems originate from internal imbalance", "Beauty requires both inner and outer care", "Regulating constitution is the foundation of beauty"] },
+      { "type": "subheading", "text": "Pattern Differentiation" },
+      { "type": "list", "items": ["Different constitutions need different beauty methods", "Find internal causes of skin problems", "Personalized beauty plans", "Pattern-based treatment addresses root and symptoms"] },
+      { "type": "heading", "text": "Inner Regulation: Balancing Five Organs" },
+      { "type": "paragraph", "text": "TCM believes five organs are closely related to beauty:" },
+      { "type": "subheading", "text": "Heart - Governs Blood, Manifestation in Face" },
+      { "type": "list", "items": ["Sufficient heart blood gives rosy complexion", "Heart Qi deficiency causes pale face", "Excess heart fire causes redness", "Regulation: Calm heart, eat red dates, longan"] },
+      { "type": "subheading", "text": "Liver - Governs Free Flow, Manifestation in Nails" },
+      { "type": "list", "items": ["Smooth liver Qi gives bright complexion", "Liver stagnation causes dull face", "Liver blood deficiency causes sallow complexion", "Regulation: Soothe liver, eat rose, chrysanthemum"] },
+      { "type": "subheading", "text": "Spleen - Governs Transformation, Manifestation in Lips" },
+      { "type": "list", "items": ["Healthy spleen gives moist skin", "Spleen deficiency with dampness causes facial puffiness", "Spleen Qi deficiency causes sallow complexion", "Regulation: Strengthen spleen, eat yam, poria"] },
+      { "type": "subheading", "text": "Lung - Governs Skin, Manifestation in Hair" },
+      { "type": "list", "items": ["Sufficient lung Qi gives smooth skin", "Lung deficiency causes dry, rough skin", "Lung heat causes oily skin", "Regulation: Moisturize lung, eat tremella, lily bulb"] },
+      { "type": "subheading", "text": "Kidney - Stores Essence, Manifestation in Hair" },
+      { "type": "list", "items": ["Sufficient kidney essence gives thick, glossy hair", "Kidney deficiency causes dry, falling hair", "Kidney Qi deficiency causes dull complexion", "Regulation: Tonify kidney, eat black sesame, goji"] },
+      { "type": "heading", "text": "Outer Care: Daily Skincare Methods" },
+      { "type": "subheading", "text": "Facial Massage" },
+      { "type": "paragraph", "text": "Daily facial massage promotes Qi-Blood circulation and improves facial blood flow." },
+      { "type": "list", "items": ["Lift from chin to temples with fingertips", "Push from nose sides to temples", "Massage temples and Yingxiang points", "Lightly pat face to promote circulation"] },
+      { "type": "subheading", "text": "Herbal External Application" },
+      { "type": "paragraph", "text": "Use herbal masks or facial washes for gentle skincare:" },
+      { "type": "list", "items": ["Yu Rong San: Ancient palace beauty wash", "San Bai Powder: Whitening and spot-fading mask", "Angelica mask: Activates blood, nourishes face", "Pearl powder mask: Refines skin texture"] },
+      { "type": "heading", "text": "Advantages of TCM Beauty" },
+      { "type": "list", "items": ["Root and symptom treatment: Solves skin problems from source", "Safe and gentle: No chemical dependency", "Long-lasting: Improves constitution not just surface", "Personalized: Customized by constitution", "Holistic: Beauty while improving health"] },
+      { "type": "warning", "text": "Note: TCM beauty requires gradual progress. Consult a qualified TCM practitioner for constitution identification and beauty regulation for best results." }
+    ]
+  }
+}

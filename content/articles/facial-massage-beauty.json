@@ -1,0 +1,79 @@
+{
+  "slug": "facial-massage-beauty",
+  "title": {
+    "zh": "面部按摩美容：中医手法让容颜焕发",
+    "en": "Facial Massage Beauty: TCM Techniques for Radiant Skin"
+  },
+  "description": {
+    "zh": "掌握中医面部按摩的方法，促进面部气血流通，让容颜焕发光彩",
+    "en": "Master TCM facial massage techniques, promote facial Qi-Blood circulation"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["面部按摩", "美容手法", "中医美容", "面部护理"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "面部按摩是中医美容的重要方法，通过按摩面部穴位和经络，促进气血流通，改善面部循环，让容颜焕发光彩。坚持面部按摩，可以延缓衰老、淡化皱纹、改善面色。" },
+      { "type": "heading", "text": "面部按摩的好处" },
+      { "type": "list", "items": ["促进气血流通：改善面部血液循环", "淡化皱纹：延缓皮肤衰老", "改善面色：让面色红润光泽", "消除浮肿：促进水液代谢", "舒缓神经：放松面部肌肉", "提升轮廓：紧致面部肌肤"] },
+      { "type": "heading", "text": "面部重要穴位" },
+      { "type": "subheading", "text": "美白养颜穴位" },
+      { "type": "list", "items": ["四白穴：眼眶下方，美白要穴", "迎香穴：鼻翼旁，改善面色", "颧髎穴：颧骨下方，淡化色斑", "地仓穴：嘴角旁，改善唇色"] },
+      { "type": "subheading", "text": "抗衰老穴位" },
+      { "type": "list", "items": ["太阳穴：眼外侧，缓解眼疲劳", "攒竹穴：眉头内侧，延缓眼周衰老", "鱼腰穴：眉毛中点，改善眉部皱纹", "丝竹空穴：眼外侧，缓解眼疲劳"] },
+      { "type": "subheading", "text": "舒缓放松穴位" },
+      { "type": "list", "items": ["印堂穴：两眉之间，安神定志", "百会穴：头顶正中，提升阳气", "风池穴：后颈部，舒缓头颈", "合谷穴：手背虎口，面部总调"] },
+      { "type": "heading", "text": "面部按摩手法" },
+      { "type": "subheading", "text": "基础按摩手法" },
+      { "type": "list", "items": ["推法：用指腹沿经络方向推动", "揉法：用指腹轻揉穴位", "按法：用指腹按压穴位", "抹法：用指腹抹擦面部", "拍法：用手掌轻拍面部"] },
+      { "type": "subheading", "text": "面部按摩步骤" },
+      { "type": "list", "items": ["第一步：清洁面部，涂抹按摩油", "第二步：从下巴向上推至太阳穴", "第三步：从鼻旁推至太阳穴", "第四步：按揉四白、迎香穴", "第五步：按揉太阳、攒竹穴", "第六步：轻拍全脸促进循环", "第七步：用热毛巾敷脸"] },
+      { "type": "heading", "text": "不同问题的按摩方法" },
+      { "type": "subheading", "text": "淡化皱纹按摩" },
+      { "type": "list", "items": ["眼周皱纹：按揉攒竹、丝竹空", "额头皱纹：从眉心向上推", "嘴角皱纹：按揉地仓穴", "法令纹：从鼻翼向下推"] },
+      { "type": "subheading", "text": "美白淡斑按摩" },
+      { "type": "list", "items": ["按揉四白穴：美白要穴", "按揉颧髎穴：淡化色斑", "按揉迎香穴：改善面色", "从内向外推：促进气血"] },
+      { "type": "subheading", "text": "消除浮肿按摩" },
+      { "type": "list", "items": ["从内向外推：促进水液代谢", "按揉眼周：消除眼袋", "轻拍面部：促进循环", "从下巴向上推：提升轮廓"] },
+      { "type": "heading", "text": "面部按摩注意事项" },
+      { "type": "list", "items": ["力度适中：不宜过重或过轻", "方向正确：顺应经络走向", "时间适当：每次10-15分钟", "频率适度：每日1-2次", "保持清洁：按摩前清洁面部", "配合护肤：使用按摩油或面霜"] },
+      { "type": "heading", "text": "最佳按摩时间" },
+      { "type": "list", "items": ["早晨：促进面部气血，焕发精神", "睡前：放松面部，促进睡眠", "洗脸后：配合护肤产品", "疲劳时：舒缓面部肌肉"] },
+      { "type": "warning", "text": "温馨提示：面部按摩需要长期坚持才能见效。皮肤有炎症或伤口时不宜按摩。建议配合内调，内外兼修效果更佳。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Facial massage is an important TCM beauty method. By massaging facial acupoints and meridians, it promotes Qi-Blood circulation, improves facial blood flow, and makes skin radiant. Consistent facial massage can delay aging, fade wrinkles, and improve complexion." },
+      { "type": "heading", "text": "Benefits of Facial Massage" },
+      { "type": "list", "items": ["Promotes Qi-Blood circulation: Improves facial blood flow", "Fades wrinkles: Delays skin aging", "Improves complexion: Makes face rosy and glowing", "Eliminates puffiness: Promotes fluid metabolism", "Relaxes nerves: Relaxes facial muscles", "Defines contour: Tightens facial skin"] },
+      { "type": "heading", "text": "Important Facial Acupoints" },
+      { "type": "subheading", "text": "Whitening & Beauty Acupoints" },
+      { "type": "list", "items": ["Sibai: Below eye socket, key whitening point", "Yingxiang: Beside nose wing, improves complexion", "Quanliao: Below cheekbone, fades spots", "Dicang: Beside mouth corner, improves lip color"] },
+      { "type": "subheading", "text": "Anti-Aging Acupoints" },
+      { "type": "list", "items": ["Taiyang: Outer eye, relieves eye fatigue", "Cuanzhu: Inner eyebrow, delays eye area aging", "Yuyao: Middle of eyebrow, improves brow wrinkles", "Sizhukong: Outer eye, relieves fatigue"] },
+      { "type": "subheading", "text": "Relaxing Acupoints" },
+      { "type": "list", "items": ["Yintang: Between eyebrows, calms spirit", "Baihui: Top of head, raises Yang Qi", "Fengchi: Back of neck, relaxes head-neck", "Hegu: Hand web, overall facial regulation"] },
+      { "type": "heading", "text": "Facial Massage Techniques" },
+      { "type": "subheading", "text": "Basic Massage Techniques" },
+      { "type": "list", "items": ["Pushing: Push along meridian direction with fingertips", "Rubbing: Gently rub acupoints with fingertips", "Pressing: Press acupoints with fingertips", "Wiping: Wipe across face with fingertips", "Tapping: Lightly tap face with palm"] },
+      { "type": "subheading", "text": "Facial Massage Steps" },
+      { "type": "list", "items": ["Step 1: Clean face, apply massage oil", "Step 2: Push from chin up to temples", "Step 3: Push from nose sides to temples", "Step 4: Rub Sibai and Yingxiang points", "Step 5: Rub Taiyang and Cuanzhu points", "Step 6: Lightly tap entire face", "Step 7: Apply warm towel compress"] },
+      { "type": "heading", "text": "Massage for Different Problems" },
+      { "type": "subheading", "text": "Wrinkle-Fading Massage" },
+      { "type": "list", "items": ["Eye wrinkles: Rub Cuanzhu, Sizhukong", "Forehead wrinkles: Push upward from brow center", "Mouth corner wrinkles: Rub Dicang point", "Laugh lines: Push downward from nose wing"] },
+      { "type": "subheading", "text": "Whitening & Spot-Fading Massage" },
+      { "type": "list", "items": ["Rub Sibai: Key whitening point", "Rub Quanliao: Fades spots", "Rub Yingxiang: Improves complexion", "Push from inside out: Promotes Qi-Blood"] },
+      { "type": "subheading", "text": "Puffiness-Eliminating Massage" },
+      { "type": "list", "items": ["Push from inside out: Promotes fluid metabolism", "Rub eye area: Eliminates eye bags", "Lightly tap face: Promotes circulation", "Push from chin up: Lifts contour"] },
+      { "type": "heading", "text": "Facial Massage Precautions" },
+      { "type": "list", "items": ["Moderate pressure: Not too heavy or light", "Correct direction: Follow meridian direction", "Appropriate time: 10-15 minutes each session", "Moderate frequency: 1-2 times daily", "Keep clean: Clean face before massage", "Combine with skincare: Use massage oil or cream"] },
+      { "type": "heading", "text": "Best Massage Times" },
+      { "type": "list", "items": ["Morning: Promotes facial Qi-Blood, refreshes spirit", "Before sleep: Relaxes face, promotes sleep", "After washing: Combine with skincare products", "When tired: Relaxes facial muscles"] },
+      { "type": "warning", "text": "Note: Facial massage requires long-term commitment for results. Avoid massage when skin has inflammation or wounds. Recommend combining with internal regulation for best results." }
+    ]
+  }
+}

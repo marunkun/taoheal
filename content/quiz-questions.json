@@ -1,0 +1,168 @@
+{
+  "zh": [
+    {
+      "question": "您平时容易感到疲劳吗？",
+      "options": [
+        { "value": "a", "label": "经常感到疲劳，稍微活动就累" },
+        { "value": "b", "label": "偶尔感到疲劳" },
+        { "value": "c", "label": "很少感到疲劳" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您的面色看起来？",
+      "options": [
+        { "value": "a", "label": "苍白或萎黄" },
+        { "value": "b", "label": "偏红" },
+        { "value": "c", "label": "正常红润" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您平时喜欢喝冷饮还是热饮？",
+      "options": [
+        { "value": "a", "label": "喜欢冷饮" },
+        { "value": "b", "label": "冷热都可以" },
+        { "value": "c", "label": "喜欢热饮" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您的大便通常是？",
+      "options": [
+        { "value": "a", "label": "稀溏不成形" },
+        { "value": "b", "label": "有时成形有时不成形" },
+        { "value": "c", "label": "成形且规律" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您容易出汗吗？",
+      "options": [
+        { "value": "a", "label": "容易出汗，尤其是自汗" },
+        { "value": "b", "label": "出汗正常" },
+        { "value": "c", "label": "很少出汗" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您的性格偏向？",
+      "options": [
+        { "value": "a", "label": "内向、安静" },
+        { "value": "b", "label": "适中" },
+        { "value": "c", "label": "外向、活泼" }
+      ],
+      "scores": { "a": 1, "b": 0, "c": -1 }
+    },
+    {
+      "question": "您容易感冒吗？",
+      "options": [
+        { "value": "a", "label": "经常感冒" },
+        { "value": "b", "label": "偶尔感冒" },
+        { "value": "c", "label": "很少感冒" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您的睡眠质量如何？",
+      "options": [
+        { "value": "a", "label": "不易入睡或易醒" },
+        { "value": "b", "label": "睡眠一般" },
+        { "value": "c", "label": "睡眠很好" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "您平时的食欲如何？",
+      "options": [
+        { "value": "a", "label": "食欲不振" },
+        { "value": "b", "label": "食欲一般" },
+        { "value": "c", "label": "食欲很好" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    }
+  ],
+  "en": [
+    {
+      "question": "Do you often feel tired?",
+      "options": [
+        { "value": "a", "label": "Often tired, easily fatigued" },
+        { "value": "b", "label": "Occasionally tired" },
+        { "value": "c", "label": "Rarely tired" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "What does your complexion look like?",
+      "options": [
+        { "value": "a", "label": "Pale or sallow" },
+        { "value": "b", "label": "Slightly red" },
+        { "value": "c", "label": "Normal and rosy" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "Do you prefer cold or hot drinks?",
+      "options": [
+        { "value": "a", "label": "Prefer cold drinks" },
+        { "value": "b", "label": "Either is fine" },
+        { "value": "c", "label": "Prefer hot drinks" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "What is your stool like?",
+      "options": [
+        { "value": "a", "label": "Loose and unformed" },
+        { "value": "b", "label": "Sometimes formed, sometimes not" },
+        { "value": "c", "label": "Well-formed and regular" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "Do you sweat easily?",
+      "options": [
+        { "value": "a", "label": "Easily sweat, especially spontaneous sweating" },
+        { "value": "b", "label": "Normal sweating" },
+        { "value": "c", "label": "Rarely sweat" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "What is your personality like?",
+      "options": [
+        { "value": "a", "label": "Introverted, quiet" },
+        { "value": "b", "label": "Neutral" },
+        { "value": "c", "label": "Extroverted, lively" }
+      ],
+      "scores": { "a": 1, "b": 0, "c": -1 }
+    },
+    {
+      "question": "Do you catch colds easily?",
+      "options": [
+        { "value": "a", "label": "Often catch colds" },
+        { "value": "b", "label": "Occasionally catch colds" },
+        { "value": "c", "label": "Rarely catch colds" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "How is your sleep quality?",
+      "options": [
+        { "value": "a", "label": "Hard to fall asleep or easily wake up" },
+        { "value": "b", "label": "Average sleep" },
+        { "value": "c", "label": "Good sleep" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    },
+    {
+      "question": "What is your appetite like?",
+      "options": [
+        { "value": "a", "label": "Poor appetite" },
+        { "value": "b", "label": "Average appetite" },
+        { "value": "c", "label": "Good appetite" }
+      ],
+      "scores": { "a": 2, "b": 1, "c": 0 }
+    }
+  ]
+}

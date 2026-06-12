@@ -1,0 +1,75 @@
+{
+  "slug": "qi-blood-tonification",
+  "title": {
+    "zh": "气血不足怎么调理？中医补气补血全攻略",
+    "en": "How to Tonify Qi and Blood? Complete TCM Guide"
+  },
+  "description": {
+    "zh": "详细介绍气血不足的表现、原因和调理方法，包括饮食、穴位和生活习惯",
+    "en": "Detailed guide to Qi and Blood deficiency - manifestations, causes, and conditioning methods"
+  },
+  "category": {
+    "zh": "气血调理",
+    "en": "Qi & Blood Regulation"
+  },
+  "tags": ["气血", "补气", "补血", "调理"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "气血是人体生命活动的基础，气为血之帅，血为气之母。气血不足会导致多种健康问题，如疲劳乏力、面色萎黄、头晕心悸等。了解如何调理气血，是中医养生的重要内容。" },
+      { "type": "heading", "text": "气血不足的表现" },
+      { "type": "subheading", "text": "气虚的表现" },
+      { "type": "list", "items": ["面色苍白或萎黄", "说话声音低弱", "容易疲劳，稍微活动就累", "气短懒言，不想说话", "自汗，容易出汗", "抵抗力差，容易感冒", "舌淡苔白"] },
+      { "type": "subheading", "text": "血虚的表现" },
+      { "type": "list", "items": ["面色萎黄或苍白", "头晕眼花", "心悸失眠", "手足麻木", "女性月经量少或延期", "头发干枯脱落", "舌淡苔白，脉细"] },
+      { "type": "heading", "text": "气血不足的原因" },
+      { "type": "list", "items": ["先天不足：体质虚弱，先天禀赋不足", "后天失养：饮食不规律，营养摄入不足", "过度劳累：长期过度工作或运动", "情志失调：长期压力大，情绪不稳定", "久病耗损：慢性疾病消耗气血", "失血过多：外伤出血、月经量多等"] },
+      { "type": "heading", "text": "补气食物推荐" },
+      { "type": "list", "items": ["黄芪：补气升阳，固表止汗", "党参：补中益气，健脾养胃", "山药：补脾益肺，固肾益精", "红枣：补气养血，安神健脾", "鸡肉：温中补气，益精填髓", "牛肉：补脾胃，益气血"] },
+      { "type": "heading", "text": "补血食物推荐" },
+      { "type": "list", "items": ["当归：补血活血，调经止痛", "阿胶：补血止血，滋阴润燥", "桂圆：补心脾，益气血", "黑芝麻：补肝肾，益精血", "菠菜：养血止血，滋阴润燥", "猪肝：补血养肝，明目"] },
+      { "type": "heading", "text": "补气血穴位" },
+      { "type": "paragraph", "text": "穴位1：足三里（补中益气）" },
+      { "type": "paragraph", "text": "位置：小腿外侧，膝盖下3寸。" },
+      { "type": "paragraph", "text": "穴位2：气海穴（补气固本）" },
+      { "type": "paragraph", "text": "位置：腹部，脐下1.5寸。" },
+      { "type": "paragraph", "text": "穴位3：血海穴（补血养血）" },
+      { "type": "paragraph", "text": "位置：大腿内侧，膝盖内侧端上2寸。" },
+      { "type": "paragraph", "text": "穴位4：三阴交（调补气血）" },
+      { "type": "paragraph", "text": "位置：小腿内侧，内踝尖上3寸。" },
+      { "type": "recipe", "title": "当归黄芪炖鸡", "ingredients": ["当归 10克", "黄芪 30克", "鸡肉 200克", "红枣 5颗", "生姜 3片", "清水 500毫升"], "instructions": "1. 鸡肉切块焯水\n2. 当归、黄芪洗净\n3. 所有材料放入炖盅\n4. 炖煮1.5小时\n5. 温服，每周2-3次\n6. 补气养血，适合气血两虚者" },
+      { "type": "heading", "text": "生活调理建议" },
+      { "type": "list", "items": ["规律作息：早睡早起，保证充足睡眠", "适度运动：散步、太极、八段锦等温和运动", "情绪调节：保持心情平和，避免过度思虑", "饮食调理：均衡饮食，多吃补气血食物", "避免过度：不过度劳累，不过度减肥"] },
+      { "type": "warning", "text": "温馨提示：气血调理需要循序渐进，不可急于求成。严重气血不足者应在医师指导下调理，配合药物治疗效果更佳。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Qi and Blood are the foundation of life activities. Qi commands Blood, Blood nourishes Qi. Qi-Blood deficiency causes many health issues like fatigue, sallow complexion, dizziness, palpitations. Understanding how to regulate Qi and Blood is essential for TCM wellness." },
+      { "type": "heading", "text": "Signs of Qi-Blood Deficiency" },
+      { "type": "subheading", "text": "Qi Deficiency Signs" },
+      { "type": "list", "items": ["Pale or sallow complexion", "Weak voice", "Easy fatigue, tired with slight activity", "Short breath, reluctance to speak", "Spontaneous sweating", "Weak immunity, easy colds", "Pale tongue with white coating"] },
+      { "type": "subheading", "text": "Blood Deficiency Signs" },
+      { "type": "list", "items": ["Sallow or pale complexion", "Dizziness, blurred vision", "Palpitations, insomnia", "Numbness in hands and feet", "Scanty or delayed menstruation", "Dry, falling hair", "Pale tongue, thin pulse"] },
+      { "type": "heading", "text": "Causes of Qi-Blood Deficiency" },
+      { "type": "list", "items": ["Congenital deficiency: Weak constitution from birth", "Postnatal neglect: Irregular diet, poor nutrition", "Overexertion: Long-term overwork or exercise", "Emotional imbalance: Chronic stress, unstable emotions", "Chronic illness: Diseases consuming Qi and Blood", "Excessive blood loss: Trauma, heavy menstruation"] },
+      { "type": "heading", "text": "Qi-Tonifying Foods" },
+      { "type": "list", "items": ["Astragalus: Tonify Qi, raise Yang, secure exterior", "Codonopsis: Tonify middle Qi, strengthen spleen", "Yam: Tonify spleen and lung, secure kidney essence", "Red dates: Tonify Qi and Blood, calm spirit", "Chicken: Warm middle, tonify Qi", "Beef: Tonify spleen-stomach, benefit Qi-Blood"] },
+      { "type": "heading", "text": "Blood-Tonifying Foods" },
+      { "type": "list", "items": ["Angelica: Tonify Blood, activate circulation", "Donkey-hide gelatin: Tonify Blood, nourish Yin", "Longan: Tonify heart-spleen, benefit Qi-Blood", "Black sesame: Tonify liver-kidney, benefit essence-blood", "Spinach: Nourish Blood, moisten dryness", "Pork liver: Tonify Blood, nourish liver"] },
+      { "type": "heading", "text": "Qi-Blood Tonifying Acupoints" },
+      { "type": "paragraph", "text": "Point 1: Zusanli (ST36) - Tonify middle Qi" },
+      { "type": "paragraph", "text": "Location: Outer lower leg, 3 cun below knee." },
+      { "type": "paragraph", "text": "Point 2: Qihai (CV6) - Tonify Qi, secure foundation" },
+      { "type": "paragraph", "text": "Location: Abdomen, 1.5 cun below navel." },
+      { "type": "paragraph", "text": "Point 3: Xuehai (SP10) - Tonify and nourish Blood" },
+      { "type": "paragraph", "text": "Location: Inner thigh, 2 cun above inner knee end." },
+      { "type": "paragraph", "text": "Point 4: Sanyinjiao (SP6) - Regulate Qi and Blood" },
+      { "type": "paragraph", "text": "Location: Inner lower leg, 3 cun above inner ankle." },
+      { "type": "recipe", "title": "Angelica Astragalus Chicken Stew", "ingredients": ["Angelica 10g", "Astragalus 30g", "Chicken 200g", "Red dates 5 pieces", "Ginger 3 slices", "Water 500ml"], "instructions": "1. Cut chicken, blanch\n2. Wash angelica and astragalus\n3. Place all in stewing pot\n4. Stew for 1.5 hours\n5. Serve warm, 2-3 times weekly\n6. Tonifies Qi and Blood - for Qi-Blood deficiency" },
+      { "type": "heading", "text": "Lifestyle Recommendations" },
+      { "type": "list", "items": ["Regular routine: Early to bed, early to rise, sufficient sleep", "Moderate exercise: Walking, Tai Chi, Ba Duan Jin", "Emotional balance: Stay calm, avoid excessive worry", "Dietary care: Balanced diet, eat Qi-Blood tonifying foods", "Avoid excess: Don't overwork, don't extreme dieting"] },
+      { "type": "warning", "text": "Note: Qi-Blood regulation needs gradual progress. Those with severe deficiency should consult a physician for combined treatment with medication for best results." }
+    ]
+  }
+}

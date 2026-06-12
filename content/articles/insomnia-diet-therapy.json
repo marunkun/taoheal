@@ -1,0 +1,68 @@
+{
+  "slug": "insomnia-diet-therapy",
+  "title": {
+    "zh": "失眠食疗方：5种改善睡眠的药膳",
+    "en": "Insomnia Dietary Therapy: 5 Medicinal Recipes for Better Sleep"
+  },
+  "description": {
+    "zh": "介绍5种有效的失眠食疗方，通过日常饮食改善睡眠质量，远离失眠困扰",
+    "en": "Five effective dietary therapy recipes for insomnia - improve sleep quality through daily diet"
+  },
+  "category": {
+    "zh": "食疗药膳",
+    "en": "Dietary Therapy"
+  },
+  "tags": ["失眠", "食疗", "睡眠", "药膳"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "失眠是现代人常见的困扰，中医认为失眠多与心神不宁、肝火旺盛、脾胃不和等因素有关。通过食疗调理，可以从根本上改善睡眠质量。以下是5种有效的失眠食疗方：" },
+      { "type": "heading", "text": "失眠的中医认识" },
+      { "type": "paragraph", "text": "中医将失眠称为"不寐"，主要原因包括：" },
+      { "type": "list", "items": ["心神不宁：心血不足，心神失养", "肝火旺盛：肝郁化火，扰动心神", "脾胃不和：胃气不和，卧不安", "阴虚火旺：阴液不足，虚火上炎", "痰热扰心：痰热内扰，心神不安"] },
+      { "type": "heading", "text": "食疗方1：百合莲子粥" },
+      { "type": "paragraph", "text": "功效：养心安神，适合心血不足型失眠。" },
+      { "type": "recipe", "title": "百合莲子粥", "ingredients": ["百合 20克", "莲子 30克", "大米 100克", "冰糖适量"], "instructions": "1. 百合、莲子提前浸泡\n2. 大米洗净加水煮粥\n3. 加入百合、莲子继续煮\n4. 煮至粘稠加冰糖调味\n5. 每晚睡前1小时食用\n6. 连续食用7-10天见效" },
+      { "type": "heading", "text": "食疗方2：酸枣仁汤" },
+      { "type": "paragraph", "text": "功效：养肝宁心，适合肝血不足型失眠。" },
+      { "type": "recipe", "title": "酸枣仁汤", "ingredients": ["酸枣仁 15克", "茯苓 10克", "知母 6克", "甘草 3克", "清水 400毫升"], "instructions": "1. 酸枣仁炒熟捣碎\n2. 所有材料加水煎煮\n3. 煮20分钟后取汁\n4. 睡前温服\n5. 每日1次，连用5-7天\n6. 注意：酸枣仁需炒制后使用" },
+      { "type": "heading", "text": "食疗方3：桂圆红枣茶" },
+      { "type": "paragraph", "text": "功效：补血安神，适合血虚型失眠。" },
+      { "type": "recipe", "title": "桂圆红枣茶", "ingredients": ["桂圆肉 10克", "红枣 5颗", "枸杞 10克", "清水 300毫升"], "instructions": "1. 红枣去核切片\n2. 所有材料放入杯中\n3. 加沸水冲泡\n4. 盖上盖子焖10分钟\n5. 代茶饮用，每日1-2次\n6. 可反复冲泡至味淡" },
+      { "type": "heading", "text": "食疗方4：小米山药粥" },
+      { "type": "paragraph", "text": "功效：健脾养胃，适合脾胃不和型失眠。" },
+      { "type": "recipe", "title": "小米山药粥", "ingredients": ["小米 100克", "山药 50克", "红枣 3颗", "清水 500毫升"], "instructions": "1. 山药去皮切块\n2. 小米洗净加水煮粥\n3. 加入山药、红枣\n4. 煮至粘稠\n5. 每晚食用\n6. 小米有安神作用，适合晚餐" },
+      { "type": "heading", "text": "食疗方5：银耳百合汤" },
+      { "type": "paragraph", "text": "功效：滋阴润燥，适合阴虚火旺型失眠。" },
+      { "type": "recipe", "title": "银耳百合汤", "ingredients": ["银耳 20克", "百合 15克", "枸杞 10克", "冰糖适量", "清水 600毫升"], "instructions": "1. 银耳提前泡发撕成小朵\n2. 百合洗净\n3. 加水炖煮1小时\n4. 加入枸杞、冰糖\n5. 睡前1小时温服\n6. 每周3-4次" },
+      { "type": "heading", "text": "失眠食疗注意事项" },
+      { "type": "list", "items": ["睡前不宜过饱，晚餐应在睡前2-3小时完成", "避免睡前饮用咖啡、浓茶等刺激性饮品", "食疗需要坚持，效果需要时间积累", "配合良好的睡眠习惯效果更佳", "严重失眠应及时就医"] },
+      { "type": "warning", "text": "温馨提示：食疗方仅供参考，不能替代医疗治疗。长期失眠或严重失眠者应咨询专业医师，找出失眠的根本原因进行针对性治疗。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Insomnia is a common modern problem. TCM believes insomnia relates to restless spirit, excessive liver fire, or disharmony between spleen and stomach. Dietary therapy can fundamentally improve sleep quality. Here are 5 effective insomnia recipes:" },
+      { "type": "heading", "text": "TCM Understanding of Insomnia" },
+      { "type": "paragraph", "text": "TCM calls insomnia 'bu mei', main causes include:" },
+      { "type": "list", "items": ["Restless spirit: Insufficient heart blood, spirit lacks nourishment", "Excessive liver fire: Liver stagnation transforms to fire, disturbs spirit", "Spleen-stomach disharmony: Stomach Qi disharmony causes restless sleep", "Yin deficiency with fire: Insufficient Yin fluids, deficient fire rises", "Phlegm-heat disturbs heart: Internal phlegm-heat disturbs spirit"] },
+      { "type": "heading", "text": "Recipe 1: Lily Bulb Lotus Seed Porridge" },
+      { "type": "paragraph", "text": "Benefits: Nourish heart, calm spirit - for heart blood deficiency insomnia." },
+      { "type": "recipe", "title": "Lily Lotus Porridge", "ingredients": ["Lily bulb 20g", "Lotus seed 30g", "Rice 100g", "Rock sugar to taste"], "instructions": "1. Soak lily bulb and lotus seed\n2. Wash rice, add water to make porridge\n3. Add lily and lotus, continue cooking\n4. Add rock sugar when thick\n5. Eat 1 hour before bed\n6. Continue 7-10 days for effect" },
+      { "type": "heading", "text": "Recipe 2: Sour Jujube Kernel Soup" },
+      { "type": "paragraph", "text": "Benefits: Nourish liver, calm heart - for liver blood deficiency insomnia." },
+      { "type": "recipe", "title": "Suanzaoren Soup", "ingredients": ["Sour jujube kernel 15g", "Poria 10g", "Anemarrhena 6g", "Licorice 3g", "Water 400ml"], "instructions": "1. Fry and crush sour jujube kernel\n2. Add all ingredients, decoct\n3. Boil 20 minutes, extract liquid\n4. Drink warm before bed\n5. Once daily, use 5-7 days\n6. Note: Sour jujube kernel must be fried before use" },
+      { "type": "heading", "text": "Recipe 3: Longan Red Date Tea" },
+      { "type": "paragraph", "text": "Benefits: Tonify blood, calm spirit - for blood deficiency insomnia." },
+      { "type": "recipe", "title": "Longan Red Date Tea", "ingredients": ["Longan flesh 10g", "Red dates 5 pieces", "Goji berries 10g", "Water 300ml"], "instructions": "1. Remove date seeds, slice\n2. Place all in cup\n3. Add boiling water\n4. Cover and steep 10 minutes\n5. Drink as tea, 1-2 times daily\n6. Can re-steep until flavor fades" },
+      { "type": "heading", "text": "Recipe 4: Millet Yam Porridge" },
+      { "type": "paragraph", "text": "Benefits: Strengthen spleen, nourish stomach - for spleen-stomach disharmony insomnia." },
+      { "type": "recipe", "title": "Millet Yam Porridge", "ingredients": ["Millet 100g", "Yam 50g", "Red dates 3 pieces", "Water 500ml"], "instructions": "1. Peel yam, cut into chunks\n2. Wash millet, add water for porridge\n3. Add yam and dates\n4. Cook until thick\n5. Eat every evening\n6. Millet calms spirit, ideal for dinner" },
+      { "type": "heading", "text": "Recipe 5: Tremella Lily Soup" },
+      { "type": "paragraph", "text": "Benefits: Nourish Yin, moisten dryness - for Yin deficiency fire insomnia." },
+      { "type": "recipe", "title": "Tremella Lily Soup", "ingredients": ["Tremella 20g", "Lily bulb 15g", "Goji berries 10g", "Rock sugar to taste", "Water 600ml"], "instructions": "1. Soak tremella, tear into pieces\n2. Wash lily bulb\n3. Simmer for 1 hour\n4. Add goji and sugar\n5. Drink warm 1 hour before bed\n6. 3-4 times weekly" },
+      { "type": "heading", "text": "Insomnia Dietary Therapy Notes" },
+      { "type": "list", "items": ["Don't eat too much before bed, dinner 2-3 hours before sleep", "Avoid coffee, strong tea before bed", "Dietary therapy needs consistency, effects take time", "Combine with good sleep habits for better results", "Seek medical care for severe insomnia"] },
+      { "type": "warning", "text": "Note: Recipes are for reference only, not replacing medical treatment. Those with long-term or severe insomnia should consult a physician to identify root causes for targeted treatment." }
+    ]
+  }
+}

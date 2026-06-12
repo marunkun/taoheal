@@ -1,0 +1,80 @@
+{
+  "slug": "essential-acupoints",
+  "title": {
+    "zh": "三大保健穴位：合谷、足三里、三阴交",
+    "en": "Three Essential Health Acupoints: Hegu, Zusanli, Sanyinjiao"
+  },
+  "description": {
+    "zh": "详解合谷、足三里、三阴交三大保健穴位的定位、功效和按摩方法，日常保健必备",
+    "en": "Detailed guide to three essential health acupoints - location, benefits, and massage techniques for daily wellness"
+  },
+  "category": {
+    "zh": "穴位保健",
+    "en": "Acupoint Health"
+  },
+  "tags": ["穴位", "合谷", "足三里", "三阴交", "保健"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "在中医养生中，有三个穴位被称为"保健三穴"，它们分别是合谷穴、足三里穴和三阴交穴。这三个穴位各有独特功效，是日常保健的必备知识。" },
+      { "type": "heading", "text": "合谷穴 (Hegu, LI4)" },
+      { "type": "subheading", "text": "定位方法" },
+      { "type": "paragraph", "text": "合谷穴位于手背，第一、二掌骨之间，约在第二掌骨中点处。简便取穴方法：将拇指和食指并拢，肌肉隆起最高处即是。" },
+      { "type": "subheading", "text": "主要功效" },
+      { "type": "list", "items": ["止痛：头痛、牙痛、咽喉痛", "疏风解表：感冒、发热", "调理气血：面部疾病、口眼歪斜", "安神镇静：失眠、焦虑"] },
+      { "type": "subheading", "text": "按摩方法" },
+      { "type": "paragraph", "text": "用拇指指腹按压，力度以有酸胀感为宜，每次3-5分钟，每日2-3次。" },
+      { "type": "paragraph", "text": "⚠️ 注意：孕妇慎用合谷穴，以免影响胎儿。" },
+      { "type": "heading", "text": "足三里穴 (Zusanli, ST36)" },
+      { "type": "subheading", "text": "定位方法" },
+      { "type": "paragraph", "text": "足三里位于小腿外侧，犊鼻穴（膝盖外侧凹陷）下3寸，胫骨前缘外一横指处。简便取穴：屈膝，手掌按住膝盖，中指尖所指处外一横指即是。" },
+      { "type": "subheading", "text": "主要功效" },
+      { "type": "list", "items": ["健脾和胃：消化不良、腹胀、腹泻", "补中益气：体质虚弱、疲劳乏力", "强身健体：增强免疫力，延年益寿", "调理气血：贫血、营养不良"] },
+      { "type": "subheading", "text": "按摩方法" },
+      { "type": "paragraph", "text": "用拇指或中指按压，力度适中，每次5-10分钟，每日1-2次。也可艾灸，每次15-20分钟。" },
+      { "type": "paragraph", "text": "中医有言："若要安，三里常不干"，说明足三里是强身健体的重要穴位。" },
+      { "type": "heading", "text": "三阴交穴 (Sanyinjiao, SP6)" },
+      { "type": "subheading", "text": "定位方法" },
+      { "type": "paragraph", "text": "三阴交位于小腿内侧，内踝尖上3寸，胫骨内侧缘后方。简便取穴：内踝尖上四横指宽，胫骨后缘处。" },
+      { "type": "subheading", "text": "主要功效" },
+      { "type": "list", "items": ["调补肝肾：月经不调、痛经、更年期症状", "健脾利湿：水肿、小便不利", "安神助眠：失眠多梦", "活血化瘀：妇科疾病"] },
+      { "type": "subheading", "text": "按摩方法" },
+      { "type": "paragraph", "text": "用拇指按压，力度以有酸胀感为宜，每次3-5分钟，每日1-2次。" },
+      { "type": "paragraph", "text": "⚠️ 注意：孕妇禁用三阴交穴，可能引起子宫收缩。" },
+      { "type": "heading", "text": "日常保健建议" },
+      { "type": "list", "items": ["每天早晚按摩这三个穴位各5分钟", "按摩时保持放松，呼吸自然", "持之以恒，效果更佳", "配合健康饮食和作息，事半功倍"] },
+      { "type": "warning", "text": "温馨提示：穴位按摩是日常保健方法，不能替代医疗治疗。如有疾病症状，请及时就医。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "In TCM wellness, three acupoints are known as the 'Health Trio': Hegu, Zusanli, and Sanyinjiao. Each has unique benefits and is essential knowledge for daily health maintenance." },
+      { "type": "heading", "text": "Hegu (LI4)" },
+      { "type": "subheading", "text": "Location" },
+      { "type": "paragraph", "text": "Hegu is located on the hand, between the first and second metacarpal bones, at the midpoint of the second metacarpal. Simple method: bring thumb and index finger together, the highest point of the muscle bulge is the point." },
+      { "type": "subheading", "text": "Main Benefits" },
+      { "type": "list", "items": ["Pain relief: Headache, toothache, throat pain", "Release wind and exterior: Cold, fever", "Regulate Qi and Blood: Facial issues, deviation of mouth and eyes", "Calm spirit: Insomnia, anxiety"] },
+      { "type": "subheading", "text": "Massage Technique" },
+      { "type": "paragraph", "text": "Press with thumb pad, moderate pressure until soreness is felt, 3-5 minutes each time, 2-3 times daily." },
+      { "type": "paragraph", "text": "⚠️ Note: Pregnant women should use Hegu cautiously to avoid affecting the fetus." },
+      { "type": "heading", "text": "Zusanli (ST36)" },
+      { "type": "subheading", "text": "Location" },
+      { "type": "paragraph", "text": "Zusanli is on the outer lower leg, 3 cun below Dubi (knee depression), one finger-width lateral to the tibia. Simple method: bend knee, place palm on knee, point where middle finger reaches, one finger-width outward." },
+      { "type": "subheading", "text": "Main Benefits" },
+      { "type": "list", "items": ["Strengthen spleen and stomach: Indigestion, bloating, diarrhea", "Tonify middle Qi: Weak constitution, fatigue", "Strengthen body: Boost immunity, longevity", "Regulate Qi and Blood: Anemia, malnutrition"] },
+      { "type": "subheading", "text": "Massage Technique" },
+      { "type": "paragraph", "text": "Press with thumb or middle finger, moderate pressure, 5-10 minutes, 1-2 times daily. Can also use moxibustion, 15-20 minutes each time." },
+      { "type": "paragraph", "text": "TCM saying: 'For peace and health, keep Zusanli moist' - showing its importance for strengthening the body." },
+      { "type": "heading", "text": "Sanyinjiao (SP6)" },
+      { "type": "subheading", "text": "Location" },
+      { "type": "paragraph", "text": "Sanyinjiao is on the inner lower leg, 3 cun above the inner ankle tip, posterior to the tibia. Simple method: four finger-widths above inner ankle tip, behind the tibia." },
+      { "type": "subheading", "text": "Main Benefits" },
+      { "type": "list", "items": ["Tonify liver and kidney: Irregular menstruation, dysmenorrhea, menopause symptoms", "Strengthen spleen, resolve dampness: Edema, urinary issues", "Calm spirit, aid sleep: Insomnia, dreams", "Activate blood, resolve stasis: Gynecological conditions"] },
+      { "type": "subheading", "text": "Massage Technique" },
+      { "type": "paragraph", "text": "Press with thumb, moderate pressure until soreness, 3-5 minutes, 1-2 times daily." },
+      { "type": "paragraph", "text": "⚠️ Note: Pregnant women should NOT use Sanyinjiao - it may cause uterine contraction." },
+      { "type": "heading", "text": "Daily Health Recommendations" },
+      { "type": "list", "items": ["Massage these three points 5 minutes each, morning and evening", "Stay relaxed during massage, breathe naturally", "Consistency brings better results", "Combine with healthy diet and routine for best effect"] },
+      { "type": "warning", "text": "Note: Acupoint massage is for daily health maintenance and does not replace medical treatment. Seek medical care for disease symptoms." }
+    ]
+  }
+}

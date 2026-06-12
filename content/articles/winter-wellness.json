@@ -1,0 +1,59 @@
+{
+  "slug": "winter-wellness",
+  "title": {
+    "zh": "冬季养生：温阳补肾，藏精养神",
+    "en": "Winter Wellness: Warm Yang, Tonify Kidney, Store Essence"
+  },
+  "description": {
+    "zh": "冬季寒冷，如何通过饮食温补、穴位保健和生活习惯温阳补肾，增强体质抵御寒冬",
+    "en": "Learn how to warm Yang and tonify kidney through diet, acupoints, and lifestyle during cold winter"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": ["冬季", "温阳", "补肾", "藏精"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1514418197947-c7ba715a615c?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "冬季是一年中最冷的季节，阳气潜藏。中医认为"冬主藏"，冬季养生重在温阳补肾、藏精养神，为来年春天的生发积蓄能量。" },
+      { "type": "heading", "text": "冬季养生要点" },
+      { "type": "subheading", "text": "一、温阳补肾" },
+      { "type": "paragraph", "text": "肾为先天之本，冬季是补肾的最佳时节。肾气充足，则身体强健，抵抗力强。" },
+      { "type": "list", "items": ["多吃温补肾阳食物：羊肉、核桃、黑豆、黑芝麻、韭菜", "适当食用滋补肾阴食材：枸杞、山药、桑葚", "避免生冷寒凉食物", "注意保暖，尤其是腰部和足部"] },
+      { "type": "subheading", "text": "二、藏精养神" },
+      { "type": "paragraph", "text": "冬季阳气潜藏，人体新陈代谢减缓，是养精蓄锐的好时机。" },
+      { "type": "list", "items": ["早睡晚起，保证充足睡眠", "减少剧烈运动，以静养为主", "保持心情平和，避免情绪波动", "适度室内活动，如太极、八段锦"] },
+      { "type": "heading", "text": "冬季推荐穴位" },
+      { "type": "paragraph", "text": "穴位1：肾俞穴（补肾强腰）" },
+      { "type": "paragraph", "text": "位置：背部第二腰椎棘突下旁开1.5寸。" },
+      { "type": "paragraph", "text": "穴位2：关元穴（培补元气）" },
+      { "type": "paragraph", "text": "位置：腹部，脐下3寸。" },
+      { "type": "paragraph", "text": "穴位3：涌泉穴（补肾固精）" },
+      { "type": "paragraph", "text": "位置：足底，蜷足时足前部凹陷处。" },
+      { "type": "recipe", "title": "羊肉当归汤", "ingredients": ["羊肉 200克", "当归 10克", "生姜 3片", "枸杞 15克", "清水 800毫升"], "instructions": "1. 羊肉切块焯水去腥\n2. 加入当归、生姜炖煮\n3. 煮1小时后加入枸杞\n4. 温服，每周2-3次\n5. 温补肾阳，增强体质" },
+      { "type": "warning", "text": "温馨提示：冬季进补要因人而异，阴虚火旺者不宜过度温补。如有慢性疾病，请咨询专业医师。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Winter is the coldest season, when Yang energy hides deep. TCM believes 'Winter governs storage', so winter wellness focuses on warming Yang, tonifying kidney, and storing essence for spring's renewal." },
+      { "type": "heading", "text": "Key Winter Wellness Principles" },
+      { "type": "subheading", "text": "1. Warm Yang and Tonify Kidney" },
+      { "type": "paragraph", "text": "The kidney is the foundation of life. Winter is the best time to tonify the kidney. Strong kidney Qi means strong body and immunity." },
+      { "type": "list", "items": ["Eat Yang-warming foods: Lamb, walnut, black beans, black sesame, chives", "Include kidney-Yin nourishing ingredients: Goji berries, yam, mulberry", "Avoid raw and cold foods", "Stay warm, especially lower back and feet"] },
+      { "type": "subheading", "text": "2. Store Essence and Nurture Spirit" },
+      { "type": "paragraph", "text": "Yang energy hides in winter, metabolism slows. This is an ideal time to accumulate energy." },
+      { "type": "list", "items": ["Early to bed, late to rise, ensure sufficient sleep", "Reduce intense exercise, focus on quiet cultivation", "Maintain emotional peace, avoid fluctuations", "Moderate indoor activities: Tai Chi, Ba Duan Jin"] },
+      { "type": "heading", "text": "Recommended Winter Acupoints" },
+      { "type": "paragraph", "text": "Point 1: Shenshu (BL23) - Tonifies kidney, strengthens lower back" },
+      { "type": "paragraph", "text": "Location: Back, 1.5 cun lateral to 2nd lumbar vertebra." },
+      { "type": "paragraph", "text": "Point 2: Guanyuan (CV4) - Tonifies original Qi" },
+      { "type": "paragraph", "text": "Location: Abdomen, 3 cun below navel." },
+      { "type": "paragraph", "text": "Point 3: Yongquan (KI1) - Tonifies kidney, secures essence" },
+      { "type": "paragraph", "text": "Location: Sole of foot, depression when toes curled." },
+      { "type": "recipe", "title": "Lamb & Angelica Soup", "ingredients": ["Lamb 200g", "Angelica root 10g", "Fresh ginger 3 slices", "Goji berries 15g", "Water 800ml"], "instructions": "1. Cut lamb, blanch to remove odor\n2. Add angelica and ginger, simmer\n3. After 1 hour, add goji berries\n4. Serve warm, 2-3 times weekly\n5. Warms kidney Yang, strengthens body" },
+      { "type": "warning", "text": "Note: Winter tonification should be personalized. Those with Yin deficiency and excess fire should avoid excessive warming. Consult a physician for chronic conditions." }
+    ]
+  }
+}

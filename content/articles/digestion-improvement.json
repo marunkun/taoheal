@@ -1,0 +1,64 @@
+{
+  "slug": "digestion-improvement",
+  "title": {
+    "zh": "脾胃不好怎么办？中医调理脾胃全攻略",
+    "en": "Spleen-Stomach Issues? Complete TCM Regulation Guide"
+  },
+  "description": {
+    "zh": "详细介绍脾胃虚弱的表现、原因和调理方法，包括饮食、穴位和生活习惯",
+    "en": "Detailed guide to spleen-stomach weakness - manifestations, causes, and conditioning methods"
+  },
+  "category": {
+    "zh": "脾胃调理",
+    "en": "Spleen & Stomach"
+  },
+  "tags": ["脾胃", "消化", "调理", "中医"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 7,
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "脾胃是人体消化吸收的重要器官，中医称脾胃为"后天之本"。脾胃功能好坏直接影响营养吸收和整体健康。了解如何调理脾胃，是养生保健的重要内容。" },
+      { "type": "heading", "text": "脾胃虚弱的表现" },
+      { "type": "list", "items": ["食欲不振，不想吃饭", "腹胀腹痛，消化不良", "大便稀溏或便秘", "面色萎黄，精神不振", "四肢乏力，容易疲劳", "口淡无味，舌苔厚腻", "体重下降或虚胖"] },
+      { "type": "heading", "text": "脾胃虚弱的原因" },
+      { "type": "list", "items": ["饮食不规律：暴饮暴食，饥饱无度", "饮食不健康：过多生冷、油腻、辛辣", "过度劳累：长期疲劳损伤脾胃", "情志失调：忧思过度伤脾", "久病耗损：慢性疾病损伤脾胃", "先天不足：体质虚弱"] },
+      { "type": "heading", "text": "健脾养胃食物" },
+      { "type": "list", "items": ["山药：补脾益肺，固肾益精", "薏米：健脾利湿，清热排脓", "红枣：补气养血，健脾和胃", "小米：健脾和胃，安神助眠", "南瓜：补中益气，健脾养胃", "莲子：补脾止泻，养心安神"] },
+      { "type": "heading", "text": "调理脾胃穴位" },
+      { "type": "paragraph", "text": "穴位1：足三里（健脾和胃）" },
+      { "type": "paragraph", "text": "位置：小腿外侧，膝盖下3寸。" },
+      { "type": "paragraph", "text": "穴位2：中脘穴（调理脾胃）" },
+      { "type": "paragraph", "text": "位置：腹部，脐上4寸。" },
+      { "type": "paragraph", "text": "穴位3：脾俞穴（健脾益气）" },
+      { "type": "paragraph", "text": "位置：背部，第11胸椎棘突下旁开1.5寸。" },
+      { "type": "paragraph", "text": "穴位4：胃俞穴（和胃止痛）" },
+      { "type": "paragraph", "text": "位置：背部，第12胸椎棘突下旁开1.5寸。" },
+      { "type": "recipe", "title": "山药薏米粥", "ingredients": ["山药 50克", "薏米 30克", "大米 100克", "红枣 5颗", "清水 500毫升"], "instructions": "1. 山药去皮切块\n2. 薏米提前浸泡\n3. 大米洗净加水煮粥\n4. 加入山药、薏米、红枣\n5. 煮至粘稠\n6. 每日食用，健脾养胃" },
+      { "type": "heading", "text": "生活习惯建议" },
+      { "type": "list", "items": ["规律饮食：定时定量，三餐规律", "细嚼慢咽：充分咀嚼，减轻脾胃负担", "避免生冷：少吃生冷食物，保护脾胃阳气", "适度运动：促进消化，增强脾胃功能", "情绪调节：避免忧思过度，保持心情舒畅", "充足睡眠：保证休息，让脾胃得到恢复"] },
+      { "type": "warning", "text": "温馨提示：脾胃调理需要循序渐进，不可急于求成。严重脾胃问题如胃溃疡、胃炎等应在医师指导下治疗。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Spleen and stomach are key digestive organs. TCM calls them 'foundation of postnatal life'. Their function directly affects nutrient absorption and overall health. Understanding spleen-stomach regulation is essential for wellness." },
+      { "type": "heading", "text": "Signs of Spleen-Stomach Weakness" },
+      { "type": "list", "items": ["Poor appetite, reluctance to eat", "Bloating, abdominal pain, indigestion", "Loose stool or constipation", "Sallow complexion, low energy", "Weak limbs, easy fatigue", "Tasteless mouth, thick greasy tongue coating", "Weight loss or puffiness"] },
+      { "type": "heading", "text": "Causes of Spleen-Stomach Weakness" },
+      { "type": "list", "items": ["Irregular eating: Binge eating, irregular meals", "Unhealthy diet: Excessive raw-cold, greasy, spicy foods", "Overexertion: Long-term fatigue damages spleen-stomach", "Emotional imbalance: Excessive worry damages spleen", "Chronic illness: Diseases consume spleen-stomach", "Congenital deficiency: Weak constitution"] },
+      { "type": "heading", "text": "Spleen-Stomach Tonifying Foods" },
+      { "type": "list", "items": ["Yam: Tonify spleen-lung, secure kidney essence", "Coix seed: Strengthen spleen, resolve dampness", "Red dates: Tonify Qi-Blood, harmonize spleen-stomach", "Millet: Strengthen spleen-stomach, calm spirit", "Pumpkin: Tonify middle Qi, strengthen spleen-stomach", "Lotus seed: Tonify spleen, stop diarrhea, calm spirit"] },
+      { "type": "heading", "text": "Spleen-Stomach Regulation Acupoints" },
+      { "type": "paragraph", "text": "Point 1: Zusanli (ST36) - Strengthen spleen, harmonize stomach" },
+      { "type": "paragraph", "text": "Location: Outer lower leg, 3 cun below knee." },
+      { "type": "paragraph", "text": "Point 2: Zhongwan (CV12) - Regulate spleen-stomach" },
+      { "type": "paragraph", "text": "Location: Abdomen, 4 cun above navel." },
+      { "type": "paragraph", "text": "Point 3: Pishu (BL20) - Strengthen spleen, tonify Qi" },
+      { "type": "paragraph", "text": "Location: Back, 1.5 cun lateral to 11th thoracic vertebra." },
+      { "type": "paragraph", "text": "Point 4: Weishu (BL21) - Harmonize stomach, relieve pain" },
+      { "type": "paragraph", "text": "Location: Back, 1.5 cun lateral to 12th thoracic vertebra." },
+      { "type": "recipe", "title": "Yam Coix Porridge", "ingredients": ["Yam 50g", "Coix seed 30g", "Rice 100g", "Red dates 5 pieces", "Water 500ml"], "instructions": "1. Peel yam, cut into chunks\n2. Soak coix seed beforehand\n3. Wash rice, add water for porridge\n4. Add yam, coix, dates\n5. Cook until thick\n6. Eat daily to strengthen spleen-stomach" },
+      { "type": "heading", "text": "Lifestyle Recommendations" },
+      { "type": "list", "items": ["Regular eating: Fixed times and amounts, regular three meals", "Chew thoroughly: Reduce spleen-stomach burden", "Avoid raw-cold: Protect spleen-stomach Yang", "Moderate exercise: Promote digestion, strengthen function", "Emotional balance: Avoid excessive worry, stay cheerful", "Sufficient sleep: Ensure rest for spleen-stomach recovery"] },
+      { "type": "warning", "text": "Note: Spleen-stomach regulation needs gradual progress. Serious issues like ulcers, gastritis should be treated under physician guidance." }
+    ]
+  }
+}

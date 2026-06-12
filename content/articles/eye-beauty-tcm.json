@@ -1,0 +1,83 @@
+{
+  "slug": "eye-beauty-tcm",
+  "title": {
+    "zh": "中医养眼：让眼睛明亮有神的秘诀",
+    "en": "TCM Eye Care: Secrets for Bright, Spirited Eyes"
+  },
+  "description": {
+    "zh": "掌握中医养眼的方法，从调理肝肾入手，让眼睛明亮有神，告别眼部问题",
+    "en": "Master TCM eye care methods, regulate liver-kidney for bright eyes"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["养眼", "眼部护理", "明目", "中医美容"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1519699047798-e6e3b3a2c2b1?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "眼睛是心灵的窗户，也是容貌的重要组成部分。中医认为\"肝开窍于目\"，眼睛的健康与肝肾功能密切相关。想要眼睛明亮有神，必须从调理肝肾入手。" },
+      { "type": "heading", "text": "中医对眼睛的认识" },
+      { "type": "paragraph", "text": "眼睛与脏腑的关系：" },
+      { "type": "subheading", "text": "肝与眼睛" },
+      { "type": "list", "items": ["肝开窍于目", "肝血充足则眼睛明亮", "肝血不足则眼睛干涩", "肝火旺盛则眼睛红肿"] },
+      { "type": "subheading", "text": "肾与眼睛" },
+      { "type": "list", "items": ["肾精充足则眼神明亮", "肾精不足则眼神黯淡", "肾虚则眼睛干涩疲劳", "肾气不足则视力下降"] },
+      { "type": "heading", "text": "常见眼部问题" },
+      { "type": "subheading", "text": "眼睛干涩" },
+      { "type": "list", "items": ["原因：肝肾阴虚，泪液分泌不足", "表现：眼睛干涩、异物感", "调理：滋阴润燥，补肝肾"] },
+      { "type": "subheading", "text": "眼睛疲劳" },
+      { "type": "list", "items": ["原因：用眼过度，气血不足", "表现：眼睛酸胀、视物模糊", "调理：补气养血，适度休息"] },
+      { "type": "subheading", "text": "黑眼圈" },
+      { "type": "list", "items": ["原因：肾虚、气血不足、熬夜", "表现：眼周皮肤暗沉", "调理：补肾养血，规律作息"] },
+      { "type": "heading", "text": "养眼方法" },
+      { "type": "subheading", "text": "养肝明目" },
+      { "type": "list", "items": ["枸杞：滋补肝肾，明目养眼", "菊花：清肝明目，清热解毒", "决明子：清肝明目，润肠通便", "桑叶：清肝明目，疏散风热", "蓝莓：养肝明目，抗氧化"] },
+      { "type": "subheading", "text": "补肾养眼" },
+      { "type": "list", "items": ["黑芝麻：补肝肾，明目", "核桃：补肾健脑，养眼", "桑葚：滋阴补血，明目", "黑豆：补肾益精，养眼"] },
+      { "type": "subheading", "text": "养眼穴位" },
+      { "type": "list", "items": ["睛明穴：眼内角，明目要穴", "攒竹穴：眉头内侧，缓解眼疲劳", "太阳穴：眼外侧，促进眼部气血", "四白穴：眼下方，明目养眼", "丝竹空穴：眼外侧，缓解眼疲劳"] },
+      { "type": "heading", "text": "眼部按摩方法" },
+      { "type": "list", "items": ["用指腹按揉睛明穴", "用拇指按揉攒竹穴", "用中指按揉太阳穴", "用指腹轻压眼周", "闭眼转动眼球", "每日按摩5分钟"] },
+      { "type": "recipe", "title": "枸杞菊花明目茶", "ingredients": ["枸杞 15克", "菊花 10克", "决明子 10克", "清水 500毫升"], "instructions": "1. 所有材料洗净\n2. 加水煮沸\n3. 转小火煮10分钟\n4. 代茶饮用\n5. 每日1次\n6. 清肝明目，养眼护眼" },
+      { "type": "heading", "text": "消除黑眼圈方法" },
+      { "type": "list", "items": ["规律作息：保证充足睡眠", "补肾养血：多吃黑色食物", "眼部按摩：促进眼周气血", "避免熬夜：减少眼部负担", "热敷眼部：促进血液循环"] },
+      { "type": "heading", "text": "养眼生活习惯" },
+      { "type": "list", "items": ["适度用眼：避免长时间看屏幕", "定时休息：每小时休息5分钟", "远眺放松：眺望远方缓解疲劳", "保持湿度：避免干燥环境", "营养均衡：多吃养眼食物"] },
+      { "type": "warning", "text": "温馨提示：养眼需要长期坚持。严重眼部问题建议在中医师指导下进行综合调理。如有视力下降等问题，请及时就医检查。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Eyes are the window to the soul and an important part of appearance. TCM believes \"Liver opens into eyes\" - eye health is closely related to liver-kidney function. For bright, spirited eyes, start with regulating liver and kidney." },
+      { "type": "heading", "text": "TCM Understanding of Eyes" },
+      { "type": "paragraph", "text": "Relationship between eyes and organs:" },
+      { "type": "subheading", "text": "Liver & Eyes" },
+      { "type": "list", "items": ["Liver opens into eyes", "Sufficient liver blood gives bright eyes", "Liver blood deficiency causes dry eyes", "Excess liver fire causes red, swollen eyes"] },
+      { "type": "subheading", "text": "Kidney & Eyes" },
+      { "type": "list", "items": ["Sufficient kidney essence gives bright spirit in eyes", "Kidney essence deficiency causes dull eyes", "Kidney deficiency causes dry, tired eyes", "Kidney Qi deficiency causes vision decline"] },
+      { "type": "heading", "text": "Common Eye Problems" },
+      { "type": "subheading", "text": "Dry Eyes" },
+      { "type": "list", "items": ["Cause: Liver-kidney Yin deficiency, insufficient tear secretion", "Signs: Dry eyes, foreign body sensation", "Treatment: Nourish Yin, moisten dryness, tonify liver-kidney"] },
+      { "type": "subheading", "text": "Eye Fatigue" },
+      { "type": "list", "items": ["Cause: Overuse of eyes, Qi-Blood deficiency", "Signs: Sore, swollen eyes, blurred vision", "Treatment: Tonify Qi-Blood, moderate rest"] },
+      { "type": "subheading", "text": "Dark Circles" },
+      { "type": "list", "items": ["Cause: Kidney deficiency, Qi-Blood deficiency, late nights", "Signs: Dark skin around eyes", "Treatment: Tonify kidney, nourish blood, regular routine"] },
+      { "type": "heading", "text": "Eye Care Methods" },
+      { "type": "subheading", "text": "Nourish Liver, Brighten Eyes" },
+      { "type": "list", "items": ["Goji berries: Nourishes liver-kidney, brightens eyes", "Chrysanthemum: Clears liver, brightens eyes", "Cassia seeds: Clears liver, brightens eyes", "Mulberry leaf: Clears liver, brightens eyes", "Blueberries: Nourish liver, brighten eyes, antioxidant"] },
+      { "type": "subheading", "text": "Tonify Kidney, Care for Eyes" },
+      { "type": "list", "items": ["Black sesame: Tonifies liver-kidney, brightens eyes", "Walnut: Tonifies kidney, nourishes brain and eyes", "Mulberry: Nourishes Yin, tonifies blood, brightens eyes", "Black beans: Tonify kidney, benefit essence, nourish eyes"] },
+      { "type": "subheading", "text": "Eye Care Acupoints" },
+      { "type": "list", "items": ["Jingming: Inner eye corner, key point for brightening eyes", "Cuanzhu: Inner eyebrow, relieves eye fatigue", "Taiyang: Outer eye, promotes eye Qi-Blood", "Sibai: Below eye, brightens eyes", "Sizhukong: Outer eye, relieves fatigue"] },
+      { "type": "heading", "text": "Eye Massage Methods" },
+      { "type": "list", "items": ["Massage Jingming with fingertips", "Press Cuanzhu with thumb", "Press Taiyang with middle finger", "Lightly press around eyes with fingertips", "Close eyes, rotate eyeballs", "Massage 5 minutes daily"] },
+      { "type": "recipe", "title": "Goji Chrysanthemum Bright-Eyes Tea", "ingredients": ["Goji berries 15g", "Chrysanthemum 10g", "Cassia seeds 10g", "Water 500ml"], "instructions": "1. Wash all ingredients\n2. Boil water\n3. Simmer for 10 minutes\n4. Drink as tea\n5. Once daily\n6. Clears liver, brightens eyes, protects eyes" },
+      { "type": "heading", "text": "Methods to Eliminate Dark Circles" },
+      { "type": "list", "items": ["Regular routine: Ensure sufficient sleep", "Tonify kidney, nourish blood: Eat more black foods", "Eye massage: Promotes Qi-Blood around eyes", "Avoid late nights: Reduce eye burden", "Warm compress: Promotes blood circulation"] },
+      { "type": "heading", "text": "Eye Care Lifestyle Habits" },
+      { "type": "list", "items": ["Moderate eye use: Avoid long screen time", "Regular breaks: Rest 5 minutes every hour", "Look far away: Distant viewing relieves fatigue", "Maintain humidity: Avoid dry environments", "Balanced nutrition: Eat more eye-nourishing foods"] },
+      { "type": "warning", "text": "Note: Eye care requires long-term commitment. Severe eye problems should be treated comprehensively under TCM practitioner guidance. Seek medical examination for vision decline." }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "autumn-wellness",
+  "title": {
+    "zh": "秋季养生：润燥养肺，滋阴润燥",
+    "en": "Autumn Wellness: Moisturize Dryness, Nourish the Lung"
+  },
+  "description": {
+    "zh": "秋季干燥，如何通过饮食调理、穴位按摩和生活习惯润燥养肺，预防秋燥伤身",
+    "en": "Learn how to moisturize dryness and nourish the lung through diet, acupoints, and lifestyle during dry autumn"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": ["秋季", "润燥", "养肺", "滋阴"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "秋季是阳气渐收、阴气渐长的季节。中医认为，秋季养生重在润燥养肺，因为秋燥最易伤肺，导致干咳、咽干、皮肤干燥等问题。" },
+      { "type": "heading", "text": "秋季养生要点" },
+      { "type": "subheading", "text": "一、润燥养肺" },
+      { "type": "paragraph", "text": "秋季气候干燥，人体容易出现"秋燥"症状。肺为娇脏，喜润恶燥，秋季养肺尤为重要。" },
+      { "type": "list", "items": ["多吃润肺食物：梨、银耳、百合、蜂蜜、白萝卜", "适当食用滋阴食材：枸杞、黑芝麻、山药", "少食辛辣燥热之物：辣椒、烧烤、油炸食品", "保持室内适度湿度"] },
+      { "type": "subheading", "text": "二、收敛阳气" },
+      { "type": "paragraph", "text": "秋季阳气开始收敛，养生要顺应这一自然规律，避免过度消耗阳气。" },
+      { "type": "list", "items": ["早睡早起，顺应阳气收敛", "适度运动，不宜过度出汗", "保持情绪稳定，避免悲秋情绪", "注意保暖，防止寒邪入侵"] },
+      { "type": "heading", "text": "秋季推荐穴位" },
+      { "type": "paragraph", "text": "穴位1：肺俞穴（调理肺气）" },
+      { "type": "paragraph", "text": "位置：背部第三胸椎棘突下旁开1.5寸。" },
+      { "type": "paragraph", "text": "穴位2：太渊穴（补益肺气）" },
+      { "type": "paragraph", "text": "位置：手腕内侧，腕横纹桡侧端凹陷处。" },
+      { "type": "paragraph", "text": "穴位3：尺泽穴（清肺润燥）" },
+      { "type": "paragraph", "text": "位置：肘关节内侧，肘横纹中。" },
+      { "type": "recipe", "title": "银耳百合雪梨汤", "ingredients": ["银耳 20克（泡发）", "百合 15克", "雪梨 1个", "冰糖适量", "清水 600毫升"], "instructions": "1. 银耳提前泡发撕成小朵\n2. 雪梨切块，百合洗净\n3. 所有材料加水炖煮1小时\n4. 加入冰糖调味\n5. 每日饮用，润肺养阴" },
+      { "type": "warning", "text": "温馨提示：秋季虽凉，但不宜过早添衣，适当"秋冻"可增强体质。但老人和儿童要注意保暖。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Autumn is the season when Yang energy gradually recedes and Yin energy grows. According to TCM, autumn wellness focuses on moisturizing dryness and nourishing the lung, as autumn dryness most easily damages the lung." },
+      { "type": "heading", "text": "Key Autumn Wellness Principles" },
+      { "type": "subheading", "text": "1. Moisturize Dryness and Nourish the Lung" },
+      { "type": "paragraph", "text": "Autumn climate is dry, causing 'autumn dryness' symptoms. The lung is a delicate organ that prefers moisture and dislikes dryness." },
+      { "type": "list", "items": ["Eat lung-moisturizing foods: Pear, tremella, lily bulb, honey, white radish", "Include Yin-nourishing ingredients: Goji berries, black sesame, yam", "Reduce spicy and drying foods: Chili, BBQ, fried foods", "Maintain moderate indoor humidity"] },
+      { "type": "subheading", "text": "2. Conserve Yang Energy" },
+      { "type": "paragraph", "text": "Yang energy begins to recede in autumn. Wellness practices should follow this natural rhythm." },
+      { "type": "list", "items": ["Early to bed, early to rise, following Yang's retreat", "Moderate exercise, avoid excessive sweating", "Maintain emotional stability, avoid autumn melancholy", "Stay warm, prevent cold pathogen invasion"] },
+      { "type": "heading", "text": "Recommended Autumn Acupoints" },
+      { "type": "paragraph", "text": "Point 1: Feishu (BL13) - Regulates lung Qi" },
+      { "type": "paragraph", "text": "Location: Back, 1.5 cun lateral to 3rd thoracic vertebra." },
+      { "type": "paragraph", "text": "Point 2: Taiyuan (LU9) - Tonifies lung Qi" },
+      { "type": "paragraph", "text": "Location: Inner wrist, depression at radial end of wrist crease." },
+      { "type": "paragraph", "text": "Point 3: Chize (LU5) - Clears lung, moisturizes dryness" },
+      { "type": "paragraph", "text": "Location: Inner elbow, center of elbow crease." },
+      { "type": "recipe", "title": "Tremella Lily Pear Soup", "ingredients": ["Tremella 20g (soaked)", "Lily bulb 15g", "Pear 1 piece", "Rock sugar to taste", "Water 600ml"], "instructions": "1. Soak tremella and tear into small pieces\n2. Cut pear into chunks, wash lily bulb\n3. Simmer all ingredients for 1 hour\n4. Add rock sugar to taste\n5. Drink daily to moisturize lung and nourish Yin" },
+      { "type": "warning", "text": "Note: Although autumn is cool, avoid adding too many clothes too early. Moderate 'autumn chilling' can strengthen constitution, but elderly and children should stay warm." }
+    ]
+  }
+}

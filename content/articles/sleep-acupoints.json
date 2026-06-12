@@ -1,0 +1,49 @@
+{
+  "slug": "sleep-acupoints",
+  "title": {
+    "zh": "失眠了？试试这3个穴位",
+    "en": "Can't Sleep? Try These 3 Acupoints"
+  },
+  "description": {
+    "zh": "三个简单有效的穴位按摩方法，帮助你改善睡眠质量",
+    "en": "Three simple acupoint massage techniques to help improve your sleep quality"
+  },
+  "category": {
+    "zh": "睡眠健康",
+    "en": "Sleep Health"
+  },
+  "tags": ["失眠", "穴位", "按摩"],
+  "publishedAt": "2026-06-10",
+  "readingTime": 4,
+  "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "现代人生活压力大，失眠已经成为普遍问题。据统计，全球约有30%的人正在经历失眠困扰。" },
+      { "type": "heading", "text": "穴位1：内关穴 (Neiguan, PC6)" },
+      { "type": "paragraph", "text": "位置：手腕内侧，腕横纹上2寸，掌长肌腱与桡侧腕屈肌腱之间。" },
+      { "type": "paragraph", "text": "功效：安神助眠，缓解焦虑，调节心神。" },
+      { "type": "list", "items": ["用拇指按压", "力度以有酸胀感为宜", "每次3分钟", "每天2次"] },
+      { "type": "heading", "text": "穴位2：神门穴 (Shenmen, HT7)" },
+      { "type": "paragraph", "text": "位置：位于手腕内侧尺侧端，掌侧横纹尺侧端凹陷处。" },
+      { "type": "paragraph", "text": "功效：宁心安神，是改善睡眠的重要穴位。" },
+      { "type": "heading", "text": "穴位3：太冲穴 (Taichong, LR3)" },
+      { "type": "paragraph", "text": "位置：位于足背侧，第一、二跖骨结合部之前凹陷处。" },
+      { "type": "paragraph", "text": "功效：平肝熄风，对肝火旺盛导致的失眠有效。" },
+      { "type": "warning", "text": "温馨提示：穴位按摩仅作为日常保健，不能替代医疗。如症状持续，请咨询专业医疗人员。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "In modern life, stress and insomnia have become common problems. About 30% of the global population experiences insomnia." },
+      { "type": "heading", "text": "Point 1: Neiguan (PC6)" },
+      { "type": "paragraph", "text": "Location: On the inner wrist, 2 cun above the wrist crease, between the palmaris longus and flexor carpi radialis tendons." },
+      { "type": "paragraph", "text": "Benefits: Calms the mind, relieves anxiety, and regulates the spirit." },
+      { "type": "list", "items": ["Press with thumb", "Apply pressure until you feel soreness", "3 minutes each time", "Twice daily"] },
+      { "type": "heading", "text": "Point 2: Shenmen (HT7)" },
+      { "type": "paragraph", "text": "Location: At the ulnar end of the wrist crease, in the depression on the ulnar side of the palmar crease." },
+      { "type": "paragraph", "text": "Benefits: Calms the mind and is an important point for improving sleep." },
+      { "type": "heading", "text": "Point 3: Taichong (LR3)" },
+      { "type": "paragraph", "text": "Location: On the dorsum of the foot, in the depression anterior to the junction of the first and second metatarsal bones." },
+      { "type": "paragraph", "text": "Benefits: Calms liver wind, effective for insomnia caused by liver fire excess." },
+      { "type": "warning", "text": "Disclaimer: Acupoint massage is for daily health maintenance only and should not replace medical treatment. If symptoms persist, consult a medical professional." }
+    ]
+  }
+}

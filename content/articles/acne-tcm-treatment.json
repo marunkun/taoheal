@@ -1,0 +1,79 @@
+{
+  "slug": "acne-tcm-treatment",
+  "title": {
+    "zh": "中医祛痘：从根源解决痘痘问题",
+    "en": "TCM Acne Treatment: Solving Acne from the Root"
+  },
+  "description": {
+    "zh": "了解中医对痘痘的认识，掌握内调外治的祛痘方法，从根本上解决痘痘问题",
+    "en": "Understand TCM view on acne, master internal-external treatment methods"
+  },
+  "category": {
+    "zh": "美容护肤",
+    "en": "Beauty & Skincare"
+  },
+  "tags": ["祛痘", "痤疮", "中医美容", "面部护理"],
+  "publishedAt": "2026-06-12",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=400&fit=crop",
+  "content": {
+    "zh": [
+      { "type": "paragraph", "text": "痘痘（痤疮）是常见的皮肤问题，中医认为痘痘的形成与肺热、脾胃湿热、肝郁等因素有关。祛痘不能只靠外用药，更需要从内调理体质，标本兼治。" },
+      { "type": "heading", "text": "中医对痘痘的认识" },
+      { "type": "paragraph", "text": "中医称痘痘为\"粉刺\"或\"痤疮\"，认为其形成与以下因素有关：" },
+      { "type": "subheading", "text": "肺经风热" },
+      { "type": "list", "items": ["痘痘多发于面部", "伴有红肿热痛", "多见于青春期", "调理：清肺散热"] },
+      { "type": "subheading", "text": "脾胃湿热" },
+      { "type": "list", "items": ["痘痘伴有油腻", "多发于口周", "伴有口臭便秘", "调理：清热祛湿"] },
+      { "type": "subheading", "text": "肝郁气滞" },
+      { "type": "list", "items": ["痘痘与情绪相关", "压力大时加重", "多见于女性", "调理：疏肝解郁"] },
+      { "type": "heading", "text": "内调祛痘方法" },
+      { "type": "subheading", "text": "清肺散热" },
+      { "type": "list", "items": ["枇杷清肺饮：清肺散热经典方", "桑白皮：清肺泻火", "黄芩：清热解毒", "金银花：清热解毒", "菊花：清肝明目"] },
+      { "type": "subheading", "text": "清热祛湿" },
+      { "type": "list", "items": ["薏米：健脾祛湿", "茯苓：利湿健脾", "黄连：清热燥湿", "茵陈：清热利湿", "绿豆：清热解毒"] },
+      { "type": "subheading", "text": "疏肝解郁" },
+      { "type": "list", "items": ["玫瑰花：疏肝理气", "柴胡：疏肝解郁", "郁金：行气解郁", "逍遥散：疏肝健脾"] },
+      { "type": "heading", "text": "外治祛痘方法" },
+      { "type": "subheading", "text": "中药外敷" },
+      { "type": "list", "items": ["金银花水：清热消炎", "黄连粉：清热燥湿", "蒲公英水：清热解毒", "芦荟胶：消炎镇静"] },
+      { "type": "subheading", "text": "祛痘穴位" },
+      { "type": "list", "items": ["曲池穴：清热解毒", "合谷穴：清热疏风", "肺俞穴：清肺散热", "大椎穴：清热解表"] },
+      { "type": "recipe", "title": "清热祛痘茶", "ingredients": ["金银花 10克", "菊花 10克", "蒲公英 10克", "甘草 5克", "清水 500毫升"], "instructions": "1. 所有材料洗净\n2. 加水煮沸\n3. 转小火煮10分钟\n4. 代茶饮用\n5. 每日1次\n6. 清热解毒，祛痘消炎" },
+      { "type": "heading", "text": "祛痘饮食禁忌" },
+      { "type": "list", "items": ["少吃辛辣刺激：辣椒、烧烤、油炸", "少吃甜食：糖分促进皮脂分泌", "少吃油腻食物：加重湿热", "少喝酒：酒精刺激皮肤", "多吃清淡食物：蔬菜水果"] },
+      { "type": "heading", "text": "祛痘生活习惯" },
+      { "type": "list", "items": ["保持面部清洁：温和洗脸", "避免挤压：防止感染留疤", "规律作息：避免熬夜", "情绪调节：保持心情舒畅", "适度运动：促进代谢排毒"] },
+      { "type": "warning", "text": "温馨提示：祛痘需要耐心，不可急于求成。严重痘痘建议在中医师指导下进行综合调理，避免自行用药导致病情加重。" }
+    ],
+    "en": [
+      { "type": "paragraph", "text": "Acne is a common skin problem. TCM believes acne formation relates to lung heat, spleen-stomach damp-heat, liver stagnation, etc. Treating acne requires not just external medication but internal constitution regulation for root-and-symptom treatment." },
+      { "type": "heading", "text": "TCM Understanding of Acne" },
+      { "type": "paragraph", "text": "TCM calls acne \"fen ci\" or \"cuo chuang,\" believing its formation relates to:" },
+      { "type": "subheading", "text": "Lung Meridian Wind-Heat" },
+      { "type": "list", "items": ["Acne mostly on face", "Accompanied by redness, swelling, heat, pain", "Common in adolescence", "Treatment: Clear lung, dissipate heat"] },
+      { "type": "subheading", "text": "Spleen-Stomach Damp-Heat" },
+      { "type": "list", "items": ["Acne with oily secretion", "Mostly around mouth", "Accompanied by bad breath, constipation", "Treatment: Clear heat, resolve dampness"] },
+      { "type": "subheading", "text": "Liver Stagnation" },
+      { "type": "list", "items": ["Acne related to emotions", "Worsens under stress", "Common in women", "Treatment: Soothe liver, resolve stagnation"] },
+      { "type": "heading", "text": "Internal Acne Treatment Methods" },
+      { "type": "subheading", "text": "Clear Lung, Dissipate Heat" },
+      { "type": "list", "items": ["Pi Pa Qing肺饮: Classic lung-clearing formula", "Mulberry bark: Clears lung, drains fire", "Scutellaria: Clears heat, detoxifies", "Honeysuckle: Clears heat, detoxifies", "Chrysanthemum: Clears liver, brightens eyes"] },
+      { "type": "subheading", "text": "Clear Heat, Resolve Dampness" },
+      { "type": "list", "items": ["Coix seed: Strengthens spleen, resolves dampness", "Poria: Drains dampness, strengthens spleen", "Coptis: Clears heat, dries dampness", "Artemisia capillaris: Clears heat, resolves dampness", "Mung bean: Clears heat, detoxifies"] },
+      { "type": "subheading", "text": "Soothe Liver, Resolve Stagnation" },
+      { "type": "list", "items": ["Rose: Soothes liver, regulates Qi", "Bupleurum: Soothes liver, resolves stagnation", "Curcuma: Moves Qi, resolves stagnation", "Xiao Yao San: Soothes liver, strengthens spleen"] },
+      { "type": "heading", "text": "External Acne Treatment Methods" },
+      { "type": "subheading", "text": "Herbal External Application" },
+      { "type": "list", "items": ["Honeysuckle water: Clears heat, reduces inflammation", "Coptis powder: Clears heat, dries dampness", "Dandelion water: Clears heat, detoxifies", "Aloe gel: Anti-inflammatory, soothing"] },
+      { "type": "subheading", "text": "Acne-Treating Acupoints" },
+      { "type": "list", "items": ["Quchi: Clears heat, detoxifies", "Hegu: Clears heat, dissipates wind", "Feishu: Clears lung, dissipates heat", "Dazhui: Clears heat, releases exterior"] },
+      { "type": "recipe", "title": "Heat-Clearing Acne Tea", "ingredients": ["Honeysuckle 10g", "Chrysanthemum 10g", "Dandelion 10g", "Licorice 5g", "Water 500ml"], "instructions": "1. Wash all ingredients\n2. Boil water\n3. Simmer for 10 minutes\n4. Drink as tea\n5. Once daily\n6. Clears heat, detoxifies, treats acne" },
+      { "type": "heading", "text": "Acne Diet Restrictions" },
+      { "type": "list", "items": ["Reduce spicy foods: Chili, BBQ, fried foods", "Reduce sweets: Sugar promotes sebum secretion", "Reduce greasy foods: Worsens damp-heat", "Reduce alcohol: Alcohol irritates skin", "Eat light foods: Vegetables and fruits"] },
+      { "type": "heading", "text": "Acne Lifestyle Habits" },
+      { "type": "list", "items": ["Keep face clean: Gentle washing", "Avoid squeezing: Prevent infection and scarring", "Regular routine: Avoid late nights", "Emotional balance: Stay happy and relaxed", "Moderate exercise: Promotes metabolism and detox"] },
+      { "type": "warning", "text": "Note: Acne treatment requires patience. Severe acne should be treated comprehensively under TCM practitioner guidance to avoid worsening from self-medication." }
+    ]
+  }
+}
