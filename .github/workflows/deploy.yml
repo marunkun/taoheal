@@ -50,6 +50,13 @@ jobs:
             | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['result'][0]['id'])")
           echo "Latest deployment ID: $DEPLOYMENT_ID"
 
-          # 使用 wrangler promote
-          npm install -g wrangler
-          wrangler pages deployment promote $DEPLOYMENT_ID --project-name=daoheal
+          # Promote to production (使用 Cloudflare API)
+          echo "Promoting to production..."
+          curl -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/daoheal/deployments/$DEPLOYMENT_ID/promote" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"production":true}' \
+            --fail-with-body \
+            --show-error
+          echo ""
+          echo "Promote API call completed"
