@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare (Worker + Pages)
 
 on:
   push:
@@ -25,21 +25,22 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build OpenNext Cloudflare Worker
+      - name: Build with OpenNext
         run: npx opennextjs-cloudflare build
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
-      - name: Prepare Pages Functions deployment
+      - name: Deploy to Cloudflare Worker (taoheal-app.workers.dev)
+        run: npx opennextjs-cloudflare deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+
+      - name: Deploy to Cloudflare Pages (daoheal.pages.dev)
         run: |
-          ls -la .open-next/
           mkdir -p .pages-deploy
           cp -r .open-next/assets/* .pages-deploy/
           cp .open-next/worker.js .pages-deploy/_worker.js
-          ls -la .pages-deploy/
-
-      - name: Deploy to Cloudflare Pages
-        run: npx wrangler pages deploy .pages-deploy --project-name=daoheal --branch=master --commit-dirty=true
+          npx wrangler pages deploy .pages-deploy --project-name=daoheal --branch=master --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

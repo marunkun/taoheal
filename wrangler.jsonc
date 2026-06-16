@@ -1,6 +1,6 @@
 {
-  "name": "daoheal",
-  "pages_build_output_dir": ".open-next/assets",
+  "main": ".open-next/worker.js",
+  "name": "taoheal-app",
   "compatibility_flags": ["nodejs_compat"],
   "compatibility_date": "2026-06-16",
   "vars": {
