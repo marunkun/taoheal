@@ -1,0 +1,15 @@
+name = "daoheal"
+compatibility_date = "2024-01-01"
+
+# Cloudflare Pages 配置
+pages_build_output_dir = ".next"
+
+# Cloudflare D1 数据库配置
+[[d1_databases]]
+binding = "DB"
+database_name = "daoheal-community"
+database_id = "5b28d564-308b-47b6-afd7-7b3f69e464fb"
+
+# 环境变量
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://daoheal.pages.dev"
