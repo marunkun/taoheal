@@ -32,10 +32,9 @@ jobs:
 
       - name: Deploy to Cloudflare Pages (daoheal.pages.dev)
         run: |
-          mkdir -p .pages-deploy
-          cp -r .open-next/assets/* .pages-deploy/
-          cp .open-next/worker.js .pages-deploy/_worker.js
-          npx wrangler pages deploy .pages-deploy --project-name daoheal --branch master
+          cp -r .open-next .pages-deploy
+          mv .pages-deploy/worker.js .pages-deploy/_worker.js
+          npx wrangler pages deploy .pages-deploy --project-name daoheal --branch master --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
