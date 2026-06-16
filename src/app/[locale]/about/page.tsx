@@ -1,5 +1,9 @@
 import Link from 'next/link';
 
+export function generateStaticParams() {
+  return [{ locale: 'zh' }, { locale: 'en' }];
+}
+
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isZh = locale === 'zh';
@@ -46,12 +50,12 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <span className="text-5xl">🌿</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            {isZh ? '关于 TaoHeal' : 'About TaoHeal'}
+            {isZh ? '关于 DaoHeal' : 'About DaoHeal'}
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto leading-relaxed">
             {isZh
-              ? '传承千年智慧，开启健康人生。我们致力于让中医养生知识触手可及。'
-              : 'Inherit millennium wisdom, start a healthy life. We make TCM wellness knowledge accessible to everyone.'}
+              ? 'No Tox, All TCM - 用自然方式找回健康'
+              : 'No Tox, All TCM - Reclaim your health naturally'}
           </p>
         </div>
       </section>
@@ -67,8 +71,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
                   {isZh
-                    ? 'TaoHeal 致力于让中医养生知识触手可及，帮助现代人在繁忙的生活中找到平衡与健康。我们相信，通过传承和创新，可以让古老的智慧在今天依然焕发光彩。'
-                    : 'TaoHeal is dedicated to making TCM wellness knowledge accessible to everyone, helping modern people find balance and health in busy lives. We believe that through preservation and innovation, ancient wisdom can shine brightly today.'}
+                    ? 'DaoHeal 致力于让中医养生知识触手可及，帮助现代人在繁忙的生活中找到平衡与健康。我们相信，通过传承和创新，可以让古老的智慧在今天依然焕发光彩。'
+                    : 'DaoHeal is dedicated to making TCM wellness knowledge accessible to everyone, helping modern people find balance and health in busy lives. We believe that through preservation and innovation, ancient wisdom can shine brightly today.'}
                 </p>
               </div>
             </div>
@@ -150,8 +154,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </h2>
           <p className="text-primary-100 mb-8 max-w-2xl mx-auto">
             {isZh
-              ? '无论您是中医养生的初学者还是爱好者，TaoHeal 都能为您提供专业的知识和个性化的建议'
-              : 'Whether you are new to TCM or an enthusiast, TaoHeal provides professional knowledge and personalized advice'}
+              ? '无论您是中医养生的初学者还是爱好者，DaoHeal 都能为您提供专业的知识和个性化的建议'
+              : 'Whether you are new to TCM or an enthusiast, DaoHeal provides professional knowledge and personalized advice'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

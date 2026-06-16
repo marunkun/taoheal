@@ -13,12 +13,12 @@ export default function Hero({ locale }: HeroProps) {
         <div className="text-center">
           <div className="text-6xl mb-6">🌿</div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            {isZh ? '传承千年智慧，开启健康人生' : 'Inherit Millennium Wisdom, Start a Healthy Life'}
+            {isZh ? 'No Tox, All TCM' : 'No Tox, All TCM'}
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             {isZh 
-              ? '探索中医养生奥秘，结合现代科学，让古老智慧为您所用。专业体质测试，个性化养生方案，让健康触手可及。' 
-              : 'Explore the mysteries of TCM wellness, combine with modern science, and let ancient wisdom work for you. Professional body type testing, personalized health plans, making health accessible.'}
+              ? '用自然方式找回健康 - 专为海外华人及国际用户打造的中医养生双语社区' 
+              : 'Reclaim your health naturally - A bilingual TCM wellness community for global Chinese and enthusiasts'}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

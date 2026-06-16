@@ -1,18 +1,18 @@
 import type { Metadata } from 'next';
 
 export const siteConfig = {
-  name: 'TaoHeal',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://taoheal.pages.dev',
+  name: 'DaoHeal',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://daoheal.pages.dev',
   description: {
-    zh: '传承千年智慧，开启健康人生。探索中医养生奥秘，专业体质测试，个性化养生方案。',
-    en: 'Inherit millennium wisdom, start a healthy life. Explore TCM wellness secrets with professional body type assessment.',
+    zh: 'No Tox, All TCM - 用自然方式找回健康',
+    en: 'No Tox, All TCM - Reclaim your health naturally',
   },
   keywords: {
-    zh: ['中医养生', '体质测试', '养生知识', '中医美容', '气血调理', '穴位保健', '食疗药膳', '经络养生', '阴阳五行', '子午流注'],
-    en: ['TCM wellness', 'body type quiz', 'Chinese medicine', 'acupoints', 'dietary therapy', 'meridian health', 'Qi blood', 'herbal beauty'],
+    zh: ['中医养生', '体质测试', '养生知识', '中医美容', '气血调理', '穴位保健', '食疗药膳', '经络养生', '阴阳五行', '子午流注', 'DaoHeal'],
+    en: ['TCM wellness', 'body type quiz', 'Chinese medicine', 'acupoints', 'dietary therapy', 'meridian health', 'Qi blood', 'herbal beauty', 'DaoHeal'],
   },
-  author: 'TaoHeal',
-  twitter: '@taoheal',
+  author: 'DaoHeal',
+  twitter: '@daoheal',
   locale: {
     zh: 'zh_CN',
     en: 'en_US',

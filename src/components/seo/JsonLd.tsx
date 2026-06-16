@@ -4,16 +4,16 @@ interface JsonLdProps {
 
 export function WebsiteJsonLd({ locale }: JsonLdProps) {
   const isZh = locale === 'zh';
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taoheal.pages.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://daoheal.pages.dev';
   
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'TaoHeal',
+    name: 'DaoHeal',
     url: baseUrl,
     description: isZh 
-      ? '传承千年智慧，开启健康人生。探索中医养生奥秘，专业体质测试，个性化养生方案。'
-      : 'Inherit millennium wisdom, start a healthy life. Explore TCM wellness secrets with professional body type assessment.',
+      ? 'No Tox, All TCM - 用自然方式找回健康'
+      : 'No Tox, All TCM - Reclaim your health naturally',
     inLanguage: locale === 'zh' ? 'zh-CN' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
@@ -46,7 +46,7 @@ export function ArticleJsonLd({
     category: { zh: string; en: string };
   }
 }) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taoheal.pages.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://daoheal.pages.dev';
   const articleUrl = `${baseUrl}/${locale}/knowledge/articles/${article.slug}`;
   
   const jsonLd = {
@@ -59,12 +59,12 @@ export function ArticleJsonLd({
     dateModified: article.publishedAt || new Date().toISOString(),
     author: {
       '@type': 'Organization',
-      name: 'TaoHeal',
+      name: 'DaoHeal',
       url: baseUrl,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'TaoHeal',
+      name: 'DaoHeal',
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',
@@ -94,15 +94,15 @@ export function ArticleJsonLd({
 }
 
 export function OrganizationJsonLd() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taoheal.pages.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://daoheal.pages.dev';
   
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'TaoHeal',
+    name: 'DaoHeal',
     url: baseUrl,
     logo: `${baseUrl}/favicon.svg`,
-    description: '中医养生智慧平台 - TCM Wellness Platform',
+    description: 'DaoHeal · 道·疗愈 - No Tox, All TCM',
     sameAs: [],
     contactPoint: {
       '@type': 'ContactPoint',

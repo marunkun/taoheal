@@ -1,29 +1,30 @@
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import BackToTop from '@/components/layout/BackToTop';
+import HtmlLangSetter from '@/components/layout/HtmlLangSetter';
 
 const locales = ['zh', 'en'];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isZh = locale === 'zh';
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://taoheal.pages.dev';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://daoheal.pages.dev';
 
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      default: isZh ? 'TaoHeal - 中医养生双语社区' : 'TaoHeal - Bilingual TCM Wellness Community',
-      template: isZh ? '%s | TaoHeal 中医养生' : '%s | TaoHeal TCM Wellness',
+      default: isZh ? 'DaoHeal - 道·疗愈 | 中医养生双语社区' : 'DaoHeal · 道·疗愈 | Bilingual TCM Wellness Community',
+      template: isZh ? '%s | DaoHeal 中医养生' : '%s | DaoHeal TCM Wellness',
     },
     description: isZh
-      ? '用自然方式找回健康 - 专为全球华人及中国文化爱好者打造的中医养生双语社区，提供专业的中医知识、体质测试和食疗建议。'
-      : 'Reclaim your health naturally - A bilingual TCM wellness community for global Chinese and enthusiasts. Professional TCM knowledge, body type quizzes, and dietary advice.',
+      ? 'No Tox, All TCM - 用自然方式找回健康。专为海外华人及国际用户打造的中医养生双语社区，提供专业的中医知识、体质测试和食疗建议。'
+      : 'No Tox, All TCM - Reclaim your health naturally. A bilingual TCM wellness community for global Chinese and enthusiasts. Professional TCM knowledge, body type quizzes, and dietary advice.',
     keywords: isZh
-      ? ['中医', '养生', '体质测试', '穴位按摩', '食疗', '双语', '健康']
-      : ['TCM', 'Traditional Chinese Medicine', 'wellness', 'body type quiz', 'acupressure', 'dietary therapy', 'health'],
-    authors: [{ name: 'TaoHeal' }],
-    creator: 'TaoHeal',
-    publisher: 'TaoHeal',
+      ? ['中医', '养生', '体质测试', '穴位按摩', '食疗', '双语', '健康', 'DaoHeal']
+      : ['TCM', 'Traditional Chinese Medicine', 'wellness', 'body type quiz', 'acupressure', 'dietary therapy', 'health', 'DaoHeal'],
+    authors: [{ name: 'DaoHeal' }],
+    creator: 'DaoHeal',
+    publisher: 'DaoHeal',
     formatDetection: {
       email: false,
       address: false,
@@ -33,26 +34,26 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: locale === 'zh' ? 'zh_CN' : 'en_US',
       alternateLocale: locale === 'zh' ? ['en_US'] : ['zh_CN'],
-      siteName: 'TaoHeal',
-      title: isZh ? 'TaoHeal - 中医养生双语社区' : 'TaoHeal - Bilingual TCM Wellness Community',
+      siteName: 'DaoHeal',
+      title: isZh ? 'DaoHeal - 道·疗愈 | 中医养生双语社区' : 'DaoHeal · 道·疗愈 | Bilingual TCM Wellness Community',
       description: isZh
-        ? '用自然方式找回健康 - 专为全球华人及中医爱好者打造的中医养生双语社区'
-        : 'Reclaim your health naturally - A bilingual TCM wellness community',
+        ? 'No Tox, All TCM - 用自然方式找回健康'
+        : 'No Tox, All TCM - Reclaim your health naturally',
       images: [
         {
           url: '/og-image.png',
           width: 1200,
           height: 630,
-          alt: 'TaoHeal - TCM Wellness Community',
+          alt: 'DaoHeal · 道·疗愈 - TCM Wellness Community',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: isZh ? 'TaoHeal - 中医养生双语社区' : 'TaoHeal - Bilingual TCM Wellness Community',
+      title: isZh ? 'DaoHeal - 道·疗愈 | 中医养生双语社区' : 'DaoHeal · 道·疗愈 | Bilingual TCM Wellness Community',
       description: isZh
-        ? '用自然方式找回健康 - 专为全球华人及中医爱好者打造的中医养生双语社区'
-        : 'Reclaim your health naturally - A bilingual TCM wellness community',
+        ? 'No Tox, All TCM - 用自然方式找回健康'
+        : 'No Tox, All TCM - Reclaim your health naturally',
       images: ['/og-image.png'],
     },
     robots: {
@@ -84,6 +85,7 @@ export default async function LocaleLayout({
 
   return (
     <>
+      <HtmlLangSetter locale={locale} />
       <Header locale={locale} />
       <main className="flex-1" role="main">
         {children}

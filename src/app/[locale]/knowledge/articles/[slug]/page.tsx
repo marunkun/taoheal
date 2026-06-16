@@ -2,10 +2,16 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { getArticle, getRelatedArticles, type ContentBlock } from '@/lib/articles';
+import { getArticle, getRelatedArticles, getAllArticleSlugs, type ContentBlock } from '@/lib/articles';
 import { generateArticleMetadata } from '@/lib/metadata';
 import ShareButtons from '@/components/articles/ShareButtons';
 import { ArticleJsonLd } from '@/components/seo/JsonLd';
+
+export function generateStaticParams() {
+  const slugs = getAllArticleSlugs();
+  const locales = ['zh', 'en'];
+  return slugs.flatMap((slug) => locales.map((locale) => ({ locale, slug })));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
   const { locale, slug } = await params;

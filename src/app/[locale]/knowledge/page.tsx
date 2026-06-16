@@ -21,6 +21,10 @@ const CATEGORY_ICONS: { [key: string]: string } = {
   '中医美容养颜': '✨',
 };
 
+export function generateStaticParams() {
+  return [{ locale: 'zh' }, { locale: 'en' }];
+}
+
 export default async function KnowledgePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const localeKey = locale as 'zh' | 'en';

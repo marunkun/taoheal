@@ -1,3 +1,7 @@
+export function generateStaticParams() {
+  return [{ locale: 'zh' }, { locale: 'en' }];
+}
+
 export default async function TermsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const isZh = locale === 'zh';
@@ -16,7 +20,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
 
         <section>
           <h2 className="text-xl font-semibold text-gray-800 mb-4">2. {isZh ? '服务描述' : 'Description of Service'}</h2>
-          <p>{isZh ? 'TaoHeal提供中医养生知识内容和健康信息浏览服务。我们保留随时修改或终止服务的权利。' : 'TaoHeal provides TCM wellness knowledge content and health information browsing services. We reserve the right to modify or terminate services at any time.'}</p>
+          <p>{isZh ? 'DaoHeal提供中医养生知识内容和健康信息浏览服务。我们保留随时修改或终止服务的权利。' : 'DaoHeal provides TCM wellness knowledge content and health information browsing services. We reserve the right to modify or terminate services at any time.'}</p>
         </section>
 
         <section>

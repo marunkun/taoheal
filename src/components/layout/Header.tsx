@@ -37,13 +37,13 @@ export default function Header({ locale }: HeaderProps) {
           <Link
             href={`/${locale}`}
             className="flex items-center space-x-2 group"
-            aria-label="TaoHeal Home"
+            aria-label="DaoHeal Home"
           >
             <span className="text-2xl group-hover:scale-110 transition-transform duration-300" role="img" aria-label="leaf">
               🌿
             </span>
             <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent">
-              TaoHeal
+              DaoHeal
             </span>
           </Link>
 

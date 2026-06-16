@@ -6,6 +6,10 @@ import VideoSection, { defaultVideos } from '@/components/home/VideoSection';
 import { getAllArticlesMeta } from '@/lib/articles';
 import { WebsiteJsonLd, OrganizationJsonLd } from '@/components/seo/JsonLd';
 
+export function generateStaticParams() {
+  return [{ locale: 'zh' }, { locale: 'en' }];
+}
+
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const localeKey = locale as 'zh' | 'en';

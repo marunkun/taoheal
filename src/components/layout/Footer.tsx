@@ -14,10 +14,10 @@ export default function Footer({ locale }: FooterProps) {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <span className="text-2xl">🌿</span>
-              <span className="text-xl font-bold">TaoHeal</span>
+              <span className="text-xl font-bold">DaoHeal</span>
             </div>
             <p className="text-text-muted text-sm leading-relaxed mb-4">
-              {isZh ? '传承千年智慧，开启健康人生。用自然方式找回健康。' : 'Inherit millennium wisdom, start a healthy life. Reclaim your health naturally.'}
+              {isZh ? 'No Tox, All TCM - 用自然方式找回健康' : 'No Tox, All TCM - Reclaim your health naturally'}
             </p>
             <div className="flex items-center gap-2">
               <a
@@ -111,11 +111,11 @@ export default function Footer({ locale }: FooterProps) {
 
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-text-muted text-sm">
-            © 2026 TaoHeal. {isZh ? '保留所有权利。' : 'All rights reserved.'}
+            © 2026 DaoHeal · 道·疗愈. {isZh ? '保留所有权利。' : 'All rights reserved.'}
           </p>
           <div className="flex items-center gap-2 text-sm text-text-muted">
             <span>🌿</span>
-            <span>{isZh ? '让中医养生知识触手可及' : 'Making TCM wellness accessible'}</span>
+            <span>{isZh ? 'No Tox, All TCM' : 'No Tox, All TCM'}</span>
           </div>
         </div>
       </div>

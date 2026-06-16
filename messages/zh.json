@@ -1,8 +1,8 @@
 {
   "site": {
-    "title": "TaoHeal - 中医养生双语社区",
-    "description": "用自然方式找回健康 - 专为全球华人及中国文化爱好者打造的中医养生双语社区，提供专业的中医知识、体质测试和食疗建议。",
-    "tagline": "用自然方式找回健康"
+    "title": "DaoHeal - 道·疗愈 | 中医养生双语社区",
+    "description": "No Tox, All TCM - 用自然方式找回健康。专为海外华人及国际用户打造的中医养生双语社区，提供专业的中医知识、体质测试和食疗建议。",
+    "tagline": "No Tox, All TCM"
   },
   "nav": {
     "home": "首页",
@@ -35,7 +35,7 @@
     }
   },
   "about": {
-    "title": "关于 TaoHeal",
+    "title": "关于 DaoHeal",
     "mission": {
       "title": "我们的使命",
       "description": "让中医养生智慧惠及全球华人，用现代科技传承传统文化。"

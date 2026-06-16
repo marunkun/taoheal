@@ -1,8 +1,8 @@
 {
   "site": {
-    "title": "TaoHeal - Bilingual TCM Wellness Community",
-    "description": "Reclaim your health naturally - A bilingual TCM wellness community for global Chinese and enthusiasts. Professional TCM knowledge, body type quizzes, and dietary advice.",
-    "tagline": "Reclaim your health naturally"
+    "title": "DaoHeal · 道·疗愈 | Bilingual TCM Wellness Community",
+    "description": "No Tox, All TCM - Reclaim your health naturally. A bilingual TCM wellness community for global Chinese and enthusiasts. Professional TCM knowledge, body type quizzes, and dietary advice.",
+    "tagline": "No Tox, All TCM"
   },
   "nav": {
     "home": "Home",
@@ -35,7 +35,7 @@
     }
   },
   "about": {
-    "title": "About TaoHeal",
+    "title": "About DaoHeal",
     "mission": {
       "title": "Our Mission",
       "description": "Bringing TCM wellness wisdom to global Chinese communities through modern technology."

@@ -1,9 +1,10 @@
-'use client';
-
 import BodyTypeQuiz from '@/components/tools/BodyTypeQuiz';
-import { useParams } from 'next/navigation';
 
-export default function QuizPage() {
-  const params = useParams<{ locale: string }>();
-  return <BodyTypeQuiz locale={params.locale || 'zh'} />;
+export function generateStaticParams() {
+  return [{ locale: 'zh' }, { locale: 'en' }];
+}
+
+export default async function QuizPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return <BodyTypeQuiz locale={locale || 'zh'} />;
 }
