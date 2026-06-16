@@ -6,13 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "pages:deploy": "npx wrangler pages deploy .vercel/output/static --project-name=daoheal --branch=master"
+    "lint": "next lint"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.2",
-    "@cloudflare/next-on-pages": "^1.13.0",
+    "@opennextjs/cloudflare": "^1.10.0",
     "drizzle-orm": "^0.45.2",
     "next": "^15.1.0",
     "next-auth": "^5.0.0-beta.31",
@@ -29,7 +27,7 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
-    "wrangler": "^4.100.0"
+    "wrangler": "^4.10.0"
   },
   "engines": {
     "node": ">=18.0.0"
