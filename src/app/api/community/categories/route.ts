@@ -1,11 +1,16 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { getCloudflareContext } from "@/lib/cloudflare";
+import { mockCategories, mockPosts } from "@/lib/mockData";
 
-// 获取分类列表
 export async function GET() {
   const { env } = getCloudflareContext();
+
   if (!env.DB) {
-    return NextResponse.json({ error: "Database not configured" }, { status: 500 });
+    const categoriesWithCount = mockCategories.map(cat => ({
+      ...cat,
+      actual_post_count: mockPosts.filter(p => p.category_id === cat.id).length,
+    }));
+    return NextResponse.json({ categories: categoriesWithCount });
   }
 
   try {

@@ -41,7 +41,7 @@ export default function Search({ locale }: SearchProps) {
       } else {
         setResults([]);
       }
-    }, 300);
+    }, 200);
 
     return () => clearTimeout(delayDebounceFn);
   }, [query, locale]);
@@ -52,7 +52,12 @@ export default function Search({ locale }: SearchProps) {
     inputRef.current?.focus();
   };
 
-  const popularTags = locale === 'zh' ? ['失眠', '穴位', '养生', '食谱'] : ['insomnia', 'acupoint', 'wellness', 'recipe'];
+  const handleTagClick = (tag: string) => {
+    setQuery(tag);
+    inputRef.current?.focus();
+  };
+
+  const popularTags = locale === 'zh' ? ['失眠', '穴位', '养生', '食谱', '体质', '经络'] : ['insomnia', 'acupoint', 'wellness', 'recipe', 'body type', 'meridian'];
 
   return (
     <div className="relative" ref={dropdownRef}>
@@ -81,7 +86,7 @@ export default function Search({ locale }: SearchProps) {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder={locale === 'zh' ? '搜索文章、穴位、食谱...' : 'Search articles, acupoints, recipes...'}
-              className="flex-1 bg-transparent text-sm outline-none placeholder-gray-400"
+              className="flex-1 bg-transparent text-sm outline-none placeholder-gray-400 text-gray-800"
             />
             {query && (
               <button
@@ -139,8 +144,8 @@ export default function Search({ locale }: SearchProps) {
                   {popularTags.map((tag) => (
                     <button
                       key={tag}
-                      onClick={() => setQuery(tag)}
-                      className="px-2 py-1 bg-green-50 text-green-700 text-xs rounded-full hover:bg-green-100 transition-colors"
+                      onClick={() => handleTagClick(tag)}
+                      className="px-3 py-1.5 bg-green-50 text-green-700 text-xs rounded-full hover:bg-green-100 transition-colors hover:scale-105"
                     >
                       {tag}
                     </button>

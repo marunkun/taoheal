@@ -82,3 +82,14 @@ CREATE INDEX IF NOT EXISTS idx_posts_category ON posts(category_id);
 CREATE INDEX IF NOT EXISTS idx_posts_created ON posts(created_at DESC);
 CREATE INDEX IF NOT EXISTS idx_comments_post ON comments(post_id);
 CREATE INDEX IF NOT EXISTS idx_comments_author ON comments(author_id);
+
+-- 订阅者表
+CREATE TABLE IF NOT EXISTS subscribers (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  email TEXT UNIQUE NOT NULL,
+  locale TEXT DEFAULT 'zh',
+  subscribed_at TEXT DEFAULT (datetime('now')),
+  is_active INTEGER DEFAULT 1
+);
+
+CREATE INDEX IF NOT EXISTS idx_subscribers_email ON subscribers(email);

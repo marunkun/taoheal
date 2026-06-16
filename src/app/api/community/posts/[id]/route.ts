@@ -1,22 +1,30 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { getCloudflareContext } from "@/lib/cloudflare";
+import { mockPosts, mockComments } from "@/lib/mockData";
 
-// 获取单个帖子详情
-export async function GET(request: NextRequest) {
-  const { env } = getCloudflareContext();
-  const searchParams = request.nextUrl.searchParams;
-  const postId = searchParams.get("id");
-
+export async function GET(request: Request) {
+  const url = new URL(request.url);
+  const postId = url.pathname.split("/").pop();
+  
   if (!postId) {
     return NextResponse.json({ error: "Post ID is required" }, { status: 400 });
   }
 
+  const { env } = getCloudflareContext();
+
   if (!env.DB) {
-    return NextResponse.json({ error: "Database not configured" }, { status: 500 });
+    const post = mockPosts.find(p => p.id === postId);
+    if (!post) {
+      return NextResponse.json({ error: "Post not found" }, { status: 404 });
+    }
+    
+    return NextResponse.json({
+      post,
+      comments: mockComments[postId] || [],
+    });
   }
 
   try {
-    // 获取帖子
     const postResult = await env.DB
       .prepare(`
         SELECT p.*, c.name_zh as category_name_zh, c.name_en as category_name_en, c.icon as category_icon
@@ -31,13 +39,11 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: "Post not found" }, { status: 404 });
     }
 
-    // 增加浏览次数
     await env.DB
       .prepare(`UPDATE posts SET view_count = view_count + 1 WHERE id = ?`)
       .bind(postId)
       .run();
 
-    // 获取评论
     const commentsResult = await env.DB
       .prepare(`
         SELECT * FROM comments

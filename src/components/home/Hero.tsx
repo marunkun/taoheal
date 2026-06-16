@@ -11,11 +11,10 @@ export default function Hero({ locale }: HeroProps) {
     <section className="bg-gradient-to-br from-primary-50 via-bg-white to-accent-50 py-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center">
-          <div className="text-6xl mb-6">🌿</div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
             {isZh ? 'No Tox, All TCM' : 'No Tox, All TCM'}
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             {isZh 
               ? '用自然方式找回健康 - 专为海外华人及国际用户打造的中医养生双语社区' 
               : 'Reclaim your health naturally - A bilingual TCM wellness community for global Chinese and enthusiasts'}
@@ -23,15 +22,15 @@ export default function Hero({ locale }: HeroProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href={`/${locale}/tools/body-type-quiz`}
-              className="px-8 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium"
+              className="px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-xl hover:from-green-600 hover:to-emerald-700 transition-all font-semibold shadow-lg shadow-green-500/25"
             >
-              {isZh ? '开始体质测试' : 'Start Body Type Quiz'}
+              🎯 {isZh ? '开始体质测试' : 'Start Body Type Quiz'}
             </Link>
             <Link
               href={`/${locale}/knowledge`}
-              className="px-8 py-3 border-2 border-green-600 text-green-600 rounded-lg hover:bg-green-50 transition-colors font-medium"
+              className="px-8 py-4 border-2 border-green-600 text-green-600 rounded-xl hover:bg-green-50 transition-all font-semibold"
             >
-              {isZh ? '探索知识库' : 'Explore Knowledge Base'}
+              📚 {isZh ? '探索知识库' : 'Explore Knowledge Base'}
             </Link>
           </div>
         </div>

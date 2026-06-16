@@ -1,0 +1,4 @@
+allowBuilds:
+  sharp: set this to true or false
+minimumReleaseAgeExclude:
+  - '@cloudflare/workers-types@4.20260616.1'

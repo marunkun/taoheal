@@ -46,14 +46,13 @@ export default async function KnowledgePage({ params }: { params: Promise<{ loca
     <div className="bg-bg-section min-h-screen">
       <section className="bg-gradient-to-br from-green-600 to-emerald-700 text-white py-16">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <div className="text-5xl mb-4">📚</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {isZh ? '养生知识库' : 'Wellness Knowledge Base'}
           </h1>
-          <p className="text-lg text-primary-100 max-w-2xl mx-auto">
+          <p className="text-lg text-primary-100 max-w-2xl mx-auto mb-6">
             {isZh ? '系统学习中医养生知识，从基础理论到实践应用' : 'Systematically learn TCM wellness knowledge from fundamentals to practical applications'}
           </p>
-          <div className="mt-8 inline-flex items-center gap-4 px-6 py-3 bg-white/10 backdrop-blur rounded-full">
+          <div className="inline-flex items-center gap-4 px-6 py-3 bg-white/10 backdrop-blur rounded-full">
             <span className="text-2xl font-bold">{allArticles.length}</span>
             <span className="text-primary-100">{isZh ? '篇精选文章' : 'featured articles'}</span>
           </div>

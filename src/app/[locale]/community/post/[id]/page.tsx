@@ -123,10 +123,12 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-bg-section flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4">⏳</div>
-          <p className="text-text-muted">{isZh ? "加载中..." : "Loading..."}</p>
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-100 rounded-full mb-4">
+            <div className="w-6 h-6 border-2 border-primary-500 border-t-transparent rounded-full animate-spin" />
+          </div>
+          <p className="text-gray-500">{isZh ? "加载中..." : "Loading..."}</p>
         </div>
       </div>
     );
@@ -134,13 +136,13 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
 
   if (!post) {
     return (
-      <div className="min-h-screen bg-bg-section flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-4xl mb-4">❌</div>
-          <p className="text-text-muted mb-4">{isZh ? "帖子不存在" : "Post not found"}</p>
+          <div className="text-5xl mb-4">❌</div>
+          <p className="text-gray-500 mb-4">{isZh ? "帖子不存在" : "Post not found"}</p>
           <Link
             href={"/" + locale + "/community"}
-            className="px-6 py-3 bg-primary-600 text-white rounded-xl hover:bg-primary-700"
+            className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all font-semibold"
           >
             {isZh ? "返回社区" : "Back to Community"}
           </Link>
@@ -150,28 +152,30 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
   }
 
   return (
-    <div className="min-h-screen bg-bg-section">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-50">
       {showNameInput && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-2xl p-8 max-w-md w-full mx-4">
-            <h3 className="text-xl font-bold text-gray-800 mb-4">
-              {isZh ? "设置您的昵称" : "Set Your Nickname"}
-            </h3>
-            <p className="text-gray-600 mb-6">
-              {isZh ? "输入一个昵称，即可在社区发帖和评论" : "Enter a nickname to post and comment in the community"}
-            </p>
+        <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-3xl p-8 max-w-md w-full shadow-2xl animate-in fade-in zoom-in duration-300">
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4">
+                👤
+              </div>
+              <h3 className="text-xl font-bold text-gray-800">{isZh ? "设置您的昵称" : "Set Your Nickname"}</h3>
+              <p className="text-gray-500 mt-2">{isZh ? "输入昵称即可参与社区讨论" : "Enter a nickname to join the community"}</p>
+            </div>
             <input
               type="text"
               value={userNameInput}
               onChange={(e) => setUserNameInput(e.target.value)}
-              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent mb-4"
+              className="w-full px-4 py-3 bg-gray-50 border border-gray-200 text-gray-800 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent mb-6 transition-all"
               placeholder={isZh ? "您的昵称" : "Your nickname"}
               maxLength={20}
+              autoFocus
             />
             <div className="flex gap-3">
               <button
                 onClick={() => setShowNameInput(false)}
-                className="px-6 py-3 bg-gray-100 text-gray-700 rounded-xl hover:bg-gray-200 transition-colors"
+                className="flex-1 px-6 py-3 bg-gray-100 text-gray-700 rounded-xl hover:bg-gray-200 transition-all font-medium"
               >
                 {isZh ? "取消" : "Cancel"}
               </button>
@@ -181,7 +185,7 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
                     saveName(userNameInput.trim());
                   }
                 }}
-                className="px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors"
+                className="flex-1 px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={!userNameInput.trim()}
               >
                 {isZh ? "确认" : "Confirm"}
@@ -194,82 +198,85 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
       <div className="max-w-4xl mx-auto px-4 py-8">
         <Link
           href={"/" + locale + "/community"}
-          className="inline-flex items-center gap-2 text-text-muted hover:text-primary mb-6"
+          className="inline-flex items-center gap-2 text-gray-500 hover:text-primary transition-colors mb-8"
         >
-          <span>←</span>
+          <span className="text-lg">←</span>
           <span>{isZh ? "返回社区" : "Back to Community"}</span>
         </Link>
 
-        <article className="bg-white rounded-2xl p-8 border border-border mb-8">
-          <div className="flex items-center gap-2 text-sm text-text-muted mb-4">
-            {post.category_icon && (
-              <>
-                <span>{post.category_icon}</span>
-                <span>{isZh ? post.category_name_zh : post.category_name_en}</span>
-                <span>•</span>
-              </>
-            )}
-            <span>{formatTime(post.created_at)}</span>
-          </div>
-
-          <h1 className="text-3xl font-bold text-text-primary mb-6">{post.title}</h1>
-
-          <div className="flex items-center gap-4 mb-8 pb-6 border-b border-border">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-white font-bold overflow-hidden">
-              {post.author_image ? (
-                <img src={post.author_image} alt={post.author_name} className="w-full h-full object-cover" />
-              ) : (
-                post.author_name.charAt(0).toUpperCase()
+        <article className="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden mb-8">
+          <div className="p-8">
+            <div className="flex items-center gap-3 mb-4">
+              {post.category_icon && (
+                <span className="text-xl">{post.category_icon}</span>
               )}
+              <span className="px-3 py-1 bg-primary-50 text-primary-600 rounded-full text-sm font-medium">
+                {isZh ? post.category_name_zh : post.category_name_en}
+              </span>
+              <span className="text-sm text-gray-400">{formatTime(post.created_at)}</span>
             </div>
-            <div>
-              <div className="font-medium text-text-primary">{post.author_name}</div>
-              <div className="text-sm text-text-muted">
-                👁️ {post.view_count} {isZh ? "浏览" : "views"}
+
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">{post.title}</h1>
+
+            <div className="flex items-center gap-4 mb-8 pb-6 border-b border-gray-100">
+              <div className="w-14 h-14 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-md">
+                {post.author_image ? (
+                  <img src={post.author_image} alt={post.author_name} className="w-full h-full object-cover rounded-xl" />
+                ) : (
+                  post.author_name.charAt(0).toUpperCase()
+                )}
+              </div>
+              <div>
+                <div className="font-semibold text-gray-800">{post.author_name}</div>
+                <div className="text-sm text-gray-500">
+                  👁️ {post.view_count} {isZh ? "浏览" : "views"}
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="prose max-w-none text-text-secondary leading-relaxed whitespace-pre-wrap">
-            {post.content}
+            <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed whitespace-pre-wrap">
+              {post.content}
+            </div>
           </div>
         </article>
 
-        <div className="bg-white rounded-2xl p-8 border border-border">
-          <h2 className="text-xl font-bold text-text-primary mb-6">
-            {isZh ? "评论" : "Comments"} ({comments.length})
-          </h2>
+        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-bold text-gray-800">
+              {isZh ? "评论" : "Comments"} ({comments.length})
+            </h2>
+          </div>
 
           {user ? (
             <form onSubmit={handleSubmitComment} className="mb-8">
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-white font-bold">
+                <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-teal-500 rounded-full flex items-center justify-center text-white font-bold">
                   {user.name.charAt(0).toUpperCase()}
                 </div>
-                <span className="text-sm text-text-muted">{user.name}</span>
+                <span className="text-sm text-gray-600 font-medium">{user.name}</span>
               </div>
               <textarea
                 value={newComment}
                 onChange={(e) => setNewComment(e.target.value)}
-                className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent min-h-[100px]"
+                className="w-full px-4 py-4 bg-gray-50 border border-gray-200 text-gray-800 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all min-h-[120px] resize-none"
                 placeholder={isZh ? "写下你的评论..." : "Write your comment..."}
                 required
               />
-              <div className="mt-4">
+              <div className="mt-4 flex justify-end">
                 <button
                   type="submit"
-                  className="px-6 py-2 bg-primary-600 text-white rounded-xl hover:bg-primary-700 font-medium"
+                  className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all font-semibold"
                 >
                   {isZh ? "发表评论" : "Post Comment"}
                 </button>
               </div>
             </form>
           ) : (
-            <div className="mb-8 p-6 bg-bg-section rounded-xl text-center">
-              <p className="text-text-muted mb-4">{isZh ? "设置昵称后发表评论" : "Set nickname to post comments"}</p>
+            <div className="mb-8 p-6 bg-gradient-to-r from-primary-50 to-indigo-50 rounded-xl text-center">
+              <p className="text-gray-600 mb-4">{isZh ? "设置昵称后发表评论" : "Set nickname to post comments"}</p>
               <button
                 onClick={() => setShowNameInput(true)}
-                className="px-6 py-2 bg-primary-600 text-white rounded-xl hover:bg-primary-700 font-medium"
+                className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all font-semibold"
               >
                 {isZh ? "设置昵称" : "Set Nickname"}
               </button>
@@ -277,27 +284,27 @@ export default function PostPage({ params }: { params: Promise<{ locale: string;
           )}
 
           {comments.length === 0 ? (
-            <div className="text-center py-8">
+            <div className="text-center py-12">
               <div className="text-4xl mb-4">💭</div>
-              <p className="text-text-muted">{isZh ? "还没有评论，快来发表第一个评论吧！" : "No comments yet. Be the first to comment!"}</p>
+              <p className="text-gray-500">{isZh ? "还没有评论，快来发表第一个评论吧！" : "No comments yet. Be the first to comment!"}</p>
             </div>
           ) : (
             <div className="space-y-6">
               {comments.map((comment) => (
-                <div key={comment.id} className="flex gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-blue-500 flex items-center justify-center text-white text-sm font-bold overflow-hidden">
+                <div key={comment.id} className="flex gap-4 p-4 bg-gray-50 rounded-xl">
+                  <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full flex items-center justify-center text-white font-bold">
                     {comment.author_image ? (
-                      <img src={comment.author_image} alt={comment.author_name} className="w-full h-full object-cover" />
+                      <img src={comment.author_image} alt={comment.author_name} className="w-full h-full object-cover rounded-full" />
                     ) : (
                       comment.author_name.charAt(0).toUpperCase()
                     )}
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="font-medium text-text-primary">{comment.author_name}</span>
-                      <span className="text-xs text-text-muted">{formatTime(comment.created_at)}</span>
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="font-semibold text-gray-800">{comment.author_name}</span>
+                      <span className="text-xs text-gray-400">{formatTime(comment.created_at)}</span>
                     </div>
-                    <p className="text-text-secondary">{comment.content}</p>
+                    <p className="text-gray-600">{comment.content}</p>
                   </div>
                 </div>
               ))}

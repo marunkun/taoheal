@@ -44,12 +44,9 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
 
   return (
     <div className="min-h-screen bg-bg-section">
-      <section className="bg-gradient-to-br from-primary-600 to-primary-700 text-white py-20">
+      <section className="bg-gradient-to-br from-primary-600 to-primary-700 text-white py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur rounded-2xl mb-6">
-            <span className="text-5xl">🌿</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {isZh ? '关于 DaoHeal' : 'About DaoHeal'}
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto leading-relaxed">
@@ -170,6 +167,50 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             >
               📚 {isZh ? '浏览知识库' : 'Explore Knowledge Base'}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-text-primary mb-4">
+              {isZh ? '联系我们' : 'Contact Us'}
+            </h2>
+            <p className="text-text-secondary">{isZh ? '如有任何问题或建议，欢迎与我们联系' : 'Feel free to contact us with any questions or suggestions'}</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-primary-50 to-accent-50 rounded-3xl p-8 border border-primary-100">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-2xl flex items-center justify-center text-white text-xl shadow-lg">
+                  📧
+                </div>
+                <div>
+                  <div className="text-sm text-text-muted mb-1">{isZh ? '电子邮箱' : 'Email'}</div>
+                  <a href="mailto:marunkun@foxmail.com" className="text-lg font-semibold text-text-primary hover:text-primary transition-colors">
+                    marunkun@foxmail.com
+                  </a>
+                </div>
+              </div>
+              <div className="w-px h-12 bg-gray-300 hidden md:block" />
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 bg-gradient-to-br from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center text-white text-xl shadow-lg">
+                  🌿
+                </div>
+                <div>
+                  <div className="text-sm text-text-muted mb-1">{isZh ? '关注我们' : 'Follow Us'}</div>
+                  <div className="flex gap-3">
+                    <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-all shadow-sm">
+                      <span className="text-sm">微信</span>
+                    </a>
+                    <a href="#" className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-gray-600 hover:bg-primary hover:text-white transition-all shadow-sm">
+                      <span className="text-sm">微博</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

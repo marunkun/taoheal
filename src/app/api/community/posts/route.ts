@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCloudflareContext } from "@/lib/cloudflare";
+import { mockPosts, mockCategories, createMockPost } from "@/lib/mockData";
 
-// 获取帖子列表
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const category = searchParams.get("category");
@@ -9,8 +9,33 @@ export async function GET(request: NextRequest) {
   const limit = parseInt(searchParams.get("limit") || "20");
 
   const { env } = getCloudflareContext();
+
   if (!env.DB) {
-    return NextResponse.json({ error: "Database not configured" }, { status: 500 });
+    let filteredPosts = [...mockPosts];
+    
+    if (category) {
+      filteredPosts = filteredPosts.filter(post => 
+        post.category_id === parseInt(category)
+      );
+    }
+
+    filteredPosts.sort((a, b) => {
+      if (a.is_pinned !== b.is_pinned) return b.is_pinned ? 1 : -1;
+      return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+    });
+
+    const offset = (page - 1) * limit;
+    const paginatedPosts = filteredPosts.slice(offset, offset + limit);
+
+    return NextResponse.json({
+      posts: paginatedPosts,
+      pagination: {
+        page,
+        limit,
+        total: filteredPosts.length,
+        totalPages: Math.ceil(filteredPosts.length / limit),
+      },
+    });
   }
 
   try {
@@ -35,7 +60,6 @@ export async function GET(request: NextRequest) {
       .bind(...params)
       .all();
 
-    // 获取总数
     let countQuery = `SELECT COUNT(*) as total FROM posts`;
     if (category) {
       countQuery += ` WHERE category_id = ?`;
@@ -62,12 +86,8 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// 创建新帖子
 export async function POST(request: NextRequest) {
   const { env } = getCloudflareContext();
-  if (!env.DB) {
-    return NextResponse.json({ error: "Database not configured" }, { status: 500 });
-  }
 
   try {
     const body = await request.json();
@@ -75,6 +95,18 @@ export async function POST(request: NextRequest) {
 
     if (!title || !content || !authorId || !authorName) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    }
+
+    if (!env.DB) {
+      const newPost = createMockPost({
+        title,
+        content,
+        categoryId,
+        authorId,
+        authorName,
+        authorImage,
+      });
+      return NextResponse.json({ id: newPost.id, message: "Post created successfully" }, { status: 201 });
     }
 
     const id = `post_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
@@ -88,7 +120,6 @@ export async function POST(request: NextRequest) {
       .bind(id, title, content, authorId, authorName, authorImage || null, categoryId || null, now, now)
       .run();
 
-    // 更新分类的帖子数量
     if (categoryId) {
       await env.DB
         .prepare(`UPDATE categories SET post_count = post_count + 1 WHERE id = ?`)
