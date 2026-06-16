@@ -1,8 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useState, useEffect, use } from "react";
 import Link from "next/link";
 
 interface Category {
@@ -32,18 +30,45 @@ interface Post {
   category_icon: string;
 }
 
-export default function CommunityPage() {
-  const searchParams = useSearchParams();
-  const locale = searchParams.get("locale") || "zh";
+// 简单的用户状态管理（使用 localStorage）
+function useUser() {
+  const [user, setUser] = useState<{ name: string } | null>(null);
+  const [showNameInput, setShowNameInput] = useState(false);
+
+  useEffect(() => {
+    const savedName = localStorage.getItem("daoheal_user_name");
+    if (savedName) {
+      setUser({ name: savedName });
+    }
+  }, []);
+
+  function saveName(name: string) {
+    localStorage.setItem("daoheal_user_name", name);
+    setUser({ name });
+    setShowNameInput(false);
+  }
+
+  function clearName() {
+    localStorage.removeItem("daoheal_user_name");
+    setUser(null);
+  }
+
+  return { user, showNameInput, setShowNameInput, saveName, clearName };
+}
+
+export default function CommunityPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: localeParam } = use(params);
+  const locale = localeParam || "zh";
   const isZh = locale === "zh";
 
-  const { data: session, status } = useSession();
+  const { user, showNameInput, setShowNameInput, saveName, clearName } = useUser();
   const [categories, setCategories] = useState<Category[]>([]);
   const [posts, setPosts] = useState<Post[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<number | null>(null);
   const [showPostForm, setShowPostForm] = useState(false);
   const [newPost, setNewPost] = useState({ title: "", content: "", categoryId: "" });
   const [loading, setLoading] = useState(true);
+  const [userNameInput, setUserNameInput] = useState("");
 
   useEffect(() => {
     fetchCategories();
@@ -78,8 +103,8 @@ export default function CommunityPage() {
 
   async function handleCreatePost(e: React.FormEvent) {
     e.preventDefault();
-    if (!session) {
-      alert(isZh ? "请先登录" : "Please sign in first");
+    if (!user) {
+      setShowNameInput(true);
       return;
     }
 
@@ -90,9 +115,9 @@ export default function CommunityPage() {
         body: JSON.stringify({
           ...newPost,
           categoryId: newPost.categoryId || null,
-          authorId: session.user?.id || session.user?.email,
-          authorName: session.user?.name || "Anonymous",
-          authorImage: session.user?.image || null,
+          authorId: `user_${user.name}_${Date.now()}`,
+          authorName: user.name,
+          authorImage: null,
         }),
       });
 
@@ -135,44 +160,75 @@ export default function CommunityPage() {
               : "Connect with wellness enthusiasts worldwide, share experiences, and grow together"}
           </p>
 
-          {/* Auth Buttons */}
+          {/* User Status */}
           <div className="flex justify-center gap-4 mb-8">
-            {status === "loading" ? (
-              <span className="text-purple-200">{isZh ? "加载中..." : "Loading..."}</span>
-            ) : session ? (
+            {user ? (
               <div className="flex items-center gap-4 bg-white/20 backdrop-blur rounded-xl px-6 py-3">
-                <img
-                  src={session.user?.image || `https://api.dicebear.com/7.x/initials/svg?seed=${session.user?.name}`}
-                  alt={session.user?.name || ""}
-                  className="w-10 h-10 rounded-full"
-                />
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-white font-bold">
+                  {user.name.charAt(0).toUpperCase()}
+                </div>
                 <div className="text-left">
-                  <div className="font-medium">{session.user?.name}</div>
+                  <div className="font-medium">{user.name}</div>
                   <button
-                    onClick={() => signOut()}
+                    onClick={clearName}
                     className="text-sm text-purple-200 hover:text-white"
                   >
-                    {isZh ? "退出登录" : "Sign out"}
+                    {isZh ? "更换昵称" : "Change name"}
                   </button>
                 </div>
               </div>
             ) : (
-              <div className="flex gap-3">
-                <button
-                  onClick={() => signIn("github")}
-                  className="px-6 py-3 bg-white text-purple-700 rounded-xl hover:bg-purple-50 transition-colors font-medium"
-                >
-                  {isZh ? "GitHub 登录" : "Sign in with GitHub"}
-                </button>
-                <button
-                  onClick={() => signIn("google")}
-                  className="px-6 py-3 bg-white/20 backdrop-blur text-white rounded-xl hover:bg-white/30 transition-colors font-medium"
-                >
-                  {isZh ? "Google 登录" : "Sign in with Google"}
-                </button>
-              </div>
+              <button
+                onClick={() => setShowNameInput(true)}
+                className="px-6 py-3 bg-white text-purple-700 rounded-xl hover:bg-purple-50 transition-colors font-medium"
+              >
+                {isZh ? "设置昵称开始参与" : "Set nickname to participate"}
+              </button>
             )}
           </div>
+
+          {/* Name Input Modal */}
+          {showNameInput && (
+            <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+              <div className="bg-white rounded-2xl p-8 max-w-md w-full mx-4">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">
+                  {isZh ? "设置您的昵称" : "Set Your Nickname"}
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  {isZh
+                    ? "输入一个昵称，即可在社区发帖和评论"
+                    : "Enter a nickname to post and comment in the community"}
+                </p>
+                <input
+                  type="text"
+                  value={userNameInput}
+                  onChange={(e) => setUserNameInput(e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-transparent mb-4"
+                  placeholder={isZh ? "您的昵称" : "Your nickname"}
+                  maxLength={20}
+                />
+                <div className="flex gap-3">
+                  <button
+                    onClick={() => setShowNameInput(false)}
+                    className="px-6 py-3 bg-gray-100 text-gray-700 rounded-xl hover:bg-gray-200 transition-colors"
+                  >
+                    {isZh ? "取消" : "Cancel"}
+                  </button>
+                  <button
+                    onClick={() => {
+                      if (userNameInput.trim()) {
+                        saveName(userNameInput.trim());
+                      }
+                    }}
+                    className="px-6 py-3 bg-purple-600 text-white rounded-xl hover:bg-purple-700 transition-colors"
+                    disabled={!userNameInput.trim()}
+                  >
+                    {isZh ? "确认" : "Confirm"}
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
 
           <div className="flex flex-wrap justify-center gap-8 text-sm">
             <div className="bg-white/20 backdrop-blur rounded-xl px-6 py-3">
@@ -233,71 +289,81 @@ export default function CommunityPage() {
           </div>
 
           {/* Create Post Button */}
-          {session && (
-            <div className="mb-8">
-              <button
-                onClick={() => setShowPostForm(!showPostForm)}
-                className="w-full py-4 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
-              >
-                {showPostForm
-                  ? isZh ? "取消发布" : "Cancel"
-                  : isZh ? "发布新帖子" : "Create New Post"}
-              </button>
+          <div className="mb-8">
+            <button
+              onClick={() => {
+                if (!user) {
+                  setShowNameInput(true);
+                } else {
+                  setShowPostForm(!showPostForm);
+                }
+              }}
+              className="w-full py-4 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
+            >
+              {showPostForm
+                ? isZh ? "取消发布" : "Cancel"
+                : isZh ? "发布新帖子" : "Create New Post"}
+            </button>
 
-              {showPostForm && (
-                <form onSubmit={handleCreatePost} className="mt-6 bg-white rounded-2xl p-6 border border-border">
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-text-primary mb-2">
-                      {isZh ? "标题" : "Title"}
-                    </label>
-                    <input
-                      type="text"
-                      value={newPost.title}
-                      onChange={(e) => setNewPost({ ...newPost, title: e.target.value })}
-                      className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                      placeholder={isZh ? "输入帖子标题..." : "Enter post title..."}
-                      required
-                    />
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-text-primary mb-2">
-                      {isZh ? "分类" : "Category"}
-                    </label>
-                    <select
-                      value={newPost.categoryId}
-                      onChange={(e) => setNewPost({ ...newPost, categoryId: e.target.value })}
-                      className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                    >
-                      <option value="">{isZh ? "选择分类（可选）" : "Select category (optional)"}</option>
-                      {categories.map((c) => (
-                        <option key={c.id} value={c.id}>
-                          {isZh ? c.name_zh : c.name_en}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                  <div className="mb-4">
-                    <label className="block text-sm font-medium text-text-primary mb-2">
-                      {isZh ? "内容" : "Content"}
-                    </label>
-                    <textarea
-                      value={newPost.content}
-                      onChange={(e) => setNewPost({ ...newPost, content: e.target.value })}
-                      className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent min-h-[150px]"
-                      placeholder={isZh ? "分享您的养生经验..." : "Share your wellness experience..."}
-                      required
-                    />
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full py-3 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
+            {showPostForm && user && (
+              <form onSubmit={handleCreatePost} className="mt-6 bg-white rounded-2xl p-6 border border-border">
+                <div className="mb-4">
+                  <label className="block text-sm font-medium text-text-primary mb-2">
+                    {isZh ? "标题" : "Title"}
+                  </label>
+                  <input
+                    type="text"
+                    value={newPost.title}
+                    onChange={(e) => setNewPost({ ...newPost, title: e.target.value })}
+                    className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                    placeholder={isZh ? "输入帖子标题..." : "Enter post title..."}
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block text-sm font-medium text-text-primary mb-2">
+                    {isZh ? "分类" : "Category"}
+                  </label>
+                  <select
+                    value={newPost.categoryId}
+                    onChange={(e) => setNewPost({ ...newPost, categoryId: e.target.value })}
+                    className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                   >
-                    {isZh ? "发布帖子" : "Publish Post"}
-                  </button>
-                </form>
-              )}
-            </div>
-          )}
+                    <option value="">{isZh ? "选择分类（可选）" : "Select category (optional)"}</option>
+                    {categories.map((c) => (
+                      <option key={c.id} value={c.id}>
+                        {isZh ? c.name_zh : c.name_en}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div className="mb-4">
+                  <label className="block text-sm font-medium text-text-primary mb-2">
+                    {isZh ? "内容" : "Content"}
+                  </label>
+                  <textarea
+                    value={newPost.content}
+                    onChange={(e) => setNewPost({ ...newPost, content: e.target.value })}
+                    className="w-full px-4 py-3 border border-border rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent min-h-[150px]"
+                    placeholder={isZh ? "分享您的养生经验..." : "Share your wellness experience..."}
+                    required
+                  />
+                </div>
+                <div className="flex items-center gap-3 mb-4 text-sm text-text-muted">
+                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center text-white font-bold">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                  <span>{isZh ? `以 "${user.name}" 的名义发布` : `Posting as "${user.name}"`}</span>
+                </div>
+                <button
+                  type="submit"
+                  className="w-full py-3 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
+                >
+                  {isZh ? "发布帖子" : "Publish Post"}
+                </button>
+              </form>
+            )}
+          </div>
 
           {/* Posts List */}
           <div className="bg-white rounded-2xl shadow-sm p-6 md:p-8 border border-border">
@@ -323,14 +389,18 @@ export default function CommunityPage() {
                 <p className="text-text-muted mb-4">
                   {isZh ? "还没有帖子，来发起第一个讨论吧！" : "No posts yet. Start the first discussion!"}
                 </p>
-                {session && (
-                  <button
-                    onClick={() => setShowPostForm(true)}
-                    className="px-6 py-3 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
-                  >
-                    {isZh ? "发布帖子" : "Create Post"}
-                  </button>
-                )}
+                <button
+                  onClick={() => {
+                    if (!user) {
+                      setShowNameInput(true);
+                    } else {
+                      setShowPostForm(true);
+                    }
+                  }}
+                  className="px-6 py-3 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium"
+                >
+                  {isZh ? "发布帖子" : "Create Post"}
+                </button>
               </div>
             ) : (
               <div className="space-y-4">
@@ -375,7 +445,7 @@ export default function CommunityPage() {
           </div>
 
           {/* CTA */}
-          {!session && (
+          {!user && (
             <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-8 border border-amber-200 text-center">
               <div className="text-4xl mb-4">🌟</div>
               <h3 className="text-xl font-bold text-text-primary mb-2">
@@ -383,23 +453,15 @@ export default function CommunityPage() {
               </h3>
               <p className="text-text-secondary mb-6">
                 {isZh
-                  ? "登录后即可参与讨论，分享您的养生经验"
-                  : "Sign in to participate in discussions and share your wellness experience"}
+                  ? "设置昵称后即可参与讨论，分享您的养生经验"
+                  : "Set a nickname to participate in discussions and share your wellness experience"}
               </p>
-              <div className="flex justify-center gap-3">
-                <button
-                  onClick={() => signIn("github")}
-                  className="px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors font-medium"
-                >
-                  GitHub
-                </button>
-                <button
-                  onClick={() => signIn("google")}
-                  className="px-6 py-3 bg-white text-gray-700 rounded-xl hover:bg-gray-50 transition-colors font-medium border border-gray-200"
-                >
-                  Google
-                </button>
-              </div>
+              <button
+                onClick={() => setShowNameInput(true)}
+                className="px-8 py-4 bg-primary-600 text-white rounded-xl hover:bg-primary-700 transition-colors font-medium shadow-lg shadow-green-600/20"
+              >
+                {isZh ? "设置昵称" : "Set Nickname"}
+              </button>
             </div>
           )}
 
