@@ -25,16 +25,18 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build with OpenNext for Cloudflare
+      - name: Build OpenNext Cloudflare Worker
         run: npx opennextjs-cloudflare build
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
-      - name: Prepare Pages deployment
+      - name: Prepare Pages Functions deployment
         run: |
+          ls -la .open-next/
           mkdir -p .pages-deploy
           cp -r .open-next/assets/* .pages-deploy/
           cp .open-next/worker.js .pages-deploy/_worker.js
+          ls -la .pages-deploy/
 
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy .pages-deploy --project-name=daoheal --branch=master --commit-dirty=true
