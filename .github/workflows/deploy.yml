@@ -23,10 +23,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build with OpenNext for Cloudflare
-        run: npx @opennextjs/cloudflare build
+        run: npx opennextjs-cloudflare build
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
