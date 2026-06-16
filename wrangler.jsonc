@@ -1,8 +1,4 @@
 {
-  "main": ".open-next/worker.js",
   "compatibility_flags": ["nodejs_compat"],
-  "compatibility_date": "2026-06-16",
-  "vars": {
-    "NEXT_PUBLIC_SITE_URL": "https://daoheal.pages.dev"
-  }
+  "compatibility_date": "2026-06-16"
 }
