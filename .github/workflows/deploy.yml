@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -25,13 +25,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build with OpenNext
-        run: npx opennextjs-cloudflare build
+      - name: Build Next.js for Pages Functions
+        run: npx @cloudflare/next-on-pages
         env:
-          NEXT_PUBLIC_SITE_URL: https://taoheal-app.workers.dev
+          NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
-      - name: Deploy to Cloudflare Workers
-        run: npx opennextjs-cloudflare deploy
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy .vercel/output/static --project-name=daoheal --branch=master
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

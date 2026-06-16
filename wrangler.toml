@@ -1,3 +1,6 @@
-# 此配置文件已废弃，请使用 wrangler.jsonc
-# OpenNext Cloudflare 部署使用 wrangler.jsonc 配置
-# 保留此文件仅为兼容旧部署
+name = "daoheal"
+compatibility_date = "2025-06-01"
+pages_build_output_dir = ".vercel/output/static"
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://daoheal.pages.dev"
