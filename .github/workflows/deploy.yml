@@ -50,9 +50,9 @@ jobs:
             | python3 -c "import sys,json;d=json.load(sys.stdin);print(d['result'][0]['id'])")
           echo "Latest deployment ID: $DEPLOYMENT_ID"
 
-          # Promote to production (使用 Cloudflare API)
+          # 使用 PATCH 方法 promote（注意：Cloudflare Pages 的 promote API 是 PATCH，不是 POST）
           echo "Promoting to production..."
-          curl -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/daoheal/deployments/$DEPLOYMENT_ID/promote" \
+          curl -X PATCH "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/daoheal/deployments/$DEPLOYMENT_ID" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             -H "Content-Type: application/json" \
             --data '{"production":true}' \
