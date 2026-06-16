@@ -1,9 +1,10 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare Workers
 
 on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -21,33 +22,25 @@ jobs:
           node-version: 24
           cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11
 
-      - name: Build
-        run: npm run build
+      - name: Install dependencies
+        run: npm install -g pnpm && pnpm install --frozen-lockfile
+
+      - name: Build with OpenNext
+        run: npx opennextjs-cloudflare build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
       - name: Clean cache before deploy
-        run: rm -rf .next/cache
+        run: rm -rf .open-next/cache
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: daoheal
-          directory: .next
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set production branch to master
+      - name: Deploy to Cloudflare Workers
+        run: npx opennextjs-cloudflare deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          echo "Setting production branch to master..."
-          RESP=$(curl -s -X PATCH "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/daoheal" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            --data '{"production_branch":"master"}' \
-            -w "\nHTTP_CODE:%{http_code}")
-          echo "Response: $RESP"
+          NODE_VERSION: 24
