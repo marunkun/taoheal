@@ -1,0 +1,335 @@
+{
+  "slug": "seasonal-wellness-spring",
+  "title": {
+    "zh": "春季养生指南：顺应天时，科学养肝",
+    "en": "Spring Wellness Guide: Harmonize with Nature, Nourish Your Liver"
+  },
+  "description": {
+    "zh": "基于中医\"春养肝\"理论，系统介绍春季养生的核心原则、饮食调理、运动保健、情志调节及经络养护方法",
+    "en": "Based on TCM 'Spring Nourishes Liver' theory, comprehensive guide to spring wellness including diet, exercise, emotions, and meridian care"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": [
+    "春季养生",
+    "养肝",
+    "时令养生",
+    "中医养生",
+    "节气保健"
+  ],
+  "publishedAt": "2026-06-15",
+  "readingTime": 10,
+  "image": "/images/seasonal-wellness-spring.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "《素问·四气调神大论》云：\"春三月，此谓发陈，天地俱生，万物以荣。夜卧早起，广步于庭，被发缓形，以使志生。\"春季是自然界万物复苏、阳气升发的季节，人体也应顺应这一规律来调整生活方式。在中医理论中，春季与肝脏有着最为密切的联系，因此\"春养肝\"是春季养生的核心要义。以下从理论基础、饮食、运动、情志、经络养护等几个方面，系统介绍春季养生的方法。"
+      },
+      {
+        "type": "heading",
+        "text": "一、春季养生的中医理论基础"
+      },
+      {
+        "type": "subheading",
+        "text": "春与肝的对应关系"
+      },
+      {
+        "type": "paragraph",
+        "text": "中医认为，春季在五行中属木，而人体的肝脏也属木，因此春气与肝气相通。《素问·五脏生成篇》曰：\"肝之合筋也，其荣爪也。\"肝脏在人体中主疏泄，负责调节全身气机的运行、情志的舒展和血液的储藏与调节。春季肝气旺盛，如同树木在春天抽枝发芽一般，需要条达顺畅。若此时调理不当，肝气郁结不得疏泄，就会出现胸闷胁痛、烦躁易怒、月经不调等问题；若肝气亢逆太过，则会出现头痛眩晕、目赤耳鸣等肝火上炎的症状。在门诊中，每到春季，因情绪波动、失眠、头痛来就诊的患者就会明显增多，这正是\"春应肝\"的体现。"
+      },
+      {
+        "type": "subheading",
+        "text": "春季养生原则"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季养生的核心原则是顺应阳气升发的自然规律。《黄帝内经》提出的\"夜卧早起，广步于庭\"，就是告诉我们要比冬季适当晚睡早起，但不宜过晚，最好在晚上11点前入睡。早晨要多在庭院或户外散步，舒展身体。同时要\"被发缓形\"——将头发松散开来，穿着宽松舒适的衣服，让身体处于舒展放松的状态，这样有助于阳气的升发。在精神调养上要\"以使志生\"，保持积极向上的心态，让生命力如同春天的草木一样蓬勃生长。"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季的另一重要原则是\"防风保暖\"。春季多风，而\"风为百病之长\"，风邪最易侵袭人体。《素问·上古天真论》指出\"虚邪贼风，避之有时\"。春季天气乍暖还寒，早晚温差大，不可急于脱去厚衣。民间有\"春捂秋冻\"之说，意思是春季要适当多穿一些，尤其要护好颈后大椎穴和腹部，防止风邪乘虚而入。"
+      },
+      {
+        "type": "heading",
+        "text": "二、春季饮食调理"
+      },
+      {
+        "type": "subheading",
+        "text": "饮食原则"
+      },
+      {
+        "type": "paragraph",
+        "text": "《素问·藏气法时论》云：\"肝主春，肝苦急，急食甘以缓之。\"春季饮食应以清淡、新鲜、甘平为主。多吃应季的蔬菜水果，适当增加甘味食物以补益脾胃，减少酸味食物以免收敛太过而阻碍肝气疏泄。我在临床中观察发现，春季脾胃功能相对较弱，因此饮食切忌油腻、生冷，以免损伤脾胃。"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季的时令蔬菜最为养人。菠菜滋阴润燥、养血止血，是春季的\"营养模范生\"；芹菜平肝清热、祛风利湿，对春季肝阳上亢引起的头痛有缓解作用；韭菜温阳补肾、行气活血，有\"春食则香\"的美誉；荠菜清热利水、凉血止血；春笋清热化痰、利膈爽胃。水果方面，草莓清肺化痰、补血养肝；樱桃补中益气、祛风除湿；枇杷润肺止咳、和胃降逆。谷物中小米健脾养胃、糯米补中益气、燕麦益肝和脾，都是春季的好选择。此外，红枣、桂圆、山药、莲子等甘味食材也非常适合春季食用。"
+      },
+      {
+        "type": "subheading",
+        "text": "春季养生食谱"
+      },
+      {
+        "type": "recipe",
+        "title": "菠菜猪肝汤",
+        "ingredients": [
+          "菠菜 200克",
+          "猪肝 100克",
+          "生姜 2片",
+          "枸杞 10克",
+          "盐 适量"
+        ],
+        "instructions": "1. 猪肝切片，用清水浸泡30分钟去血水\n2. 菠菜洗净切段\n3. 锅中加水烧开，放入姜片\n4. 先煮猪肝3-5分钟，再加入菠菜\n5. 最后加枸杞煮2分钟，加盐调味\n6. 功效：补肝明目，养血润燥"
+      },
+      {
+        "type": "recipe",
+        "title": "红枣桂圆粥",
+        "ingredients": [
+          "红枣 10颗",
+          "桂圆 10颗",
+          "大米 100克",
+          "小米 50克",
+          "红糖 适量"
+        ],
+        "instructions": "1. 大米、小米淘洗干净，提前浸泡30分钟\n2. 红枣去核，桂圆去壳\n3. 所有材料放入锅中，加水煮粥\n4. 大火烧开后转小火煮30分钟\n5. 加红糖调味即可\n6. 功效：补益气血，健脾安神"
+      },
+      {
+        "type": "heading",
+        "text": "三、春季运动保健"
+      },
+      {
+        "type": "subheading",
+        "text": "运动原则"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季运动应顺应阳气升发的特点，选择轻缓、舒展的运动方式，让身体微微出汗即可，不宜大汗淋漓。正如《素问·四气调神大论》所言：\"广步于庭，被发缓形，以使志生。\"在春光明媚的日子里，走出户外，伸展四肢，呼吸新鲜空气，本身就是最好的养生。"
+      },
+      {
+        "type": "paragraph",
+        "text": "在运动项目的选择上，散步是最安全也最容易坚持的运动，每天30-60分钟，早晨或傍晚进行，以身体微微发热为宜。太极拳作为一种内外兼修的运动，通过舒缓的动作配合深长的呼吸，能很好地调节气血运行。八段锦被誉为\"千年养生操\"，八个动作分别针对不同的脏腑经络，简单易学，每天练习一遍，对疏肝理气、健脾和胃都很有帮助。瑜伽通过拉伸和扭转，可以疏通肝经和胆经的循行路线。放风筝是春季特有的户外活动，仰望蓝天、舒展颈椎，既能愉悦心情又能放松肩颈。需要注意的是，春季早晚温差较大，运动后要及时穿衣，避免汗出当风而感冒。"
+      },
+      {
+        "type": "heading",
+        "text": "四、春季情志调节"
+      },
+      {
+        "type": "subheading",
+        "text": "肝与情志的关系"
+      },
+      {
+        "type": "paragraph",
+        "text": "《素问·阴阳应象大论》云：\"肝主怒。\"肝主疏泄，在情志方面主怒、喜条达而恶抑郁。春季肝气旺盛，若情绪不畅，最易导致肝气郁结，出现胸闷、叹息、烦躁易怒、失眠多梦等症状。反过来，经常发怒也会伤肝，导致肝火上炎。我在门诊中经常看到这样的患者：春季一来，脾气就变得暴躁，睡眠质量下降，往往还伴有口苦咽干、两胁胀痛。这就是典型的春季肝气不舒的表现。"
+      },
+      {
+        "type": "paragraph",
+        "text": "情志调节的方法有很多。首先，保持心情舒畅是养肝的第一要务，多与朋友交流，培养一两个兴趣爱好，让自己的生活有寄托。其次，每天10-15分钟的静坐冥想，可以有效地平复情绪、安定心神。第三，多听舒缓的古典音乐或自然声音，中医有五音疗疾的理论，角调式音乐（相当于现代音乐的Mi调）入肝经，对疏肝理气有辅助作用。第四，多到户外踏青赏花，亲近自然。唐代医家孙思邈在《千金要方》中就说：\"春日宜省酸增甘，以养脾气\"，同时强调\"安不忘危，存不忘亡\"，在情志上也要保持平和，避免大喜大悲。"
+      },
+      {
+        "type": "heading",
+        "text": "五、春季经络养护"
+      },
+      {
+        "type": "subheading",
+        "text": "肝经穴位按摩"
+      },
+      {
+        "type": "paragraph",
+        "text": "太冲穴（LR3）是肝经的原穴，位于足背第一、二跖骨结合部之前的凹陷中。这个穴位可以说是\"人体的出气筒\"，对于肝气郁结引起的胸胁胀痛、烦躁易怒、失眠多梦都有很好的疏解作用。按摩时用拇指指腹按压，力度以产生酸胀感为宜，每次按压1-2分钟，双侧交替进行。"
+      },
+      {
+        "type": "paragraph",
+        "text": "行间穴（LR2）位于足背第一、二趾之间，趾蹼缘的后方赤白肉际处。此穴为肝经的荥穴，善于清肝泻火。对于肝火上炎引起的目赤肿痛、头痛口苦，按摩行间穴能快速清泻肝火。按压方法同太冲穴，每次1-2分钟。"
+      },
+      {
+        "type": "paragraph",
+        "text": "期门穴（LR14）位于胸部，乳头直下，第6肋间隙处，是肝经的募穴。这个穴位是肝气汇聚之处，按摩期门穴可以疏肝健脾、理气活血。操作时用手掌以适中的力度按揉，每次2-3分钟，感觉局部发热为佳。肝俞穴（BL18）位于背部第9胸椎棘突下旁开1.5寸处，是肝气输注于背部的腧穴。如果自己不方便按摩后背，可以请家人帮忙，或者用背部撞墙法——背对墙壁，用肝俞穴附近轻轻撞击，每次10-15下。"
+      },
+      {
+        "type": "subheading",
+        "text": "肝经拍打"
+      },
+      {
+        "type": "paragraph",
+        "text": "每天拍打肝经是疏通肝气最简单有效的方法。肝经循行于大腿内侧，具体操作方法是：站立或坐姿，用手掌或拍打棒从大腿内侧根部（腹股沟处）开始，沿着大腿内侧向膝盖方向拍打，力度适中，以不引起疼痛为度，每次拍打10-15个来回。早晨起床后或晚上睡前各做一次，对改善肝气郁结、促进气血流通有很好的效果。"
+      },
+      {
+        "type": "heading",
+        "text": "六、春季养生禁忌"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季养生虽有诸多方法可循，但也有一些禁忌需要特别留意。首先，忌过度劳累——春季阳气初升，过度劳累容易耗伤阳气，导致春困加重。其次，忌情绪波动过大——肝喜条达而恶抑郁，大怒大悲都会伤及肝脏。第三，忌贪凉饮冷——春季阳气虽已升发，但脾胃功能尚弱，生冷食物容易损伤脾胃阳气，影响运化功能。第四，忌久坐不动——\"久坐伤肉\"，而脾主肌肉，久坐不动会影响脾胃功能，进而影响气血生化。第五，忌过食辛辣——辛辣食物容易助长肝火，导致肝火上炎。这些禁忌看似简单，但在日常生活中真正做到却需要持之以恒的自我约束。"
+      },
+      {
+        "type": "heading",
+        "text": "七、春季常见病预防"
+      },
+      {
+        "type": "paragraph",
+        "text": "春季温差变化大，加之风邪当令，是一些常见病的高发季节。感冒是最为常见的春季疾病，预防的关键在于适时增减衣物，\"春捂\"要捂得恰到好处——背部、腹部和足部是重点保暖部位。春季也是过敏性疾病的高发期，花粉、柳絮飘散，过敏性鼻炎、哮喘患者外出时建议戴口罩，回家后及时清洗鼻腔。肝气不舒导致的情志问题也是春季的常见困扰，除了前面提到的情志调节方法外，可以在医师指导下服用逍遥丸等疏肝解郁的中成药。春季皮肤容易出现干燥、脱屑等问题，除了多喝水、多吃蔬菜水果外，还可以使用一些温和的保湿护肤品。当出现不适症状时，不要拖延，及时就医才是明智之举。"
+      },
+      {
+        "type": "warning",
+        "text": "本文内容仅供科普参考，不能替代专业医疗诊断。如有健康问题，请及时咨询专业中医师或医生。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "As stated in Suwen: 'In the three months of spring, this is called renewal. Heaven and earth come to life, and all things flourish. Go to bed late and rise early, walk leisurely in the courtyard, let your hair flow freely, and allow your spirit to thrive.' Spring is the season of renewal when Yang Qi rises in nature. The human body should follow this natural rhythm. In TCM theory, spring is most closely connected with the liver, making 'spring nurtures the liver' the core principle of spring wellness. This guide systematically covers the theoretical foundation, diet, exercise, emotional regulation, and meridian care for spring wellness."
+      },
+      {
+        "type": "heading",
+        "text": "1. TCM Theoretical Foundation of Spring Wellness"
+      },
+      {
+        "type": "subheading",
+        "text": "Spring-Liver Correspondence"
+      },
+      {
+        "type": "paragraph",
+        "text": "In TCM, spring corresponds to the Wood element, and the liver also belongs to Wood, thus spring Qi communicates with liver Qi. The Suwen states: 'The liver governs the sinews; its brilliance is in the nails.' The liver governs free flow, regulating Qi movement throughout the body, emotional expression, and blood storage and regulation. In spring, liver Qi is vigorous, like a tree putting forth new branches -- it needs smooth, unobstructed flow. If not properly regulated, liver Qi stagnation can cause chest and rib distension, irritability, and menstrual irregularities; conversely, hyperactive liver Qi can cause headache, dizziness, red eyes, and tinnitus. In my practice, I see a marked increase in patients with emotional fluctuations, insomnia, and headaches each spring -- a vivid demonstration of 'spring corresponds to the liver.'"
+      },
+      {
+        "type": "subheading",
+        "text": "Spring Wellness Principles"
+      },
+      {
+        "type": "paragraph",
+        "text": "The core principle of spring wellness is following the rising Yang Qi. The Huangdi Neijing advises 'go to bed late, rise early, and walk leisurely in the courtyard' -- sleep slightly later than winter but before 11 PM. Spend mornings walking outdoors and stretching the body. 'Let your hair flow freely and wear loose clothing' helps Yang Qi rise freely. For the spirit, 'allow your mind to thrive' -- maintain an upward, positive attitude and let vitality flourish like spring vegetation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Another important spring principle is 'guard against wind and keep warm.' Spring is windy, and 'wind is the chief of the hundred diseases,' most easily invading the body. The Suwen advises 'avoid deficient evil winds in a timely manner.' Spring weather alternates between warm and cold, with large temperature differences between morning and evening. Do not shed heavy clothing too hastily. The folk wisdom of 'spring covering, autumn chilling' means wearing slightly more in spring, especially protecting the large vertebra (GV14) at the nape of the neck and the abdomen against wind invasion."
+      },
+      {
+        "type": "heading",
+        "text": "2. Spring Dietary Conditioning"
+      },
+      {
+        "type": "subheading",
+        "text": "Dietary Principles"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Suwen states: 'The liver governs spring. The liver dislikes constraint; use sweet flavors to relax it.' Spring diet should be light, fresh, and balanced. Eat plenty of seasonal vegetables and fruits. Increase sweet-flavored foods to strengthen the spleen-stomach, and reduce sour foods which can constrain and obstruct liver Qi flow. From clinical observation, spleen-stomach function is relatively weak in spring, so greasy and raw-cold foods should be avoided to protect digestive function."
+      },
+      {
+        "type": "paragraph",
+        "text": "Spring's seasonal vegetables are most nourishing. Spinach nourishes Yin, moistens dryness, and enriches blood -- the 'nutrition champion' of spring. Celery calms the liver, clears heat, and dispels wind-dampness, relieving spring headaches from liver Yang hyperactivity. Leeks warm kidney Yang, move Qi and invigorate blood -- 'spring leeks are fragrant,' as the saying goes. Shepherd's purse clears heat, promotes urination, and cools blood. Bamboo shoots clear heat, resolve phlegm, and benefit the stomach. Fruits such as strawberries clear lung heat and nourish the liver; cherries tonify the middle and dispel wind-dampness; loquats moisten the lung, stop cough, and harmonize the stomach. Among grains, millet strengthens the spleen, glutinous rice tonifies the middle, and oats benefit the liver and harmonize the spleen. Red dates, longan, yam, and lotus seeds are also excellent sweet-flavored choices."
+      },
+      {
+        "type": "subheading",
+        "text": "Spring Wellness Recipes"
+      },
+      {
+        "type": "recipe",
+        "title": "Spinach and Pork Liver Soup",
+        "ingredients": [
+          "Spinach 200g",
+          "Pork liver 100g",
+          "Ginger 2 slices",
+          "Goji 10g",
+          "Salt"
+        ],
+        "instructions": "1. Slice liver, soak in water 30 mins to remove blood\n2. Wash spinach, cut into sections\n3. Boil water, add ginger\n4. Cook liver 3-5 mins, add spinach\n5. Add goji, cook 2 more mins, season with salt\n6. Benefits: Nourishes Liver, improves eyesight"
+      },
+      {
+        "type": "recipe",
+        "title": "Red Date Longan Congee",
+        "ingredients": [
+          "Red dates 10",
+          "Longan 10",
+          "Rice 100g",
+          "Millet 50g",
+          "Brown sugar"
+        ],
+        "instructions": "1. Wash rice and millet, soak 30 mins\n2. Remove date pits, peel longan\n3. Cook all together\n4. Simmer 30 mins\n5. Add sugar\n6. Benefits: Tonifies Qi-Blood, strengthens Spleen"
+      },
+      {
+        "type": "heading",
+        "text": "3. Spring Exercise"
+      },
+      {
+        "type": "subheading",
+        "text": "Exercise Principles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Spring exercise should follow the rising Yang Qi with gentle, stretching activities that bring light perspiration but not profuse sweating. As the Suwen advises: 'Walk leisurely in the courtyard, let your hair flow freely, allow your spirit to thrive.' On bright spring days, step outdoors, stretch your limbs, and breathe fresh air -- this itself is excellent wellness practice."
+      },
+      {
+        "type": "paragraph",
+        "text": "For specific activities, walking is the safest and most sustainable, 30-60 minutes daily in the morning or evening, proceeding until the body feels pleasantly warm. Tai Chi harmonizes body and mind through slow movements coordinated with deep breathing, effectively regulating Qi and blood circulation. Ba Duan Jin (Eight Brocades), the 'millennium health exercise,' consists of eight movements targeting different organ-meridian systems, simple to learn, and excellent for soothing the liver, regulating Qi, and strengthening the spleen-stomach. Yoga stretching and twisting help clear the liver and gallbladder meridians. Kite flying is a uniquely spring activity -- gazing at the sky while stretching the neck brings joy and relieves shoulder and neck tension. Note that spring mornings and evenings have large temperature differences; dress promptly after exercise to avoid catching a chill while perspiring."
+      },
+      {
+        "type": "heading",
+        "text": "4. Spring Emotional Regulation"
+      },
+      {
+        "type": "subheading",
+        "text": "Liver-Emotion Connection"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Suwen states: 'The liver governs anger.' The liver governs free flow and emotional expression, preferring openness and disliking constraint. In spring, with liver Qi active, emotional disturbance easily causes liver Qi stagnation -- chest tightness, sighing, irritability, and insomnia with excessive dreaming. Conversely, frequent anger damages the liver, causing liver fire to flare upward. In my clinic, I regularly see patients who become irritable in spring with declining sleep quality, often accompanied by a bitter taste, dry throat, and rib distension. These are classic signs of constrained spring liver Qi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Various methods help regulate emotions in spring. First, maintaining an uplifted mood is the foremost liver-nourishing practice -- socialize with friends and cultivate hobbies for life enrichment. Second, 10-15 minutes of daily seated meditation effectively calms the mind and settles the spirit. Third, listen to soothing classical music or nature sounds. TCM's 'five tones treat disease' theory holds that the Jue mode (corresponding to the Mi note in Western music) enters the liver meridian and aids liver Qi regulation. Fourth, spend time in nature, enjoy flowers, and hike in the countryside. The Tang dynasty physician Sun Simiao in his Qianjin Yaofang advised: 'In spring, reduce sour and increase sweet to nourish the spleen,' while emphasizing maintaining emotional balance and avoiding extremes of joy and grief."
+      },
+      {
+        "type": "heading",
+        "text": "5. Spring Meridian Care"
+      },
+      {
+        "type": "subheading",
+        "text": "Liver Meridian Acupoints"
+      },
+      {
+        "type": "paragraph",
+        "text": "Taichong (LR3) is the Yuan-Source point of the Liver Meridian, located on the dorsum of the foot in the depression distal to the junction of the first and second metatarsal bones. This point serves as the body's 'emotional release valve,' effectively relieving chest and rib distension, irritability, and insomnia from liver Qi stagnation. Press with the thumb until a sour-distending sensation is felt, holding for 1-2 minutes on each side alternately."
+      },
+      {
+        "type": "paragraph",
+        "text": "Xingjian (LR2) lies on the dorsum of the foot between the first and second toes, at the junction of the red and white flesh. As the Ying-Spring point of the Liver Meridian, it excels at clearing liver fire. For red, painful eyes, headache, and bitter taste from liver fire flaring upward, pressing Xingjian quickly purges liver fire. Press for 1-2 minutes using the same method as Taichong."
+      },
+      {
+        "type": "paragraph",
+        "text": "Qimen (LR14) is the Front-Mu point of the Liver, located on the nipple line in the sixth intercostal space. This is where liver Qi converges; massaging it soothes the liver, strengthens the spleen, and regulates Qi and blood. Use the palm to knead with moderate pressure for 2-3 minutes until local warmth is felt. Ganshu (BL18) is located on the back, 1.5 cun lateral to the spinous process of the ninth thoracic vertebra -- the point where liver Qi is infused into the back. If self-massage is difficult, ask a family member for help or gently tap the area against a wall, 10-15 times per session."
+      },
+      {
+        "type": "subheading",
+        "text": "Liver Meridian Tapping"
+      },
+      {
+        "type": "paragraph",
+        "text": "Daily tapping along the Liver Meridian is the simplest and most effective method for promoting liver Qi flow. The Liver Meridian runs along the inner thigh. The method: standing or seated, use the palm or a tapping stick to gently tap along the inner thigh from the groin area down toward the knee, using moderate force that does not cause pain, 10-15 passes per session. Practice once in the morning upon rising and once before bed for best results in relieving liver Qi stagnation and promoting blood circulation."
+      },
+      {
+        "type": "heading",
+        "text": "6. Spring Wellness Taboos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Despite the many methods available for spring wellness, certain taboos deserve special attention. First, avoid overwork -- spring Yang Qi is just emerging, and overwork depletes it, worsening spring fatigue. Second, avoid extreme emotional swings -- the liver prefers openness and dislikes constraint; anger and grief both damage the liver. Third, avoid cold foods and drinks -- although Yang Qi has risen, spleen-stomach function remains relatively weak, and cold foods damage its Yang Qi and impair transport function. Fourth, avoid prolonged sitting -- 'prolonged sitting injures the flesh,' and the spleen governs the flesh; prolonged sitting impairs spleen function and consequently affects Qi and blood production. Fifth, avoid excessive spicy foods -- spices can fuel liver fire, causing it to flare upward. These taboos may seem simple, but consistently observing them in daily life requires persistent self-discipline."
+      },
+      {
+        "type": "heading",
+        "text": "7. Spring Disease Prevention"
+      },
+      {
+        "type": "paragraph",
+        "text": "Spring's fluctuating temperatures and prevailing wind make it a high-incidence season for certain illnesses. The common cold is the most frequent spring ailment; prevention lies in dressing appropriately for temperature changes — 'spring covering' should protect the back, abdomen, and feet. Spring is also peak allergy season for conditions such as allergic rhinitis and asthma triggered by pollen and catkins; patients should wear masks outdoors and rinse nasal passages upon returning home. Emotional issues from constrained liver Qi are also common in spring; beyond the emotional regulation methods discussed above, TCM formulas like Xiao Yao San (Free and Easy Wanderer) may be considered under professional guidance. Spring skin tends toward dryness and flaking; in addition to drinking plenty of water and eating vegetables and fruits, gentle moisturizers can be used. When symptoms appear, do not delay -- seek medical attention promptly."
+      },
+      {
+        "type": "warning",
+        "text": "This content is for educational purposes only and should not replace professional medical diagnosis. Consult a healthcare professional for health concerns."
+      }
+    ]
+  }
+}

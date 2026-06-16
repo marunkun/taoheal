@@ -1,0 +1,287 @@
+{
+  "slug": "nine-body-types",
+  "title": {
+    "zh": "中医九种体质详解：科学认识你的身体密码",
+    "en": "Nine TCM Body Types Explained: Decode Your Body Constitution"
+  },
+  "description": {
+    "zh": "基于《中医体质分类与判定》国家标准，系统解读九种体质的特征、形成原因、易患疾病及针对性调理方案，帮助你科学认识自身体质",
+    "en": "Based on national standard TCM Constitution Classification, systematic explanation of nine body types with characteristics, causes, disease tendencies, and conditioning plans"
+  },
+  "category": {
+    "zh": "体质辨识与调理",
+    "en": "体质辨识与调理"
+  },
+  "tags": [
+    "体质",
+    "九种体质",
+    "中医体质学",
+    "体质辨识",
+    "养生"
+  ],
+  "publishedAt": "2026-06-15",
+  "readingTime": 12,
+  "image": "/images/nine-body-types.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "中医体质学是中医理论体系的重要组成部分，其核心思想是\"体质决定健康\"。2009年，国家中医药管理局正式发布《中医体质分类与判定》标准，将人体体质分为九种基本类型。这一分类体系由国医大师王琦教授领衔研究，融合了《黄帝内经》\"阴阳二十五人\"的论述与数十年临床大数据的实证分析。了解自己的体质类型，是实现个性化养生的前提和基础。"
+      },
+      {
+        "type": "paragraph",
+        "text": "体质的形成是先天禀赋与后天环境共同作用的结果。先天因素如《灵枢·寿夭刚柔》所言：\"人之生也。有刚有柔，有弱有强，有短有长，有阴有阳。\"后天因素则涵盖饮食起居、情志状态、地理环境、疾病影响等多个方面。值得强调的是，体质并非一成不变——通过科学调理，完全可以在一定程度上改善偏颇体质，走向平和。"
+      },
+      {
+        "type": "heading",
+        "text": "一、平和体质：健康的理想状态"
+      },
+      {
+        "type": "paragraph",
+        "text": "平和体质是中医推崇的理想体质，其特点是阴阳气血调和、脏腑功能协调。《素问·调经论》中描述：\"阴阳匀平，以充其形，九候若一，命曰平人。\"这类体质的人体型匀称健壮，面色红润有光泽，精力充沛，睡眠规律，食欲和二便皆调和。心理上性格开朗乐观，情绪稳定，对环境变化适应能力强，不易患病。对于平和体质者，养生重在\"守\"而非\"补\"——保持均衡营养的饮食、规律作息、适度锻炼和积极心态即可。我曾接诊过一位年逾七旬的老先生，面色红润、步履矫健，问其养生之道，答曰\"三餐定时、心无挂碍、日行五千步\"，这正是平和体质长期养护的写照。"
+      },
+      {
+        "type": "heading",
+        "text": "二、气虚体质：能量不足的\"亚健康状态\""
+      },
+      {
+        "type": "paragraph",
+        "text": "气虚体质以元气不足、脏腑功能减退为主要特征，是临床上非常常见的一种偏颇体质。《灵枢·本脏》曰：\"卫气者，所以温分肉，充皮肤，肥腠理，司开合者也。\"气虚则卫外不固，机体失于濡养。这类体质者体型偏瘦或虚胖，面色苍白或萎黄，常感神疲乏力、少气懒言、容易出汗、头晕心悸。性格偏内向，精神不振。发病倾向上易患感冒、疲劳综合征、内脏下垂等疾病，且不耐风寒。"
+      },
+      {
+        "type": "paragraph",
+        "text": "调理气虚体质的核心原则是\"补气健脾\"，因为脾胃为气血生化之源。在食疗方面，我常给患者推荐黄芪红枣茶（黄芪15克、红枣5颗、枸杞10克泡水代茶饮），药膳方面党参乌鸡汤、山药薏米粥功效确切。穴位上可常按揉足三里、气海、关元。运动方面建议散步、八段锦等温和运动，切忌大汗淋漓，因\"汗出则气泄\"。很多上班族长期伏案、过度劳累，气虚者比比皆是，关键在于\"少说话、多休息、补脾气\"。"
+      },
+      {
+        "type": "heading",
+        "text": "三、阳虚体质：畏寒怕冷的\"寒性体质\""
+      },
+      {
+        "type": "paragraph",
+        "text": "阳虚体质以阳气不足、虚寒内生为主要特征。《素问·调经论》指出：\"阳虚则外寒。\"阳气有温煦机体的作用，一旦不足，畏寒怕冷便随之而来。这类体质者体型偏胖或消瘦，面色苍白或黧黑，畏寒怕冷、四肢不温是最突出的表现，喜热饮而恶冷食，大便常稀溏。性格沉静内向，不耐寒冷，冬季症状加重，易患风湿性关节炎、慢性腹泻、水肿等疾病。"
+      },
+      {
+        "type": "paragraph",
+        "text": "温阳补肾是调理阳虚的核心策略。临床常用的食疗方有生姜红枣茶和当归生姜羊肉汤，药膳如附子炖狗肉、核桃杏仁粥。穴位上常取肾俞、命门、关元施以艾灸，借艾火之温热以补阳气之不足。生活调摄上，这类患者一定要注意保暖，尤其避免腰背部和腹部受寒，少食生冷瓜果，适当晒太阳。我有一位典型的阳虚患者，每到冬季就手足冰冷、夜尿频多，坚持艾灸关元三个月后，手足回暖，生活质量大为改善。"
+      },
+      {
+        "type": "heading",
+        "text": "四、阴虚体质：燥热缺水的\"热性体质\""
+      },
+      {
+        "type": "paragraph",
+        "text": "阴虚体质以阴液不足、虚火内生为主要特征。《素问·阴阳应象大论》曰：\"阴虚则内热。\"阴液是滋润濡养机体的物质基础，不足则出现干燥和虚热的双重表现。这类体质者体型偏瘦，面色潮红，皮肤干燥，口干咽燥、手足心热、潮热盗汗、大便干结。性格急躁易怒，情绪波动大。不耐炎热，夏季症状加重，易患失眠、口腔溃疡、干眼症等疾病。"
+      },
+      {
+        "type": "paragraph",
+        "text": "滋阴润燥是调理阴虚体质的总纲。食疗方面，百合莲子粥、银耳雪梨汤是经典之选，药膳以沙参麦冬汤、枸杞菊花茶为代表。穴位上常取三阴交、太溪、涌泉，手法宜轻柔，以补法为主。生活上应避免辛辣燥热食物，如辣椒、羊肉、酒类等，保持室内湿度，避免熬夜——因熬夜最耗阴液。我在诊室中常告诉阴虚患者：\"少熬夜就是最好的滋阴药\"，这并非夸张之辞。"
+      },
+      {
+        "type": "heading",
+        "text": "五、血虚体质：血液不足的\"贫血体质\""
+      },
+      {
+        "type": "paragraph",
+        "text": "血虚体质以血液不足、脏腑失养为主要特征。《灵枢·决气》云：\"血脱者，色白，夭然不泽，其脉空虚。\"血主濡养，不足则面色萎黄或苍白、毛发干枯、头晕眼花、心悸失眠、手足麻木，女性可见月经量少色淡。性格敏感，易惊易恐，冬季怕冷，春季易疲劳。"
+      },
+      {
+        "type": "paragraph",
+        "text": "调理以补血养血为核心。食疗推荐当归红枣茶、桂圆莲子粥，药膳如当归生姜羊肉汤和阿胶炖红枣。穴位上血海、膈俞、足三里是首选，配合脾俞以助生化之源。生活上保证充足睡眠，避免过度劳累和思虑过度。血虚与气虚常相伴出现，所谓\"气能生血\"，临床中我常在补血方中加入黄芪、党参等补气之品，取\"补气以生血\"之意。"
+      },
+      {
+        "type": "heading",
+        "text": "六、痰湿体质：体内有\"垃圾\"的肥胖体质"
+      },
+      {
+        "type": "paragraph",
+        "text": "痰湿体质以体内水液代谢失常、痰湿内停为主要特征。这种体质在现代社会尤为常见，与饮食不节、运动不足有直接关系。《素问·至真要大论》曰：\"诸湿肿满，皆属于脾。\"脾失健运则水湿内停，聚而成痰。这类体质者体型肥胖，腹部肥满松软，皮肤油腻，胸闷痰多，肢体沉重，容易困倦，大便粘腻。性格温和稳重但反应较慢。易患高血压、高血脂、糖尿病、痛风等代谢性疾病，不耐潮湿环境。"
+      },
+      {
+        "type": "paragraph",
+        "text": "治疗当从化痰祛湿入手。食疗首选薏米红豆粥、冬瓜海带汤，药膳可用荷叶茶、陈皮茯苓粥。丰隆穴是化痰要穴，配合足三里、中脘效果更佳。运动上强调有氧运动如快走、慢跑、游泳，控制体重是关键。更重要的一条是饮食清淡，减少肥甘厚味和甜食的摄入。我的一位痰湿患者体重近百公斤，血脂血压均高，经中药配合饮食运动调理半年后体重下降15公斤，各项指标明显改善。"
+      },
+      {
+        "type": "heading",
+        "text": "七、湿热体质：体内有\"火气\"的体质"
+      },
+      {
+        "type": "paragraph",
+        "text": "湿热体质以湿热蕴结体内为主要特征，《素问·阴阳应象大论》云：\"湿盛则濡泄，热盛则肿。\"湿热交织则出现一系列热性和湿性混合的症状。这类体质者体型中等或偏胖，面部油腻，易生痤疮。常口干口苦、口臭，大便粘腻不爽，小便黄赤。性格急躁易怒，容易冲动。易患痤疮、湿疹、胆囊炎、泌尿系统感染等湿热相关疾病，不耐炎热潮湿的夏季。"
+      },
+      {
+        "type": "paragraph",
+        "text": "清热利湿是调理湿热的核心。食疗方面绿豆汤、冬瓜薏米汤效果确实，药膳推荐苦瓜炒鸡蛋、赤小豆粥。穴位可取曲池、合谷、阴陵泉。生活上强调饮食清淡，避免油腻辛辣和烟酒。湿热体质在岭南地区尤为多见，与当地气候湿热有关。这类患者切忌自行滥用清热泻火药，以免损伤脾胃阳气，应辨证施治。"
+      },
+      {
+        "type": "heading",
+        "text": "八、气郁体质：\"压抑\"的体质"
+      },
+      {
+        "type": "paragraph",
+        "text": "气郁体质以气机郁滞、情志失调为主要特征，在当代高压力社会中越来越多见。《素问·举痛论》曰：\"百病生于气也。\"情志不舒则气机郁结，影响脏腑功能。这类体质者体型偏瘦，面色晦暗或苍黄，情绪低落、胸闷叹气、焦虑易怒、失眠多梦，性格内向敏感、多疑多虑。易患抑郁症、焦虑症、乳腺增生、甲状腺疾病等。对季节变化敏感，秋冬季节情绪易波动。"
+      },
+      {
+        "type": "paragraph",
+        "text": "疏肝解郁是调理气郁体质的核心。茶饮方面，玫瑰花茶、茉莉花茶常饮可助疏肝，药膳可用柴胡疏肝散加减或陈皮粥。穴位常取太冲、行间、期门。生活调摄方面，我常对这类患者说：\"最好的药不在药房，而在你的心情。\"鼓励他们多参加社交活动、培养兴趣爱好、练习冥想或瑜伽。气郁日久易化火，也可由气及血形成瘀血，故调理宜早不宜迟。"
+      },
+      {
+        "type": "heading",
+        "text": "九、特禀体质：\"特殊\"的过敏体质"
+      },
+      {
+        "type": "paragraph",
+        "text": "特禀体质是一类特殊的体质类型，以先天禀赋异常、易过敏为主要特征。这类体质多与遗传因素相关，表现为对某些物质的特异性反应。无明显特殊体型特征，但可能伴有皮肤敏感。症状上以过敏为主要表现，如花粉症、过敏性鼻炎、荨麻疹、哮喘等。无特异性心理特征。春季花粉多时易发病。"
+      },
+      {
+        "type": "paragraph",
+        "text": "益气固表、避免过敏原是调理此类体质的核心思路。经典方剂玉屏风散（黄芪、白术、防风）是首选，临床我常在此方基础上根据具体过敏症状加减。药膳可选用红枣山药粥、莲子百合粥。穴位取肺俞、脾俞、足三里。生活调摄上，明确过敏原并避免接触是第一要务，同时加强锻炼以增强体质。特禀体质者常兼见气虚表现，在固表的同时应兼顾补脾肺之气。"
+      },
+      {
+        "type": "heading",
+        "text": "体质自测与调理基本原则"
+      },
+      {
+        "type": "paragraph",
+        "text": "体质判定需要综合望、闻、问、切四诊信息，不过普通人也可以通过一些简单的方法初步判断。观察面色：红润有光泽多为平和体质，苍白多为气虚或血虚，潮红多为阴虚。感受体温：畏寒怕冷多为阳虚，怕热多汗多为阴虚或湿热。观察大便：稀溏多为阳虚或痰湿，干结多为阴虚，粘腻不爽多为湿热。情绪状态：开朗乐观多为平和，抑郁焦虑多为气郁。更为准确的判定仍需专业中医师通过四诊合参完成。"
+      },
+      {
+        "type": "paragraph",
+        "text": "体质调理应遵循以下基本原则：一是辨证论治，准确判断体质类型是前提；二是个性化调理，不同体质采用不同方法，不可一刀切；三是循序渐进，体质改善是长期过程，不可急于求成；四是综合调理，结合饮食、运动、情志、起居多方面，而非单纯依赖药物；五是动态调整，体质会随时间、季节、年龄变化，需定期评估并调整方案。"
+      },
+      {
+        "type": "warning",
+        "text": "本文内容仅供科普参考，不能替代专业医疗诊断。体质判断和调理方案应在专业中医师指导下进行。如有健康问题，请及时就医。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "TCM constitution theory is an important part of traditional Chinese medicine. Its core concept is \"constitution determines health.\" In 2009, the State Administration of Traditional Chinese Medicine officially issued the national standard \"Classification and Determination of TCM Constitution,\" dividing human constitution into nine basic types. This classification system, led by national TCM master Professor Wang Qi, integrates the \"25 Yin-Yang constitutional types\" described in the Huangdi Neijing with decades of clinical big-data empirical research. Understanding your constitution type is the foundation for personalized wellness."
+      },
+      {
+        "type": "paragraph",
+        "text": "Constitution formation results from both congenital endowment and acquired environment. As the Lingshu states: \"In birth, humans have hardness and softness, weakness and strength, shortness and length, Yin and Yang.\" Acquired factors cover diet, lifestyle, emotions, geographical environment, and disease effects. Importantly, constitution is not fixed — through scientific conditioning, imbalanced constitutions can be improved to varying degrees, moving toward a balanced state."
+      },
+      {
+        "type": "heading",
+        "text": "1. Balanced Constitution: Ideal State of Health"
+      },
+      {
+        "type": "paragraph",
+        "text": "Balanced constitution is the ideal state in TCM, characterized by harmonious Yin-Yang and Qi-Blood, with coordinated organ functions. As stated in Suwen: \"When Yin and Yang are evenly balanced, the body is filled, and all nine pulse conditions are unified — this is called a balanced person.\" People with this constitution have well-proportioned and robust builds, rosy complexions, ample energy, regular sleep, good appetite, and normal bowel movements. They are cheerful, optimistic, emotionally stable, and adaptable to environmental changes, seldom falling ill. For balanced individuals, wellness focuses on \"preservation\" rather than \"supplementation\" — maintaining balanced nutrition, regular routines, moderate exercise, and a positive mindset."
+      },
+      {
+        "type": "heading",
+        "text": "2. Qi Deficiency: Energy-Deficient Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Qi deficiency is characterized by insufficient vital energy and reduced organ function — a very common imbalanced constitution in clinical practice. As the Lingshu states: \"Defensive Qi warms the muscles, fills the skin, nourishes the interstitial spaces, and controls opening and closing.\" Deficient Qi fails to protect the exterior and fails to nourish the body adequately. These individuals tend to be thin or puffy, with pale or sallow complexions, constant fatigue, weak voices, excessive sweating, dizziness, and palpitations. They are introverted and prone to colds, chronic fatigue syndrome, and organ prolapse."
+      },
+      {
+        "type": "paragraph",
+        "text": "The core principle for Qi deficiency is \"tonify Qi and strengthen the Spleen,\" as the Spleen and Stomach are the source of Qi and Blood production. Recommended herbal teas include astragalus and red date tea (15g astragalus, 5 red dates, 10g goji berries). Medicinal foods include codonopsis black chicken soup and yam coix seed porridge. Key acupoints are Zusanli (ST36), Qihai (CV6), and Guanyuan (CV4). Gentle exercise like walking and Ba Duan Jin is advised — profuse sweating should be avoided as it further depletes Qi."
+      },
+      {
+        "type": "heading",
+        "text": "3. Yang Deficiency: Cold-Prone Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yang deficiency is characterized by insufficient Yang energy and internal cold. As Suwen states: \"Yang deficiency leads to external cold.\" Yang Qi warms the body; when deficient, cold intolerance follows. These individuals tend to be overweight or thin, with pale or dark complexions. Their most prominent symptom is cold intolerance with cold extremities. They prefer hot drinks and avoid cold food, often experiencing loose stools. They are calm and introverted, intolerant of cold (worsening in winter), and prone to rheumatoid arthritis, chronic diarrhea, and edema."
+      },
+      {
+        "type": "paragraph",
+        "text": "Warming Yang and tonifying the Kidney is the core strategy. Ginger red date tea and angelica ginger lamb soup are classic dietary remedies. Moxibustion on Shenshu (BL23), Mingmen (GV4), and Guanyuan (CV4) is highly effective — using the warmth of moxa fire to supplement Yang Qi. These patients must keep warm, especially the lower back and abdomen, avoid cold foods, and get adequate sunlight."
+      },
+      {
+        "type": "heading",
+        "text": "4. Yin Deficiency: Dry-Heat Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Yin deficiency is characterized by insufficient Yin fluids and internal heat. As Suwen states: \"Yin deficiency leads to internal heat.\" Yin fluids moisten and nourish the body; when deficient, dual symptoms of dryness and heat appear. These individuals tend to be thin with flushed complexions and dry skin. They experience dry mouth and throat, warm palms and soles, night sweats, and dry stools. They are impatient, irritable, with mood swings. They are intolerant of heat (worsening in summer) and prone to insomnia, oral ulcers, and dry eyes."
+      },
+      {
+        "type": "paragraph",
+        "text": "The core approach is nourishing Yin and moistening dryness. Lily lotus seed porridge and tremella pear soup are excellent dietary remedies. Key acupoints include Sanyinjiao (SP6), Taixi (KI3), and Yongquan (KI1), stimulated with gentle technique. Lifestyle adjustments include avoiding spicy and drying foods, maintaining indoor humidity, and most importantly — avoiding staying up late, as it most severely depletes Yin fluids. I often tell my Yin-deficient patients: \"The best Yin-nourishing medicine is going to bed early.\""
+      },
+      {
+        "type": "heading",
+        "text": "5. Blood Deficiency: Anemic Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Blood deficiency is characterized by insufficient blood and impaired organ nourishment. As the Lingshu states: \"Blood deficiency shows pale color, lack of luster, and empty pulse.\" The primary manifestations include sallow or pale complexion, dry hair, dizziness, palpitations, insomnia, numbness, and in women, scanty menstruation. These individuals are sensitive and easily startled. In winter they feel cold, and in spring they tire easily."
+      },
+      {
+        "type": "paragraph",
+        "text": "Treatment focuses on tonifying and nourishing Blood. Angelica red date tea and longan lotus seed porridge are recommended dietary remedies. Key acupoints include Xuehai (SP10), Geshu (BL17), and Zusanli (ST36). Adequate sleep is essential, and overexertion and excessive thinking should be avoided. Since Blood deficiency often accompanies Qi deficiency (\"Qi generates Blood\"), I commonly add Qi-tonifying herbs like astragalus and codonopsis to blood-nourishing formulas."
+      },
+      {
+        "type": "heading",
+        "text": "6. Phlegm-Dampness: Obese Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Phlegm-dampness constitution is characterized by impaired fluid metabolism and internal damp accumulation. This constitution is increasingly common in modern society, directly linked to dietary excess and insufficient exercise. As Suwen states: \"All damp swelling belongs to the Spleen.\" When the Spleen fails in transportation, fluids accumulate internally and congeal into phlegm. These individuals tend to be obese with soft, flabby bellies and oily skin. They experience chest tightness, copious phlegm, heavy limbs, drowsiness, and sticky stools. They are gentle and steady but slow in reaction. They are prone to hypertension, hyperlipidemia, diabetes, and gout."
+      },
+      {
+        "type": "paragraph",
+        "text": "The core treatment is resolving Phlegm and draining Dampness. Coix seed red bean porridge and wax gourd kelp soup are classic dietary remedies. Fenglong (ST40) is the key acupoint for transforming phlegm. Aerobic exercise such as brisk walking, jogging, and swimming is essential for weight control. A light diet with reduced fatty, sweet, and rich foods is equally important."
+      },
+      {
+        "type": "heading",
+        "text": "7. Damp-Heat: Hot-Damp Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Damp-heat constitution is characterized by internal accumulation of dampness and heat. Traditional texts state: \"Damp excess causes diarrhea; heat excess causes swelling.\" These individuals tend to be average or overweight with oily faces prone to acne. They commonly experience dry mouth with a bitter taste, bad breath, sticky stool, and dark yellow urine. They are impatient and easily angered, prone to acne, eczema, cholecystitis, and urinary tract infections. They are intolerant of hot, humid summers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Clearing heat and resolving dampness is the core approach. Mung bean soup and wax gourd coix seed soup are effective dietary remedies. Key acupoints include Quchi (LI11), Hegu (LI4), and Yinlingquan (SP9). A light diet avoiding greasy, spicy foods and alcohol is crucial. Damp-heat constitution is especially common in Lingnan region of China due to the local humid climate. Patients should avoid indiscriminate use of cooling and fire-draining herbs, which may damage Spleen and Stomach Yang."
+      },
+      {
+        "type": "heading",
+        "text": "8. Qi Stagnation: Stagnant Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Qi stagnation constitution is characterized by blocked Qi flow and emotional imbalance, increasingly common in today's high-stress society. As Suwen states: \"All diseases arise from Qi.\" Unresolved emotions cause Qi stagnation, affecting organ function. These individuals tend to be thin with dull complexions. They experience low mood, chest tightness, frequent sighing, anxiety, irritability, and insomnia. They are introverted, sensitive, and suspicious. They are prone to depression, anxiety, breast disorders, and thyroid conditions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Smoothing the Liver and resolving stagnation is the core strategy. Rose tea and jasmine tea are excellent daily beverages. Key acupoints include Taichong (LR3), Xingjian (LR2), and Qimen (LR14). Lifestyle guidance is paramount — I often tell these patients: \"The best medicine is not in the pharmacy but in your state of mind.\" Social activities, hobbies, meditation, and yoga are all beneficial. Since prolonged Qi stagnation may transform into fire or involve blood stasis, early intervention is advisable."
+      },
+      {
+        "type": "heading",
+        "text": "9. Special Constitution: Allergic Constitution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Special constitution refers to individuals with congenital abnormalities and allergic tendencies, often related to genetic factors. These individuals show specific reactions to certain substances. There is no specific body type, though sensitive skin may be present. Manifestations include hay fever, allergic rhinitis, hives, and asthma. Symptoms worsen in spring when pollen is abundant."
+      },
+      {
+        "type": "paragraph",
+        "text": "The core strategy is tonifying Qi, securing the exterior, and avoiding allergens. The classic formula Jade Screen Powder (Yu Ping Feng San — astragalus, atractylodes, saposhnikovia) is the first choice. Key acupoints include Feishu (BL13), Pishu (BL20), and Zusanli (ST36). Identifying and avoiding allergens is the top priority, along with strengthening the body through exercise. Special constitution individuals often have concurrent Qi deficiency, so both exterior-securing and Spleen-Lung Qi tonification should be addressed."
+      },
+      {
+        "type": "heading",
+        "text": "Constitution Self-Assessment and Basic Principles"
+      },
+      {
+        "type": "paragraph",
+        "text": "While accurate constitution determination requires comprehensive diagnosis through inspection, listening, inquiry, and palpation, individuals can make preliminary judgments through simple observations. Observe the complexion: rosy indicates balanced constitution, pale indicates Qi or Blood deficiency, and flushed indicates Yin deficiency. Body temperature sensations: cold intolerance suggests Yang deficiency, heat intolerance suggests Yin deficiency or Damp-Heat. Stool observation: loose stool suggests Yang deficiency or Phlegm-Dampness, dry stool suggests Yin deficiency, sticky stool suggests Damp-Heat. Emotional state: cheerfulness suggests balanced constitution, depression suggests Qi stagnation. However, accurate determination should still be conducted by qualified TCM practitioners."
+      },
+      {
+        "type": "paragraph",
+        "text": "Constitution conditioning should follow these basic principles: pattern identification — accurately determine constitution type as a prerequisite; personalized approach — different methods for different constitutions; gradual progress — constitution improvement is a long-term process requiring patience; comprehensive care — combine diet, exercise, emotions, and lifestyle rather than relying on medication alone; and dynamic adjustment — constitution changes with time, season, and age, requiring regular reassessment and adjustment of the treatment plan."
+      },
+      {
+        "type": "warning",
+        "text": "This content is for educational purposes only and should not replace professional medical diagnosis. Constitution assessment and conditioning should be conducted under guidance of qualified TCM practitioners. Consult a healthcare professional for health concerns."
+      }
+    ]
+  }
+}

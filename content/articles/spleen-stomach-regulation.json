@@ -1,0 +1,164 @@
+{
+  "slug": "spleen-stomach-regulation",
+  "title": {
+    "zh": "脾胃虚弱怎么调？中医养胃指南",
+    "en": "How to Regulate Weak Spleen and Stomach? TCM Guide"
+  },
+  "category": {
+    "zh": "食疗药膳",
+    "en": "Medicinal Diet"
+  },
+  "tags": [
+    "脾胃",
+    "养胃",
+    "消化",
+    "食欲"
+  ],
+  "description": {
+    "zh": "脾胃是后天之本，脾胃虚弱会导致消化不良、食欲不振等问题",
+    "en": "The spleen and stomach are the foundation of postnatal nutrition"
+  },
+  "publishedAt": "2026-06-08",
+  "readingTime": 7,
+  "image": "/images/spleen-stomach.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "中医认为\"脾胃为后天之本\"，负责运化水谷精微，为身体提供营养。《黄帝内经·灵枢》有云：\"脾者，土也，治中央。\"脾胃位居中焦，是全身气机升降的枢纽。脾胃虚弱会导致消化不良、食欲不振、腹胀便溏等一系列症状，这些问题我在门诊中几乎每天都会遇到。调理脾胃，关键在于长期坚持正确的饮食和生活习惯，而非一蹴而就的速效方案。"
+      },
+      {
+        "type": "heading",
+        "text": "脾胃虚弱的常见表现"
+      },
+      {
+        "type": "paragraph",
+        "text": "在临床中，脾胃虚弱的患者最典型的主诉是\"吃不下东西\"或\"一吃就胀\"。具体表现为食欲不振、进食后腹胀不适、大便稀溏不成形。身体方面，患者常感乏力倦怠、四肢沉重，面色萎黄无华。舌诊时可见舌质淡胖、舌边有齿痕、苔薄白——这是脾阳不足、运化无力的典型舌象。值得注意的是，有些患者并非消瘦，反而出现虚胖，这是由于脾虚不能运化水湿，导致水湿停聚于体内所致。"
+      },
+      {
+        "type": "heading",
+        "text": "饮食调理"
+      },
+      {
+        "type": "subheading",
+        "text": "宜食食物"
+      },
+      {
+        "type": "paragraph",
+        "text": "在饮食选择上，我常建议患者多食健脾益气的食物。山药是健脾的首选食材，《本草纲目》载其\"益肾气，健脾胃\"，可蒸食或煮粥。红枣补中益气、养血安神，每日三五枚泡水或煮粥即可。薏米健脾渗湿，尤其适合大便稀溏、舌苔厚腻的脾虚有湿者。芡实补脾止泻，与山药同煮成汤效果更佳。南瓜补中益气、易于消化，是胃气虚弱者的理想主食。这些食材药食同源，长期食用安全可靠，是脾胃虚弱者日常食疗的基础。"
+      },
+      {
+        "type": "subheading",
+        "text": "忌食食物"
+      },
+      {
+        "type": "paragraph",
+        "text": "同样重要的是避免损伤脾胃阳气的食物。生冷食物如冰品、冷饮、生蔬菜沙拉，直接伤及脾阳，是脾胃虚弱者的大忌。油腻食物如炸鸡、薯条、肥肉，难以运化，会增加脾胃负担。辛辣刺激如辣椒、胡椒、酒精，虽能暂时开胃，但久则耗伤胃阴。甜腻食物如蛋糕、巧克力、奶茶，滋腻碍胃，容易生湿助满。在临床中我发现，很多患者只要能坚持忌口上述几类食物两周，腹胀、大便稀溏的症状就会有明显改善。"
+      },
+      {
+        "type": "heading",
+        "text": "养胃食疗方"
+      },
+      {
+        "type": "recipe",
+        "title": "山药红枣粥",
+        "ingredients": [
+          "山药100g",
+          "红枣10枚",
+          "粳米100g",
+          "水适量"
+        ],
+        "instructions": "1. 山药去皮切块，红枣去核\n2. 粳米洗净加水煮沸\n3. 加入山药和红枣，小火煮30分钟\n4. 每日早晚温热服用"
+      },
+      {
+        "type": "heading",
+        "text": "穴位保健"
+      },
+      {
+        "type": "paragraph",
+        "text": "在穴位保健方面，足三里是健脾和胃的第一要穴，位于膝盖外侧下方四横指处。此穴为胃经合穴，古人云\"肚腹三里留\"，意指所有腹部消化问题都可以通过足三里来调理。每天用拇指按揉5至10分钟，可以明显增强脾胃运化功能。中脘穴位于脐上4寸，是胃的募穴，艾灸中脘穴温中散寒的效果非常好，特别适合脾胃虚寒、胃部怕冷、得热则舒的患者。此外，脾俞穴和胃俞穴位于背部膀胱经，是脾和胃的背俞穴，按压或艾灸也有很好的调理作用。"
+      },
+      {
+        "type": "heading",
+        "text": "生活习惯"
+      },
+      {
+        "type": "paragraph",
+        "text": "调理脾胃，生活习惯的调整比吃什么更重要。首先，定时定量进餐是最基本的法则——三餐规律，每餐七八分饱，切忌暴饮暴食。细嚼慢咽是保护脾胃最简单却最有效的手段，每口饭咀嚼20至30次，让唾液充分包裹食物，可以大大减轻胃的研磨负担。饭后散步15至30分钟，古人称之为\"饭后百步走\"，有助于胃气下行、促进消化。情绪方面，《黄帝内经》指出\"思伤脾\"，长期焦虑、思虑过多会直接抑制脾胃功能，因此保持心情愉快是养脾的重要环节。最后，规律作息、早睡早起能让脾胃在夜间得到充分的修复。"
+      },
+      {
+        "type": "warning",
+        "text": "温馨提示：以上内容为中医养生科普，供参考学习之用。对于严重的脾胃问题，如反复发作的胃溃疡、胃肠道出血、不明原因的消瘦等，请及时前往医院就诊，接受专业的中西医结合诊疗。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "TCM considers the 'spleen and stomach as the foundation of postnatal life,' responsible for transporting and transforming food essence to nourish the body. The Huangdi Neijing (Lingshu) states: 'The spleen belongs to earth and governs the center.' Located at the middle burner, the spleen and stomach serve as the pivot for the ascending and descending of qi throughout the body. Weak spleen and stomach can lead to a cascade of problems including indigestion, poor appetite, bloating, and loose stools — issues I encounter nearly every day in clinical practice. Regulating the spleen and stomach requires long-term adherence to proper diet and lifestyle habits, not quick-fix solutions."
+      },
+      {
+        "type": "heading",
+        "text": "Common Signs of Weak Spleen and Stomach"
+      },
+      {
+        "type": "paragraph",
+        "text": "In clinical practice, the most typical complaints from patients with spleen-stomach weakness are 'I cannot eat' or 'I get bloated as soon as I eat.' Specific manifestations include poor appetite, abdominal distension after eating, and loose, unformed stools. Physically, patients often experience fatigue, heavy limbs, and a sallow, lackluster complexion. Tongue examination reveals a pale, puffy tongue body with teeth marks on the edges and a thin white coating — a classic sign of spleen yang insufficiency with impaired transportation. Notably, some patients do not lose weight but instead develop puffiness or obesity, which results from the spleen's inability to transport fluids, leading to water-dampness accumulation in the body."
+      },
+      {
+        "type": "heading",
+        "text": "Dietary Regulation"
+      },
+      {
+        "type": "subheading",
+        "text": "Recommended Foods"
+      },
+      {
+        "type": "paragraph",
+        "text": "In dietary choices, I often advise patients to consume more foods that strengthen the spleen and boost qi. Chinese yam (Shanyao) is the top choice — the Bencao Gangmu records it as 'boosting kidney qi and strengthening the spleen and stomach' — and can be steamed or added to porridge. Red dates (Hongzao) tonify middle qi, nourish blood, and calm the mind; just three to five daily steeped in water or cooked in porridge suffice. Coix seed (Yiyiren) strengthens the spleen and leaches dampness, especially suitable for those with loose stools and a thick, greasy tongue coating. Gordon euryale seed (Qianshi) tonifies the spleen and stops diarrhea, working even better when cooked in soup with Chinese yam. Pumpkin (Nangua) tonifies middle qi and is easy to digest, making it an ideal staple for those with weak stomach qi. These medicinal food ingredients are safe for long-term consumption and form the basis of daily dietary therapy for spleen-stomach weakness."
+      },
+      {
+        "type": "subheading",
+        "text": "Foods to Avoid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Equally important is avoiding foods that damage spleen-stomach yang. Raw and cold foods such as ice cream, cold drinks, and raw vegetable salads directly harm spleen yang and are strictly contraindicated for those with weak digestion. Greasy foods like fried chicken, fries, and fatty meats are hard to transport and transform, increasing the digestive burden. Spicy and stimulating foods such as chili, pepper, and alcohol may temporarily stimulate the appetite but eventually consume stomach yin. Sweet, rich foods like cake, chocolate, and milk tea are cloying and obstruct the stomach, easily generating dampness and fullness. In my clinical experience, many patients experience significant improvement in bloating and loose stools after just two weeks of consistently avoiding the above categories of food."
+      },
+      {
+        "type": "heading",
+        "text": "Healthy Recipes"
+      },
+      {
+        "type": "recipe",
+        "title": "Chinese Yam and Red Date Porridge",
+        "ingredients": [
+          "Chinese yam 100g",
+          "Red dates 10",
+          "Rice 100g",
+          "Water as needed"
+        ],
+        "instructions": "1. Peel and cut yam, remove date pits\n2. Wash rice, add water and bring to boil\n3. Add yam and dates, simmer 30 minutes\n4. Take warm in morning and evening"
+      },
+      {
+        "type": "heading",
+        "text": "Acupoint Health"
+      },
+      {
+        "type": "paragraph",
+        "text": "For acupoint care, Zusanli (ST36) is the foremost point for strengthening the spleen and harmonizing the stomach, located four finger-breadths below the knee on the outer side of the leg. As the he-sea point of the stomach meridian, the ancients said: 'For abdominal disorders, use Zusanli,' meaning all digestive problems of the abdomen can be addressed through this point. Pressing with the thumb for 5 to 10 minutes daily can significantly enhance spleen-stomach transport function. Zhongwan (CV12), located 4 cun above the navel, is the front-mu point of the stomach. Moxibustion at Zhongwan has an excellent effect of warming the middle and dispersing cold, especially suitable for patients with spleen-stomach cold deficiency who feel cold in the stomach and find relief with warmth. Additionally, Pishu (BL20) and Weishu (BL21) on the Bladder meridian of the back are the back-shu points of the spleen and stomach respectively, and pressing or performing moxibustion on them also provides good regulating effects."
+      },
+      {
+        "type": "heading",
+        "text": "Living Habits"
+      },
+      {
+        "type": "paragraph",
+        "text": "When it comes to regulating the spleen and stomach, adjusting lifestyle habits matters more than what you eat. First, eating meals at fixed times with fixed portions is the most basic rule — three regular meals a day, stopping at seventy to eighty percent fullness, and never binge eating. Thorough chewing is the simplest yet most effective method for protecting the stomach: chewing each mouthful 20 to 30 times allows saliva to fully coat the food, significantly reducing the stomach's grinding burden. Taking a 15 to 30 minute walk after meals — what the ancients called 'a hundred steps after a meal' — helps gastric qi descend and promotes digestion. Regarding emotions, the Huangdi Neijing states that 'excessive worry damages the spleen.' Long-term anxiety and overthinking directly suppress spleen-stomach function, so maintaining a pleasant mood is a vital aspect of spleen care. Finally, keeping a regular schedule with early bedtimes and early rising allows the spleen and stomach adequate time for nighttime restoration."
+      },
+      {
+        "type": "warning",
+        "text": "Disclaimer: The above content is for TCM health education and reference purposes only. For serious spleen-stomach issues such as recurrent gastric ulcers, gastrointestinal bleeding, or unexplained weight loss, please seek timely medical attention and receive professional integrated Chinese and Western medicine diagnosis and treatment."
+      }
+    ]
+  }
+}

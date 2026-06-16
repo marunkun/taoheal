@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "TaoHeal - Bilingual TCM Wellness Community",
+    "description": "Reclaim your health naturally - A bilingual TCM wellness community for global Chinese and enthusiasts. Professional TCM knowledge, body type quizzes, and dietary advice.",
+    "tagline": "Reclaim your health naturally"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "knowledge": "Knowledge",
+    "community": "Community",
+    "tools": "Tools",
+    "bodyTypeQuiz": "Body Type Quiz"
+  },
+  "home": {
+    "hero": {
+      "title": "Explore TCM Wellness Wisdom",
+      "subtitle": "Ancient wisdom for modern health",
+      "cta": "Start Body Type Quiz"
+    },
+    "features": {
+      "title": "Our Features",
+      "bodyType": {
+        "title": "Body Type Quiz",
+        "description": "Discover your body type and get personalized wellness advice"
+      },
+      "knowledge": {
+        "title": "Wellness Knowledge",
+        "description": "Professional TCM articles and practical tips"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Share wellness insights with like-minded friends"
+      }
+    }
+  },
+  "about": {
+    "title": "About TaoHeal",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Bringing TCM wellness wisdom to global Chinese communities through modern technology."
+    },
+    "values": {
+      "title": "Core Values",
+      "professionalism": "Professional",
+      "accessibility": "Accessible",
+      "community": "Community"
+    }
+  },
+  "knowledge": {
+    "title": "Wellness Knowledge",
+    "categories": {
+      "all": "All",
+      "basics": "TCM Basics",
+      "acupoints": "Acupoints",
+      "diet": "Dietary Therapy",
+      "seasonal": "Seasonal Wellness",
+      "beauty": "TCM Beauty"
+    },
+    "readMore": "Read More",
+    "readTime": "min read"
+  },
+  "quiz": {
+    "title": "TCM Body Type Quiz",
+    "description": "Answer the following questions to discover your body type",
+    "start": "Start Quiz",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "result": {
+      "title": "Your Body Type is",
+      "description": "Based on your answers, we have analyzed your body type characteristics",
+      "recommendations": "Wellness Recommendations"
+    }
+  },
+  "bodyTypes": {
+    "balanced": {
+      "name": "Balanced Type",
+      "description": "Harmonious yin-yang and qi-blood, moderate build, rosy complexion, energetic"
+    },
+    "qiDeficiency": {
+      "name": "Qi Deficiency Type",
+      "description": "Insufficient vital energy, easily fatigued, shortness of breath, spontaneous sweating"
+    },
+    "yangDeficiency": {
+      "name": "Yang Deficiency Type",
+      "description": "Insufficient yang energy, sensitive to cold, cold hands and feet"
+    },
+    "yinDeficiency": {
+      "name": "Yin Deficiency Type",
+      "description": "Insufficient yin fluids, dry mouth and throat, hot palms and soles"
+    },
+    "phlegmDampness": {
+      "name": "Phlegm-Dampness Type",
+      "description": "Accumulation of phlegm-dampness, overweight, abdominal fullness"
+    },
+    "dampHeat": {
+      "name": "Damp-Heat Type",
+      "description": "Internal damp-heat, oily complexion, bitter taste, dry mouth"
+    },
+    "bloodStasis": {
+      "name": "Blood Stasis Type",
+      "description": "Poor blood circulation, dull complexion, prone to bruising"
+    },
+    "qiStagnation": {
+      "name": "Qi Stagnation Type",
+      "description": "Stagnant qi flow, low mood, prone to anxiety"
+    },
+    "specialConstitution": {
+      "name": "Special Constitution Type",
+      "description": "Congenital abnormalities, allergic constitution, prone to rhinitis"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright",
+    "allRightsReserved": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "disclaimer": "Disclaimer"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "lastUpdated": "Last Updated"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "share": "Share",
+    "language": "Language"
+  }
+}

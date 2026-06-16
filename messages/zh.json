@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "TaoHeal - 中医养生双语社区",
+    "description": "用自然方式找回健康 - 专为全球华人及中国文化爱好者打造的中医养生双语社区，提供专业的中医知识、体质测试和食疗建议。",
+    "tagline": "用自然方式找回健康"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "knowledge": "养生知识",
+    "community": "社区",
+    "tools": "工具",
+    "bodyTypeQuiz": "体质测试"
+  },
+  "home": {
+    "hero": {
+      "title": "探索中医养生智慧",
+      "subtitle": "传承千年智慧，守护现代健康",
+      "cta": "开始体质测试"
+    },
+    "features": {
+      "title": "我们的特色",
+      "bodyType": {
+        "title": "体质测试",
+        "description": "了解您的体质类型，获取个性化养生建议"
+      },
+      "knowledge": {
+        "title": "养生知识",
+        "description": "专业的中医养生文章和实用技巧"
+      },
+      "community": {
+        "title": "社区交流",
+        "description": "与志同道合的朋友分享养生心得"
+      }
+    }
+  },
+  "about": {
+    "title": "关于 TaoHeal",
+    "mission": {
+      "title": "我们的使命",
+      "description": "让中医养生智慧惠及全球华人，用现代科技传承传统文化。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "professionalism": "专业严谨",
+      "accessibility": "通俗易懂",
+      "community": "社区共建"
+    }
+  },
+  "knowledge": {
+    "title": "养生知识",
+    "categories": {
+      "all": "全部",
+      "basics": "中医基础",
+      "acupoints": "穴位保健",
+      "diet": "食疗药膳",
+      "seasonal": "四季养生",
+      "beauty": "中医美容"
+    },
+    "readMore": "阅读更多",
+    "readTime": "阅读时间"
+  },
+  "quiz": {
+    "title": "中医体质测试",
+    "description": "通过回答以下问题，了解您的体质类型",
+    "start": "开始测试",
+    "next": "下一题",
+    "previous": "上一题",
+    "submit": "提交",
+    "result": {
+      "title": "您的体质类型是",
+      "description": "根据您的回答，我们为您分析出以下体质特征",
+      "recommendations": "养生建议"
+    }
+  },
+  "bodyTypes": {
+    "balanced": {
+      "name": "平和质",
+      "description": "阴阳气血调和，体态适中、面色红润、精力充沛"
+    },
+    "qiDeficiency": {
+      "name": "气虚质",
+      "description": "元气不足，容易疲劳、气短、自汗"
+    },
+    "yangDeficiency": {
+      "name": "阳虚质",
+      "description": "阳气不足，畏寒怕冷、手足不温"
+    },
+    "yinDeficiency": {
+      "name": "阴虚质",
+      "description": "阴液亏少，口燥咽干、手足心热"
+    },
+    "phlegmDampness": {
+      "name": "痰湿质",
+      "description": "痰湿凝聚，体形肥胖、腹部肥满"
+    },
+    "dampHeat": {
+      "name": "湿热质",
+      "description": "湿热内蕴，面垢油光、口苦口干"
+    },
+    "bloodStasis": {
+      "name": "血瘀质",
+      "description": "血行不畅，肤色晦暗、易有瘀斑"
+    },
+    "qiStagnation": {
+      "name": "气郁质",
+      "description": "气机郁滞，情绪低落、易焦虑"
+    },
+    "specialConstitution": {
+      "name": "特禀质",
+      "description": "先天失常，过敏体质、易患鼻炎"
+    }
+  },
+  "footer": {
+    "copyright": "版权所有",
+    "allRightsReserved": "保留所有权利",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "disclaimer": "免责声明"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新日期"
+    },
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新日期"
+    },
+    "disclaimer": {
+      "title": "免责声明",
+      "lastUpdated": "最后更新日期"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "back": "返回",
+    "share": "分享",
+    "language": "语言"
+  }
+}

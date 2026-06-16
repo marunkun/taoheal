@@ -1,0 +1,158 @@
+{
+  "slug": "autumn-wellness",
+  "title": {
+    "zh": "秋季养生：润燥养肺，滋阴润燥",
+    "en": "Autumn Wellness: Moisturize Dryness, Nourish the Lung"
+  },
+  "description": {
+    "zh": "秋季干燥，如何通过饮食调理、穴位按摩和生活习惯润燥养肺，预防秋燥伤身",
+    "en": "Learn how to moisturize dryness and nourish the lung through diet, acupoints, and lifestyle during dry autumn"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": [
+    "秋季",
+    "润燥",
+    "养肺",
+    "滋阴"
+  ],
+  "publishedAt": "2026-06-12",
+  "readingTime": 6,
+  "image": "/images/autumn-wellness.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "《黄帝内经·四气调神大论》云：\"秋三月，此谓容平，天气以急，地气以明。早卧早起，与鸡俱兴，使志安宁，以缓秋刑。\"这段经文精辟地概括了秋季养生的要义——秋季是阳气渐收、阴气渐长的季节，天高风急，地气清肃。人体也应顺应这种收敛之势，从容平和地调整生活方式。肺为娇脏，喜润恶燥，而秋季燥气当令，最容易伤及肺阴，导致干咳少痰、咽干鼻燥、皮肤粗糙等\"秋燥\"症状。因此，秋季养生的核心就在于润燥养肺、滋阴润燥。"
+      },
+      {
+        "type": "heading",
+        "text": "秋季养生要点"
+      },
+      {
+        "type": "subheading",
+        "text": "一、润燥养肺"
+      },
+      {
+        "type": "paragraph",
+        "text": "秋季气候干燥，人体容易出现\"秋燥\"症状。在临床中，每到秋分之后，因干咳、咽痛、皮肤瘙痒来就诊的患者就会明显增多，这正是燥邪伤肺的典型表现。肺主皮毛，开窍于鼻，与秋气相通，因此秋季养肺要从饮食内外两方面入手。"
+      },
+      {
+        "type": "paragraph",
+        "text": "饮食上，应多选择润肺生津的食物。梨自古被称为\"天生甘露饮\"，生吃清六腑之热，熟吃滋五脏之阴；银耳被誉为\"平民燕窝\"，润肺滋阴效果显著；百合清心安神、润肺止咳；蜂蜜润燥解毒，每天一勺温水冲服，对缓解秋燥大有裨益。白萝卜入肺经，能下气消食、润肺化痰，是秋季餐桌上的好选择。此外，枸杞、黑芝麻、山药等滋阴食材也适宜秋季食用。需要特别注意的是，辛辣燥热之物如辣椒、烧烤、油炸食品等会加重秋燥，应适当减少。"
+      },
+      {
+        "type": "paragraph",
+        "text": "除了饮食，保持室内适度的湿度同样重要。北方秋季供暖前后，室内往往异常干燥，建议使用加湿器或在屋内放一盆清水。中医有句话叫\"形寒饮冷则伤肺\"，秋季气温下降，还要注意避免冷饮直接刺激呼吸道。"
+      },
+      {
+        "type": "subheading",
+        "text": "二、收敛阳气"
+      },
+      {
+        "type": "paragraph",
+        "text": "《黄帝内经》告诉我们秋季要\"早卧早起，与鸡俱兴\"，意思是顺应阳气收敛的规律，比夏季适当提早入睡、推迟起床。运动方面也应以舒缓为主，避免大汗淋漓，因为汗出过多会耗伤阳气。太极拳、八段锦、散步等柔和的运动最为适宜。情志上，秋季草木凋零，容易引发悲秋情绪，而\"悲则气消\"，悲伤最伤肺气。在门诊中我常提醒患者，秋季要多晒太阳、多与朋友相聚，保持心情开朗，这也是养肺的重要一环。另外，所谓\"春捂秋冻\"，适当秋冻可以增强耐寒能力，但老人、儿童及体弱者仍需注意保暖，尤其要护好后背和颈部，防止寒邪从肺俞穴侵入。"
+      },
+      {
+        "type": "heading",
+        "text": "秋季推荐穴位"
+      },
+      {
+        "type": "paragraph",
+        "text": "肺俞穴（BL13）是肺气输注于背部的腧穴，位于背部第三胸椎棘突下旁开1.5寸处。经常按揉或艾灸此穴，可以调理肺气、增强肺功能，对慢性咳嗽、哮喘均有帮助。操作时可用拇指按揉，每次3-5分钟，以局部温热为度。"
+      },
+      {
+        "type": "paragraph",
+        "text": "太渊穴（LU9）是手太阴肺经的原穴，位于手腕内侧腕横纹桡侧端凹陷处。此穴有补益肺气、止咳化痰的功效，尤其适合肺气虚弱、气短乏力者。每日用拇指按压1-2分钟，力度适中。"
+      },
+      {
+        "type": "paragraph",
+        "text": "尺泽穴（LU5）位于肘关节内侧肘横纹中，是肺经的合穴，具有清肺泻热、润燥止咳的作用。对于秋季干咳少痰、咽喉肿痛，按揉尺泽穴往往能收到不错的缓解效果。每周坚持按揉2-3次即可。"
+      },
+      {
+        "type": "recipe",
+        "title": "银耳百合雪梨汤",
+        "ingredients": [
+          "银耳 20克（泡发）",
+          "百合 15克",
+          "雪梨 1个",
+          "冰糖适量",
+          "清水 600毫升"
+        ],
+        "instructions": "1. 银耳提前泡发撕成小朵\n2. 雪梨切块，百合洗净\n3. 所有材料加水炖煮1小时\n4. 加入冰糖调味\n5. 每日饮用，润肺养阴"
+      },
+      {
+        "type": "warning",
+        "text": "温馨提示：秋季虽凉，但不宜过早添衣，适当\"秋冻\"可增强体质。但老人和儿童要注意保暖。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "The Huangdi Neijing's 'Discussion on Regulating the Spirit in Accordance with the Four Seasons' states: 'In the three months of autumn, this is called balanced and peaceful. Heaven's Qi becomes urgent, Earth's Qi becomes clear. Go to bed early and rise early, keeping company with the rooster. Calm the mind to slow the autumn punishment.' This passage brilliantly summarizes the essence of autumn wellness: autumn is when Yang Qi gradually recedes and Yin Qi grows, the sky is high with crisp winds, and the earth is clear and cool. The human body should follow this gathering-in rhythm. The lung is a delicate organ that loves moisture and dislikes dryness. Autumn's dry Qi easily injures lung Yin, causing dry cough with scanty sputum, dry throat, nasal dryness, and rough skin. Hence the core of autumn wellness is moisturizing dryness, nourishing the lung, and enriching Yin."
+      },
+      {
+        "type": "heading",
+        "text": "Key Autumn Wellness Principles"
+      },
+      {
+        "type": "subheading",
+        "text": "1. Moisturize Dryness and Nourish the Lung"
+      },
+      {
+        "type": "paragraph",
+        "text": "Autumn's dry climate readily produces 'autumn dryness' symptoms. In clinical practice, every year after the Autumnal Equinox, I see a marked increase in patients consulting for dry cough, sore throat, and itchy skin -- classic signs of dryness injuring the lung. The lung governs skin and body hair, opens at the nose, and communicates with autumn Qi. Nourishing the lung in autumn requires both internal and external approaches."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dietarily, focus on lung-moisturizing, fluid-generating foods. Pear has been called 'nature's sweet dew drink' since ancient times -- eaten raw it clears heat from the six bowels, cooked it nourishes the Yin of the five organs. Tremella mushroom is known as 'the commoner's bird's nest' for its remarkable lung-moistening and Yin-nourishing properties. Lily bulb clears heart fire and moistens the lung. Honey moisturizes and detoxifies -- a spoonful in warm water daily significantly relieves autumn dryness. White radish enters the lung meridian, descends Qi, aids digestion, and resolves phlegm. Goji berries, black sesame, and yam are also suitable Yin-nourishing ingredients. Notably, spicy and drying foods such as chili, BBQ, and fried items aggravate autumn dryness and should be reduced."
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond diet, maintaining moderate indoor humidity is equally important. In northern China around the heating season, indoor air becomes extremely dry. I recommend using a humidifier or placing a basin of water in the room. TCM teaches that 'exposure to cold and drinking cold fluids injures the lung.' As autumn temperatures drop, avoid cold drinks that directly irritate the respiratory tract."
+      },
+      {
+        "type": "subheading",
+        "text": "2. Conserve Yang Energy"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Huangdi Neijing instructs us to 'go to bed early and rise early, keeping company with the rooster' in autumn, meaning we should follow the gathering of Yang Qi by sleeping slightly earlier than in summer and rising later. Exercise should be gentle, avoiding profuse sweating which depletes Yang Qi. Tai Chi, Ba Duan Jin, and walking are most suitable. Emotionally, autumn's withering landscape can trigger melancholy, and as TCM states, 'sadness dissipates Qi' -- grief most harms lung Qi. In clinic, I remind patients to get more sunlight, socialize with friends, and maintain an uplifted spirit -- this too is part of lung care. Regarding 'spring covering, autumn chilling,' moderate cool exposure builds cold tolerance, but the elderly, children, and the frail should keep warm, especially protecting the back and neck to prevent cold pathogens entering through the Feishu acupoint."
+      },
+      {
+        "type": "heading",
+        "text": "Recommended Autumn Acupoints"
+      },
+      {
+        "type": "paragraph",
+        "text": "Feishu (BL13) is the point where lung Qi is infused into the back. It is located 1.5 cun lateral to the lower border of the spinous process of the third thoracic vertebra. Regular massage or moxibustion at this point regulates lung Qi and enhances lung function, benefiting chronic cough and asthma. Use the thumb to press and knead for 3-5 minutes until a warm sensation is felt locally."
+      },
+      {
+        "type": "paragraph",
+        "text": "Taiyuan (LU9) is the Yuan-Source point of the Lung Meridian, located on the radial side of the wrist crease, in the depression. This point tonifies lung Qi, stops cough, and resolves phlegm. It is especially suitable for those with lung Qi deficiency presenting as shortness of breath and fatigue. Press with the thumb for 1-2 minutes daily with moderate pressure."
+      },
+      {
+        "type": "paragraph",
+        "text": "Chize (LU5) lies at the elbow crease on the radial side of the biceps tendon. As the He-Sea point of the Lung Meridian, it clears lung heat and moistens dryness. For autumn dry cough with scanty sputum and sore throat, pressing Chize often brings noticeable relief. Consistent massage 2-3 times weekly is recommended."
+      },
+      {
+        "type": "recipe",
+        "title": "Tremella Lily Pear Soup",
+        "ingredients": [
+          "Tremella 20g (soaked)",
+          "Lily bulb 15g",
+          "Pear 1 piece",
+          "Rock sugar to taste",
+          "Water 600ml"
+        ],
+        "instructions": "1. Soak tremella and tear into small pieces\n2. Cut pear into chunks, wash lily bulb\n3. Simmer all ingredients for 1 hour\n4. Add rock sugar to taste\n5. Drink daily to moisturize lung and nourish Yin"
+      },
+      {
+        "type": "warning",
+        "text": "Note: Although autumn is cool, avoid adding too many clothes too early. Moderate 'autumn chilling' can strengthen constitution, but elderly and children should stay warm."
+      }
+    ]
+  }
+}

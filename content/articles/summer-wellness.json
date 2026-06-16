@@ -1,0 +1,164 @@
+{
+  "slug": "summer-wellness",
+  "title": {
+    "zh": "夏季养生：清热祛湿，养心安神",
+    "en": "Summer Wellness: Clear Heat, Resolve Dampness, Calm the Heart"
+  },
+  "description": {
+    "zh": "夏季炎热潮湿，如何通过饮食、穴位和生活习惯清热祛湿，保持身心健康",
+    "en": "Learn how to clear heat and resolve dampness through diet, acupoints, and lifestyle during hot and humid summer"
+  },
+  "category": {
+    "zh": "时令养生",
+    "en": "Seasonal Wellness"
+  },
+  "tags": [
+    "夏季",
+    "清热",
+    "祛湿",
+    "养心"
+  ],
+  "publishedAt": "2026-06-12",
+  "readingTime": 6,
+  "image": "/images/summer-wellness.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "《黄帝内经·四气调神大论》有云：\"夏三月，此谓蕃秀，天地气交，万物华实。夜卧早起，无厌于日，使志无怒，使华英成秀，使气得泄，若所爱在外。\"这段经文生动地描述了夏季的自然特征——天地之气交会，万物繁茂秀美，阳气最为旺盛。人体也应顺应这一规律，晚睡早起，保持心情舒畅，让体内的阳气得以向外舒展。但夏季炎热多雨，湿热交蒸，最容易导致湿热内蕴和心火旺盛。因此，夏季养生的核心在于清热祛湿、养心安神。"
+      },
+      {
+        "type": "heading",
+        "text": "夏季养生要点"
+      },
+      {
+        "type": "subheading",
+        "text": "一、清热祛湿"
+      },
+      {
+        "type": "paragraph",
+        "text": "夏季气候炎热潮湿，人体容易产生湿热。湿热内蕴的表现多种多样：身体困重如裹、食欲不振、大便粘腻不爽、舌苔黄厚腻，严重时还会出现皮肤湿疹、小便黄赤等。在门诊中，夏季这类患者明显增多。清热祛湿的关键在于饮食调理。"
+      },
+      {
+        "type": "paragraph",
+        "text": "饮食上，绿豆是夏季清热解暑的首选，历代医家对绿豆推崇备至，《本草纲目》记载绿豆\"消肿下气，清热解毒\"。冬瓜利水消肿、清热解暑；苦瓜虽苦，却能清心火、解热毒；黄瓜清热利尿。祛湿方面，薏米（薏苡仁）在《本草纲目》中被记载为\"健脾益胃，补肺清热，去风胜湿\"，与红豆搭配煮汤，祛湿效果更佳。茯苓健脾渗湿，适合做成糕点或煮粥。"
+      },
+      {
+        "type": "paragraph",
+        "text": "需要特别注意的是，夏季虽然炎热，但过度贪凉反而会损伤脾胃阳气。我在门诊中发现，夏季因腹痛腹泻就诊的患者，十有八九与过量冷饮有关。冰镇饮料入口虽一时痛快，却会损伤脾胃的运化功能，导致寒湿内停。空调温度也不宜过低，以26-27摄氏度为宜，尤其要注意夜间睡眠时避免直吹。汉代名医张仲景在《伤寒论》中强调\"春夏养阳\"，就是提醒我们在夏季不要因为贪凉而耗伤了宝贵的阳气。"
+      },
+      {
+        "type": "subheading",
+        "text": "二、养心安神"
+      },
+      {
+        "type": "paragraph",
+        "text": "中医认为\"心主夏\"，夏季心火易旺，容易出现心烦意乱、失眠多梦、口舌生疮等症状。心藏神，心火过旺则神明被扰，人就会烦躁不安。养心安神是夏季养生不可忽视的环节。"
+      },
+      {
+        "type": "paragraph",
+        "text": "生活作息上，\"夜卧早起\"顺应夏季昼长夜短的规律，但不宜熬夜过晚，最好在晚上11点前入睡。中午11点到下午1点是心经当令的时间，此时小憩15-30分钟，对养心大有裨益。临床上许多心脏病患者，坚持午休后症状都有明显改善。饮食上，莲子清心火、安心神，百合润肺清心，小麦养心除烦，桂圆补益心血。这些食材可以煮粥或泡茶，既美味又养心。情绪管理同样重要，《黄帝内经》告诫我们\"使志无怒\"，夏季要保持心平气和，避免急躁发怒。建议多做静心活动，如听舒缓的音乐、练习书法、品茶冥想等。"
+      },
+      {
+        "type": "heading",
+        "text": "夏季推荐穴位"
+      },
+      {
+        "type": "paragraph",
+        "text": "内关穴（PC6）是心包经的重要穴位，位于手腕内侧腕横纹上2寸处，两条肌腱之间。此穴被誉为\"护心穴\"，具有宁心安神、理气止痛的功效。夏季心烦失眠、胸闷心悸时，用拇指按压内关穴1-2分钟，症状往往能迅速缓解。"
+      },
+      {
+        "type": "paragraph",
+        "text": "足三里（ST36）是强壮保健的要穴，位于膝盖外侧凹陷（犊鼻穴）向下3寸处。此穴能健脾祛湿、补益气血。夏季湿气重的时候，按揉足三里能帮助脾胃运化水湿。每日按压2-3分钟，以局部酸胀为度。"
+      },
+      {
+        "type": "paragraph",
+        "text": "曲池穴（LI11）位于肘关节外侧，屈肘时肘横纹外侧端的凹陷处。此穴是清热解暑的要穴，对于夏季暑热引起的头痛、咽喉肿痛、皮肤湿疹均有较好的缓解作用。可用拇指按揉或拍打，每次2-3分钟。"
+      },
+      {
+        "type": "recipe",
+        "title": "绿豆薏米汤",
+        "ingredients": [
+          "绿豆 50克",
+          "薏米 30克",
+          "冰糖适量",
+          "清水 500毫升"
+        ],
+        "instructions": "1. 绿豆、薏米提前浸泡2小时\n2. 加水煮沸后转小火煮30分钟\n3. 加入冰糖调味\n4. 每日饮用1-2次，清热祛湿"
+      },
+      {
+        "type": "warning",
+        "text": "温馨提示：夏季虽热，但不宜过度贪凉。空调温度不宜过低，冷饮要适量，以免损伤阳气。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "The Huangdi Neijing's 'Discussion on Regulating the Spirit in Accordance with the Four Seasons' says: 'In the three months of summer, this is called flourishing and luxuriance. Heaven and Earth Qi intermingle, and all things blossom and bear fruit. Go to bed late and rise early, do not dislike the sun. Let the mind be free of anger, let the vitality flourish like flowers, let Qi flow outward as if loving the external world.' This passage vividly depicts summer's natural character -- the Qi of heaven and earth intermingle, all things thrive abundantly, and Yang Qi reaches its zenith. The human body should follow this rhythm. However, summer's heat and humidity together easily generate internal damp-heat and excessive heart fire. Therefore, the core of summer wellness lies in clearing heat, resolving dampness, and calming the heart."
+      },
+      {
+        "type": "heading",
+        "text": "Key Summer Wellness Principles"
+      },
+      {
+        "type": "subheading",
+        "text": "1. Clear Heat and Resolve Dampness"
+      },
+      {
+        "type": "paragraph",
+        "text": "Summer's hot and humid climate makes the body prone to damp-heat accumulation. The manifestations of internal damp-heat are varied: a heavy, bound-up sensation in the body, loss of appetite, sticky bowel movements, thick yellow greasy tongue coating, and in severe cases, skin eczema and dark yellow urine. In clinic, I see a marked increase in such cases during summer. The key to clearing heat and resolving dampness lies in dietary regulation."
+      },
+      {
+        "type": "paragraph",
+        "text": "For diet, mung bean is the top choice for clearing summer heat. All generations of physicians have praised it highly; the Bencao Gangmu records that mung bean 'reduces swelling, descends Qi, and clears heat and toxins.' Winter melon promotes urination and reduces edema. Bitter melon, despite its taste, clears heart fire and heat toxins. Cucumber clears heat and promotes urination. For resolving dampness, coix seed (yiren) is recorded in the Bencao Gangmu as 'strengthening the spleen and stomach, supplementing the lung, clearing heat, and dispelling wind-dampness.' Combined with red beans in a soup, its dampness-resolving effect is even better. Poria strengthens the spleen and leaches out dampness, suitable for making into cakes or congee."
+      },
+      {
+        "type": "paragraph",
+        "text": "A special caution is warranted: though summer is hot, excessive cold-seeking actually injures spleen-stomach Yang Qi. In my clinic, I have observed that nearly all cases of summer abdominal pain and diarrhea are related to excessive cold drinks. Iced beverages may feel refreshing momentarily, but they damage the spleen-stomach's transport function, leading to internal cold-dampness accumulation. Air conditioning should not be set too low -- 26-27 Celsius is ideal, especially avoiding direct airflow during sleep. The Han dynasty physician Zhang Zhongjing emphasized in the Shanghai Lun 'nourish Yang in spring and summer,' reminding us not to deplete precious Yang Qi by excessive cold-seeking in summer."
+      },
+      {
+        "type": "subheading",
+        "text": "2. Calm the Heart and Spirit"
+      },
+      {
+        "type": "paragraph",
+        "text": "TCM holds that 'the heart governs summer.' In summer, heart fire easily becomes excessive, manifesting as irritability, insomnia with excessive dreaming, and mouth sores. The heart houses the spirit; when heart fire flares, the spirit is disturbed and the person becomes agitated. Calming the heart and spirit is an indispensable aspect of summer wellness."
+      },
+      {
+        "type": "paragraph",
+        "text": "Regarding daily routine, 'go to bed late and rise early' follows summer's long days and short nights, but avoid staying up past 11 PM. The period from 11 AM to 1 PM is when the heart meridian is at its peak -- a 15-30 minute nap during this time greatly benefits the heart. In clinical practice, many heart disease patients experience noticeable improvement after adopting a regular midday rest. Dietarily, lotus seeds clear heart fire and calm the spirit, lily bulb moistens the lung and clears the heart, wheat nourishes the heart and relieves restlessness, and longan supplements heart blood. These ingredients can be made into congee or tea. Emotional management is equally important. The Huangdi Neijing instructs us to 'let the mind be free of anger.' In summer, maintain calmness and avoid irritability. I recommend quiet activities such as listening to soothing music, practicing calligraphy, or tea meditation."
+      },
+      {
+        "type": "heading",
+        "text": "Recommended Summer Acupoints"
+      },
+      {
+        "type": "paragraph",
+        "text": "Neiguan (PC6) is an important point on the Pericardium Meridian, located 2 cun above the wrist crease on the inner forearm, between two tendons. Known as the 'heart-protecting point,' it calms the heart and spirit, regulates Qi, and relieves pain. For summer irritability, insomnia, chest tightness, or palpitations, pressing Neiguan with the thumb for 1-2 minutes often brings rapid relief."
+      },
+      {
+        "type": "paragraph",
+        "text": "Zusanli (ST36) is a key point for health strengthening, located 3 cun below the depression on the outer side of the knee. It strengthens the spleen, resolves dampness, and tonifies Qi and blood. In summer when dampness is heavy, massaging Zusanli helps the spleen-stomach transport water-dampness. Press for 2-3 minutes daily until a sour-distending sensation is felt."
+      },
+      {
+        "type": "paragraph",
+        "text": "Quchi (LI11) lies at the outer elbow, at the depression at the lateral end of the elbow crease when the arm is bent. This is a key point for clearing summer heat. It effectively relieves summer-heat headache, sore throat, and skin eczema. Massage with the thumb or tap gently for 2-3 minutes each session."
+      },
+      {
+        "type": "recipe",
+        "title": "Mung Bean & Coix Seed Soup",
+        "ingredients": [
+          "Mung beans 50g",
+          "Coix seed 30g",
+          "Rock sugar to taste",
+          "Water 500ml"
+        ],
+        "instructions": "1. Soak mung beans and coix seed for 2 hours\n2. Boil water, then simmer for 30 minutes\n3. Add rock sugar to taste\n4. Drink 1-2 times daily for heat-clearing and dampness-resolving"
+      },
+      {
+        "type": "warning",
+        "text": "Note: Although summer is hot, avoid excessive cold. Keep AC temperature moderate and limit cold drinks to protect Yang energy."
+      }
+    ]
+  }
+}

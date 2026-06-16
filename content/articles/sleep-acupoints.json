@@ -1,0 +1,93 @@
+{
+  "slug": "sleep-acupoints",
+  "title": {
+    "zh": "失眠了？试试这3个穴位",
+    "en": "Can't Sleep? Try These 3 Acupoints"
+  },
+  "description": {
+    "zh": "三个简单有效的穴位按摩方法，帮助你改善睡眠质量",
+    "en": "Three simple acupoint massage techniques to help improve your sleep quality"
+  },
+  "category": {
+    "zh": "经络穴位保健",
+    "en": "经络穴位保健"
+  },
+  "tags": [
+    "失眠",
+    "穴位",
+    "按摩"
+  ],
+  "publishedAt": "2026-06-10",
+  "readingTime": 4,
+  "image": "/images/sleep-acupoints.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "现代人生活压力大，失眠已经成为普遍问题。《黄帝内经》将失眠称为\"不得卧\"，认为其病机与心、肝、脾、肾等脏腑功能失调密切相关，核心在于\"阳不入阴\"——白天的阳气到了夜间不能正常潜藏入阴分，就会导致入睡困难或睡眠浅短。穴位按摩作为一种安全方便的外治手段，通过调节经络气血，可以帮助恢复正常的睡眠节律。"
+      },
+      {
+        "type": "heading",
+        "text": "穴位1：内关穴（PC6）"
+      },
+      {
+        "type": "paragraph",
+        "text": "内关穴属于手厥阴心包经，位于手腕内侧、腕横纹上2寸，掌长肌腱与桡侧腕屈肌腱之间。此穴是八脉交会穴之一，通于阴维脉，有宁心安神、宽胸理气之功效。在临床中，我常用内关穴治疗因焦虑、紧张导致的心烦失眠。患者常描述为\"脑子里停不下来\"，躺下后思绪纷飞、难以入眠，这正是心包经气机逆乱的表现。按摩方法很简单：用拇指按压内关穴，力度以产生酸胀感为佳，每次按压3分钟，双手交替进行，每天早晚各一次。临睡前按揉效果尤其突出。"
+      },
+      {
+        "type": "heading",
+        "text": "穴位2：神门穴（HT7）"
+      },
+      {
+        "type": "paragraph",
+        "text": "神门穴是手少阴心经的原穴，位于手腕内侧尺侧端，掌侧横纹尺侧端的凹陷处。\"神门\"顾名思义，是心神出入的门户。《针灸甲乙经》记载神门主治\"心痛、烦满、惊悸、少气\"。此穴是改善睡眠的核心穴位之一，尤其适用于心脾两虚型失眠——这类患者不仅入睡困难，还多梦易醒、心悸健忘、面色无华。按摩时用拇指指腹点按，力度轻柔，每次2至3分钟，以局部有轻微的酸胀感为度。神门穴也可以配合艾灸，每晚睡前温和灸5分钟，安神效果更为显著。"
+      },
+      {
+        "type": "heading",
+        "text": "穴位3：太冲穴（LR3）"
+      },
+      {
+        "type": "paragraph",
+        "text": "太冲穴是足厥阴肝经的原穴，位于足背侧第一、二跖骨结合部之前的凹陷处。在临床中，我观察到相当一部分失眠患者伴有情绪烦躁、容易发怒、口苦咽干、两胁胀痛等肝火旺盛的表现。《黄帝内经》云\"肝者，将军之官，谋虑出焉\"，肝气郁结日久化火，上扰心神，则夜不能寐。太冲穴正是平肝熄风、清泄肝火的要穴。按摩太冲穴可以用拇指从太冲向足趾方向推按，力度稍重，每次3至5分钟，以局部产生明显的酸胀感为佳。建议在睡前1小时操作，配合深呼吸效果更好。"
+      },
+      {
+        "type": "warning",
+        "text": "温馨提示：穴位按摩仅作为日常保健，不能替代正规医疗。如果失眠症状持续超过两周，或严重影响白天的精神状态和生活质量，建议到中医科或睡眠专科就诊，寻求个性化的辨证治疗。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "In modern life, stress and insomnia have become widespread problems. The Huangdi Neijing refers to insomnia as 'inability to lie down,' attributing it to imbalances among the heart, liver, spleen, kidney, and other organs. The core mechanism is that 'yang cannot enter yin' — the daytime yang qi fails to properly subside into the yin phase at night, resulting in difficulty falling asleep or shallow, fragmented sleep. Acupoint massage, as a safe and convenient external therapy, can help restore normal sleep rhythms by regulating meridian qi and blood."
+      },
+      {
+        "type": "heading",
+        "text": "Point 1: Neiguan (PC6)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Neiguan belongs to the Pericardium meridian and is located on the inner wrist, 2 cun above the wrist crease, between the tendons of the palmaris longus and flexor carpi radialis. It is one of the eight confluent points, connecting to the Yin Linking Vessel, and has the effect of calming the mind, soothing the chest, and regulating qi. In clinical practice, I frequently use Neiguan for patients with insomnia caused by anxiety and tension. These patients often describe their minds as 'unable to stop,' with racing thoughts preventing sleep — a manifestation of reversed pericardium meridian qi. Massage is simple: press Neiguan with the thumb until a sore sensation is felt, 3 minutes per side, alternating hands, twice daily. Massaging this point just before bedtime yields particularly good results."
+      },
+      {
+        "type": "heading",
+        "text": "Point 2: Shenmen (HT7)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Shenmen is the yuan-source point of the Heart meridian, located at the ulnar end of the wrist crease, in the depression on the ulnar side of the palmar crease. The name 'Shenmen' (Spirit Gate) indicates that it is the portal through which the spirit enters and exits. The Zhenjiu Jiayi Jing records Shenmen for treating 'heart pain, fullness and agitation, palpitations, and shortness of breath.' This is one of the core acupoints for improving sleep, especially suitable for insomnia of the heart-spleen deficiency type — patients not only have difficulty falling asleep but also experience dream-disturbed sleep, easy waking, palpitations, poor memory, and a lusterless complexion. Press Shenmen with the thumb pad using gentle pressure, 2 to 3 minutes each time, until a mild local soreness is felt. Shenmen can also be combined with moxibustion — gentle moxa for 5 minutes before bedtime significantly enhances the calming effect."
+      },
+      {
+        "type": "heading",
+        "text": "Point 3: Taichong (LR3)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Taichong is the yuan-source point of the Liver meridian, located on the dorsum of the foot in the depression anterior to the junction of the first and second metatarsal bones. In clinical practice, I have observed that a significant proportion of insomnia patients present with signs of liver fire hyperactivity: irritability, a tendency to anger, bitter taste, dry throat, and rib-side distension. The Huangdi Neijing states: 'The liver is the general of the body, from whom strategies emerge.' When liver qi stagnation turns to fire over time, it disturbs the heart spirit above, making nighttime rest impossible. Taichong is precisely the key point for calming liver wind and draining liver fire. Massage by pushing from Taichong toward the toes with the thumb, using firmer pressure, 3 to 5 minutes each time, until a pronounced local soreness is felt. Best performed one hour before bedtime, combined with deep breathing for enhanced effect."
+      },
+      {
+        "type": "warning",
+        "text": "Disclaimer: Acupoint massage is for daily health maintenance only and should not replace medical treatment. If insomnia persists for more than two weeks or significantly affects daytime mental state and quality of life, please consult a TCM practitioner or sleep specialist for personalized treatment based on pattern differentiation."
+      }
+    ]
+  }
+}

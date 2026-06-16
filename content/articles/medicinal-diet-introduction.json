@@ -1,0 +1,182 @@
+{
+  "slug": "medicinal-diet-introduction",
+  "title": {
+    "zh": "药膳入门：食疗养生的基本原则",
+    "en": "Introduction to Medicinal Diet: Basic Principles of Dietary Therapy"
+  },
+  "description": {
+    "zh": "了解药膳的基本概念、分类原则和注意事项，掌握食疗养生的入门知识",
+    "en": "Learn the basic concepts, classification principles, and precautions of medicinal diet for dietary therapy wellness"
+  },
+  "category": {
+    "zh": "食疗药膳",
+    "en": "Medicinal Diet"
+  },
+  "tags": [
+    "药膳",
+    "食疗",
+    "养生",
+    "入门"
+  ],
+  "publishedAt": "2026-06-12",
+  "readingTime": 7,
+  "image": "/images/medicinal-diet.jpg",
+  "content": {
+    "zh": [
+      {
+        "type": "paragraph",
+        "text": "药膳是中医养生中极为独特且实用的一环。它并非简单地将药材加入食物中，而是在中医药理论指导下，将药物与食物合理配伍，经过精心烹饪而制成的特殊膳食。正如《黄帝内经》所言\"药以祛之，食以随之\"，药膳的精髓在于既保留食物的营养价值，又兼具调理身体的功效，这正是\"药食同源\"思想在日常生活中的具体体现。"
+      },
+      {
+        "type": "heading",
+        "text": "药膳的基本概念"
+      },
+      {
+        "type": "paragraph",
+        "text": "古人云\"药食同源\"，许多我们日常餐桌上的食物，本身便是良药。山药健脾益气、枸杞滋补肝肾、红枣养血安神，这些食材在《本草纲目》中均有明确记载。药膳不同于单纯用药，它的优势在于\"以食为药，以药入膳\"，通过日常饮食来实现身体的调理，既避免了纯药物可能带来的副作用，又让人在享受美食的过程中获得健康。"
+      },
+      {
+        "type": "paragraph",
+        "text": "在临床应用中，药膳最重要的原则是\"辨证施膳\"。每个人体质不同，症状各异，适合的药膳自然也不相同。好比气虚乏力之人适合黄芪炖鸡来补气升阳，而阴虚燥热之人则需要银耳百合汤来滋阴润燥。我在门诊中常对患者说：\"同一种药膳，对别人是补药，对你可能就成了毒药。\"这便是中医\"因人制宜\"思想在药膳中的体现。"
+      },
+      {
+        "type": "paragraph",
+        "text": "药膳调理讲究长期坚持、循序渐进，并非一朝一夕之功。它与药物治疗不同，药效温和缓慢，需要连续服用一段时间才能显现效果。就如同浇灌一棵树，非一日之功，但日积月累，体质自然会得到改善。"
+      },
+      {
+        "type": "heading",
+        "text": "药膳的分类"
+      },
+      {
+        "type": "subheading",
+        "text": "按功效分类"
+      },
+      {
+        "type": "paragraph",
+        "text": "根据中医辨证论治的原则，药膳首先可以按功效进行分类。补气类的药膳如黄芪炖鸡、人参粥，专门针对气虚体质之人——这类人通常面色苍白、说话有气无力、容易出汗、稍一活动就气喘吁吁。补血类的当归羊肉汤、红枣桂圆粥则适合血虚体质，常见于面色萎黄、头晕眼花、女性月经量少的患者。"
+      },
+      {
+        "type": "paragraph",
+        "text": "滋阴类的银耳百合汤、枸杞蒸蛋，多用于阴虚体质——手心脚心发热、口干舌燥、夜间盗汗的人群。温阳类的附子羊肉汤、鹿茸酒则专门针对阳虚怕冷、腰膝酸软、夜尿频多之人。此外，还有清热类的绿豆汤、苦瓜炒蛋适合体内有热者，祛湿类的薏米红豆粥、茯苓饼则用于湿气重、身体困重、大便粘腻的人群。在临床实践中，很多人的体质并非单一类型，往往是虚实夹杂，这就需要经验丰富的中医师加以辨识和调配。"
+      },
+      {
+        "type": "subheading",
+        "text": "按季节分类"
+      },
+      {
+        "type": "paragraph",
+        "text": "《黄帝内经·四气调神大论》详细阐述了四季养生的要旨，药膳也应顺应四时变化。春季万物生发，肝气当令，宜食用枸杞菊花茶等疏肝养肝之品；夏季炎热潮湿，心火易旺，绿豆薏米汤可以清热祛湿；秋季燥气当令，肺为娇脏，银耳雪梨汤恰能润燥养肺；冬季寒气凛冽，肾主封藏，羊肉当归汤温阳补肾最为适宜。在门诊中我经常提醒患者：顺应天时饮食，比任何昂贵的保健品都来得有效。"
+      },
+      {
+        "type": "heading",
+        "text": "药膳制作原则"
+      },
+      {
+        "type": "paragraph",
+        "text": "药膳的制作看似简单，实则需要讲究选材、配伍、烹饪等多个环节。选材方面，药材以道地药材为佳，食材务必新鲜，这是药膳效果的根基。配伍时需遵循中医药的\"君臣佐使\"原则，避免药性相克的搭配。烹饪方法也需根据药材特性来选择——滋补类药材适合炖煮，芳香类药材宜轻煎或泡服，以免有效成分挥发。口味上要兼顾药效和口感，让食者乐意接受。用量方面尤其需要注意，药材并非越多越好，正如《本草纲目》所言\"用药如用兵\"，讲求精准而非数量。"
+      },
+      {
+        "type": "heading",
+        "text": "药膳注意事项"
+      },
+      {
+        "type": "paragraph",
+        "text": "药膳虽好，但并非人人皆宜。我在临床中遇到不少自行服用补膳反而出现不适的患者，原因就在于没有进行体质辨识。比如湿热体质的人盲目服用人参，反而会\"闭门留寇\"，加重症状。不同症状需要不同的药膳调理，有些药材还有特定的禁忌人群——孕妇禁用活血化瘀类药材，儿童脏腑娇嫩不宜大补，慢性病患者需在医师指导下使用。药膳调理还需要循序渐进，不可急于求成，急功近利反而会损伤脾胃。总的来说，简单的日常药膳可以自行尝试，但涉及复杂配伍或较强药性的，务必在专业中医师指导下使用。"
+      },
+      {
+        "type": "recipe",
+        "title": "黄芪炖鸡（补气药膳）",
+        "ingredients": [
+          "黄芪 30克",
+          "鸡肉 200克",
+          "生姜 3片",
+          "红枣 5颗",
+          "清水 500毫升"
+        ],
+        "instructions": "1. 鸡肉切块焯水\n2. 黄芪洗净，红枣去核\n3. 所有材料放入炖盅\n4. 炖煮1.5小时\n5. 温服，每周2-3次\n6. 补气健脾，适合气虚体质"
+      },
+      {
+        "type": "warning",
+        "text": "温馨提示：药膳虽好，但并非人人适用。孕妇、儿童、慢性病患者等特殊人群应在医师指导下使用药膳。如有不适，应立即停止并咨询医师。"
+      }
+    ],
+    "en": [
+      {
+        "type": "paragraph",
+        "text": "Medicinal diet is a uniquely practical branch of Traditional Chinese Medicine wellness. It is far more than simply adding herbs to food. Under the guidance of TCM theory, medicinal ingredients and foods are carefully combined and skillfully prepared to create special dishes that preserve nutritional value while delivering therapeutic benefits. As the Huangdi Neijing states, 'Medicine dispels illness, food follows to support recovery' -- the essence of medicinal diet lies in the philosophy that 'medicine and food share the same origin.'"
+      },
+      {
+        "type": "heading",
+        "text": "Basic Concepts of Medicinal Diet"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ancient wisdom of 'medicine and food sharing the same source' holds that many everyday foods are themselves potent remedies. Chinese yam strengthens the spleen and boosts Qi, goji berries nourish the liver and kidneys, and red dates enrich the blood and calm the spirit -- all documented in the Bencao Gangmu (Compendium of Materia Medica). Unlike pure pharmaceuticals, medicinal diet works by 'using food as medicine and infusing medicine into cuisine,' allowing the body to be regulated through daily meals without the side effects often associated with strong medications."
+      },
+      {
+        "type": "paragraph",
+        "text": "The cardinal rule in clinical practice is 'pattern-based dietary therapy' (bianzheng shi shan). Each person's constitution and symptoms differ, so the suitable medicinal diet varies accordingly. Someone with Qi deficiency and chronic fatigue would benefit from Astragalus stewed chicken to lift their Qi, while a person with Yin deficiency and internal heat needs Tremella and lily bulb soup to nourish Yin and moisten dryness. I often tell my patients: 'The same medicinal recipe that is medicine for one person may be poison for another.' This is the essence of TCM's individualized approach."
+      },
+      {
+        "type": "paragraph",
+        "text": "Medicinal diet therapy requires consistency and patience -- effects are not instantaneous. Unlike pharmaceutical drugs, the action is gentle and cumulative. Think of it as watering a tree: no single watering makes it grow, but over time, the constitution naturally strengthens and improves."
+      },
+      {
+        "type": "heading",
+        "text": "Classification of Medicinal Diet"
+      },
+      {
+        "type": "subheading",
+        "text": "By Function"
+      },
+      {
+        "type": "paragraph",
+        "text": "Based on TCM pattern differentiation, medicinal diets can be classified by their therapeutic function. Qi-tonifying recipes such as Astragalus chicken stew and ginseng porridge target those with Qi deficiency -- individuals who appear pale, speak with weak voice, sweat easily, and become short of breath with minimal exertion. Blood-tonifying options like Angelica lamb soup and red date longan porridge suit those with blood deficiency, often presenting with sallow complexion, dizziness, blurred vision, and scanty menstruation in women."
+      },
+      {
+        "type": "paragraph",
+        "text": "Yin-nourishing preparations such as Tremelia lily soup and goji berry steamed egg are indicated for Yin deficiency -- patients complaining of hot palms and soles, dry mouth and throat, and night sweats. Yang-warming recipes including Aconite lamb soup and deer antler wine address Yang deficiency with cold intolerance, sore lower back, and frequent nocturia. Additionally, heat-clearing mung bean soup and bitter melon stir-fry help those with internal heat, while dampness-resolving coix red bean porridge and poria cake target individuals burdened by heavy dampness, bodily heaviness, and sticky stools. In practice, most people present with mixed patterns rather than a single type, requiring an experienced TCM practitioner to differentiate and customize the approach."
+      },
+      {
+        "type": "subheading",
+        "text": "By Season"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Huangdi Neijing's 'Discussion on Regulating the Spirit in Accordance with the Four Seasons' elaborates on seasonal wellness principles, and medicinal diet should follow these natural cycles. In spring, when liver Qi is active, goji chrysanthemum tea soothes and nourishes the liver. In summer, with its heat and humidity, mung bean and coix seed soup clears heat and resolves dampness. Autumn brings dryness that easily affects the delicate lungs, making tremella pear soup ideal for moistening. In winter, when cold prevails and the kidney governs storage, lamb and angelica soup warms Yang and tonifies the kidney. I consistently remind my patients: eating in harmony with the seasons is more effective than any expensive supplement."
+      },
+      {
+        "type": "heading",
+        "text": "Principles of Medicinal Diet Preparation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Preparing medicinal diet is more nuanced than it may appear, involving careful consideration of ingredient selection, compatibility, and cooking technique. For ingredients, choose genuine 'dao di' herbs and the freshest possible foods -- this is the foundation of efficacy. Compatibility must follow TCM's 'sovereign-minister-adjuvant-courier' principle, avoiding combinations where herb properties conflict. Cooking methods should match the herb's characteristics: tonic herbs suit slow stewing, aromatic herbs need gentle decoction or steeping to preserve volatile compounds. The flavor must balance medicinal effect with palatability so the eater willingly continues. Dosage is particularly critical -- more herbs are not better. As the Bencao Gangmu reminds us, 'Using medicine is like deploying troops' -- precision matters far more than quantity."
+      },
+      {
+        "type": "heading",
+        "text": "Precautions for Medicinal Diet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Despite its benefits, medicinal diet is not universally suitable. In my clinic, I frequently see patients who developed discomfort after self-prescribing tonics, simply because they failed to identify their constitution first. A person with damp-heat constitution who blindly takes ginseng may actually worsen their condition -- what TCM calls 'locking the pathogen inside.' Different symptoms require different dietary approaches, and certain herbs have specific contraindicated groups: pregnant women should avoid blood-activating herbs, children's delicate systems cannot tolerate heavy tonification, and chronic disease patients need professional supervision. Dietary therapy requires gradual progression -- rushing results often injures the spleen and stomach instead. As a general rule, simple everyday medicinal dishes can be explored independently, but complex formulas or potent herbs must be used under the guidance of a qualified TCM practitioner."
+      },
+      {
+        "type": "recipe",
+        "title": "Astragalus Chicken Stew (Qi-tonifying)",
+        "ingredients": [
+          "Astragalus 30g",
+          "Chicken 200g",
+          "Fresh ginger 3 slices",
+          "Red dates 5 pieces",
+          "Water 500ml"
+        ],
+        "instructions": "1. Cut chicken, blanch\n2. Wash astragalus, remove date seeds\n3. Place all in stewing pot\n4. Stew for 1.5 hours\n5. Serve warm, 2-3 times weekly\n6. Tonifies Qi, strengthens spleen - for Qi deficiency"
+      },
+      {
+        "type": "warning",
+        "text": "Note: Medicinal diet is not for everyone. Pregnant women, children, and those with chronic conditions should use under physician guidance. Stop immediately if discomfort occurs and consult a physician."
+      }
+    ]
+  }
+}
