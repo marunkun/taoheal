@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "main": ".open-next/worker.js",
-  "name": "daoheal",
+  "name": "taoheal-app",
   "compatibility_date": "2025-06-01",
   "compatibility_flags": [
     "nodejs_compat",
@@ -14,19 +14,11 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "daoheal"
-    }
-  ],
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "daoheal-community",
-      "database_id": "5b28d564-308b-47b6-afd7-7b3f69e464fb",
-      "migrations_dir": "database"
+      "service": "taoheal-app"
     }
   ],
   "vars": {
-    "NEXT_PUBLIC_SITE_URL": "https://daoheal.pages.dev"
+    "NEXT_PUBLIC_SITE_URL": "https://taoheal-app.pages.dev"
   },
   "observability": {
     "enabled": true

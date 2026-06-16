@@ -28,7 +28,7 @@ jobs:
       - name: Build with OpenNext
         run: npx opennextjs-cloudflare build
         env:
-          NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
+          NEXT_PUBLIC_SITE_URL: https://taoheal-app.workers.dev
 
       - name: Deploy to Cloudflare Workers
         run: npx opennextjs-cloudflare deploy
