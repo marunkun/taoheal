@@ -31,6 +31,7 @@ jobs:
         run: rm -rf .next/cache
 
       - name: Deploy to Cloudflare Pages
+        id: deploy
         uses: cloudflare/pages-action@1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -38,3 +39,9 @@ jobs:
           projectName: daoheal
           directory: .next
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Promote deployment to production
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects/daoheal/deployments/${{ steps.deploy.outputs.deploymentId }}/promote" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json"
