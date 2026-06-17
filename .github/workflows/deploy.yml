@@ -25,16 +25,23 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Install Wrangler
-        run: npm install -g wrangler@4.10.0
-
       - name: Build with OpenNext
         run: npx opennextjs-cloudflare build
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
       - name: Deploy to Cloudflare Pages
-        run: wrangler pages deploy .open-next/assets --project-name daoheal --branch master --commit-dirty=true
+        run: |
+          echo "=== Deploying to Cloudflare Pages ==="
+          echo "Account ID: $CLOUDFLARE_ACCOUNT_ID"
+          echo "Files to deploy:"
+          ls -la .open-next/assets/
+          echo "=== Deploy command ==="
+          npx wrangler pages deploy .open-next/assets \
+            --project-name=daoheal \
+            --branch=master \
+            --commit-dirty=true \
+            --verbose
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
