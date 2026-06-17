@@ -2,17 +2,12 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
-  const url = request.nextUrl.clone();
-  
-  // If user visits root path, redirect to /zh
-  if (url.pathname === '/') {
-    url.pathname = '/zh';
-    return NextResponse.redirect(url);
-  }
+  // Let root path '/' show the language selection page (src/app/page.tsx)
+  // No automatic redirect - user can choose language manually
   
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: '/',
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
 };
