@@ -32,6 +32,7 @@ jobs:
 
       - name: Prepare deployment
         run: |
+          mkdir -p .pages-deploy
           cp -r .open-next/assets/* .pages-deploy/
           cp .open-next/worker.js .pages-deploy/_worker.js
 
