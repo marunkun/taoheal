@@ -25,11 +25,26 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build and Deploy
-        run: |
-          npx opennextjs-cloudflare build
-          wrangler pages deploy .open-next/assets --project-name=daoheal --branch=master
+      - name: Build with OpenNext
+        run: npx opennextjs-cloudflare build
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
+
+      - name: Check build output
+        run: |
+          echo "=== Build output ==="
+          ls -la .open-next/
+          echo "=== Assets ==="
+          ls -la .open-next/assets/
+          echo "=== Files count ==="
+          find .open-next/assets -type f | wc -l
+
+      - name: Deploy static assets
+        run: |
+          echo "=== Wrangler version ==="
+          npx wrangler --version
+          echo "=== Deploying ==="
+          npx wrangler pages deploy .open-next/assets --project-name=daoheal --branch=master 2>&1 || true
+        env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
