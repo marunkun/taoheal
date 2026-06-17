@@ -37,7 +37,12 @@ jobs:
       - name: Deploy to production
         run: |
           echo "=== Deploying to production ==="
-          npx wrangler pages deploy .open-next/assets --project-name=daoheal --prod
+          echo "Project: daoheal"
+          echo "Files to deploy:"
+          ls -la .open-next/assets/
+          echo "=== Checking index.html content ==="
+          head -20 .open-next/assets/index.html
+          npx wrangler pages deploy .open-next/assets --project-name=daoheal --prod 2>&1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
