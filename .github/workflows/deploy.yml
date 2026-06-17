@@ -30,19 +30,14 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
-      # Fix for root index.html not being copied correctly by OpenNext
       - name: Fix root index.html
         run: cp .next/server/app/index.html .open-next/assets/index.html
 
-      - name: Deploy to production
-        run: |
-          echo "=== Deploying to production ==="
-          echo "Project: daoheal"
-          echo "Files to deploy:"
-          ls -la .open-next/assets/
-          echo "=== Checking index.html content ==="
-          head -20 .open-next/assets/index.html
-          npx wrangler pages deploy .open-next/assets --project-name=daoheal --prod 2>&1
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: daoheal
+          directory: .open-next/assets
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
