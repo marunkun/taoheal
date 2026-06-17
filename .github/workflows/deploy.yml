@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Build OpenNext Assets
 
 on:
   push:
@@ -7,11 +7,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      deployments: write
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,11 +34,8 @@ jobs:
       - name: Fix root index.html
         run: cp .next/server/app/index.html .open-next/assets/index.html
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: daoheal
-          directory: .open-next/assets
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          name: opennext-assets
+          path: .open-next/assets
