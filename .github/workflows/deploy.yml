@@ -30,6 +30,10 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
+      # Fix for root index.html not being copied correctly by OpenNext
+      - name: Fix root index.html
+        run: cp .next/server/app/index.html .open-next/assets/index.html
+
       - name: Deploy to production
         run: |
           echo "=== Deploying to production ==="
