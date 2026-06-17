@@ -33,17 +33,8 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
-      - name: Prepare deployment
-        run: |
-          mkdir -p .pages-deploy
-          cp -r .open-next/assets/* .pages-deploy/
-          cp .open-next/worker.js .pages-deploy/_worker.js
-
-      - name: Deploy to Cloudflare Pages
-        run: |
-          wrangler pages deploy .pages-deploy \
-            --project-name=daoheal \
-            --branch=master
+      - name: Deploy static assets to Cloudflare Pages
+        run: wrangler pages deploy .open-next/assets --project-name=daoheal --branch=master
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
