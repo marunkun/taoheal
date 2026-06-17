@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
+import { headers } from 'next/headers';
 
 export default async function RootPage() {
-  const targetLang = 'zh';
-  
-  redirect(`/${targetLang}`);
+  // Default to Chinese for better UX
+  redirect('/zh');
 }
