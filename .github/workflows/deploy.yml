@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -9,13 +9,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,19 +25,16 @@ jobs:
       - name: Build with OpenNext
         run: npx opennextjs-cloudflare build
         env:
-          NEXT_PUBLIC_SITE_URL: https://marunkun.github.io/taoheal
+          NEXT_PUBLIC_SITE_URL: https://daoheal.pages.dev
 
       - name: Fix root index.html
         run: cp .next/server/app/index.html .open-next/assets/index.html
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
         with:
-          path: .open-next/assets
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: fb42ef3495a2c929a19d6b44f6aba256
+          projectName: daoheal
+          directory: .open-next/assets
+          branch: master

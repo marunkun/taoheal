@@ -6,8 +6,7 @@
   "vars": {
     "NEXT_PUBLIC_SITE_URL": "https://daoheal.pages.dev"
   },
-  "pages_build_output_dir": ".open-next/assets",
-  "build": {
-    "command": "npm install --legacy-peer-deps && npx opennextjs-cloudflare build && cp .next/server/app/index.html .open-next/assets/index.html"
+  "assets": {
+    "directory": ".open-next/assets"
   }
 }
